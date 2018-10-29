@@ -1,5 +1,7 @@
 \section{\label{results}Results}
 
+\subsection{Fundamental diagram in the original model}
+
 In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density since there are no collisions between pedestrians. This behavior holds for all the corridor's width. In the congested branch ($\rho > 5$), we have two different scenarios:
 
 
@@ -41,10 +43,12 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
+\subsection{Speed profile}
 
 In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-position) of the pedestrians in the  corridor. When the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s), leading to a cruising velocity profile for every position in the corridor. For higher densities, the speed profile shifts to a parabola-like shape. Pedestrians near near the walls are the one with the lower speed. The speed increases when moving away from the wall until it reaches the maximum in the middle of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the speed profile. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.\\
 
 %The pedestrian-wall friction es mayor que la friccion entree peatones porque la formula es asi...
+
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -52,7 +56,12 @@ In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-position)
 \caption{\label{speed-profile-w22} Speed profile (speed vs y-position) for different densities. The desired velocity was $v_d = 1$~m/s. The measurements were taken in $x=14$~m once the system reached the stationary state. The length of the corridor was 28~m in all cases with periodic boundary conditions in the x direction.  }
 \end{figure}
 
+\subsection{Friction modification}
 
 
-
+\begin{figure}[htbp!]
+\includegraphics[width=\columnwidth]
+{plots/flow-density_pasillo22m_fgmodified_multi.eps}
+\caption{\label{fgmodified-w22} }
+\end{figure}
 
