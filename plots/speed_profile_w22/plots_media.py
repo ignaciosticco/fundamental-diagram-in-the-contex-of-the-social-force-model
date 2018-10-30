@@ -66,32 +66,19 @@ err_media_d9 = data_d9[:,2]
 
 ###  PLOT  ###
 
-pylab.figure(1)
-pylab.clf()
+plt.plot(ancho_d2,v_media_d2,'b--x',mew=0.7,markersize=4,label='$\\rho$=2~p/m$^2$') 
+#plt.errorbar(ancho_d2,v_media_d2,err_media_d2,linestyle='none',fmt='none',color='none',ecolor='b') 
 
 
-plt.plot(ancho_d2[::],v_media_d2[::],'bo',markersize=4,zorder=3,label='$\\rho$=2~p/m$^2$') 
-plt.plot(ancho_d2[::],v_media_d2[::],'b',lw=0.6,zorder=2)
-plt.errorbar(ancho_d2[::],v_media_d2[::],err_media_d2[::],linestyle='-',fmt='.',color='w',ecolor='b',zorder=1) 
+plt.plot(ancho_d5,v_media_d5,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='$\\rho$=5~p/m$^2$') 
+#plt.errorbar(ancho_d5[::],v_media_d5[::],err_media_d5[::],linestyle='none',fmt='none',color='none',ecolor='g') 
+
+plt.plot(ancho_d6,v_media_d6,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='$\\rho$=6~p/m$^2$') 
+#plt.errorbar(ancho_d6[::],v_media_d6[::],err_media_d6[::],linestyle='none',fmt='none',color='none',ecolor='y') 
 
 
-plt.plot(ancho_d4[::],v_media_d4[::],'go',markersize=4,zorder=3,label='$\\rho$=4~p/m$^2$') 
-plt.plot(ancho_d4[::],v_media_d4[::],'g',lw=0.6,zorder=2)
-plt.errorbar(ancho_d4[::],v_media_d4[::],err_media_d4[::],linestyle='-',fmt='.',color='w',ecolor='g',zorder=1) 
-
-
-plt.plot(ancho_d5[::],v_media_d5[::],'co',markersize=4,zorder=3,label='$\\rho$=5~p/m$^2$') 
-plt.plot(ancho_d5[::],v_media_d5[::],'c',lw=0.6,zorder=2)
-plt.errorbar(ancho_d5[::],v_media_d5[::],err_media_d5[::],linestyle='-',fmt='.',color='w',ecolor='c',zorder=1) 
-
-
-plt.plot(ancho_d6[::],v_media_d6[::],'ro',markersize=4,zorder=3,label='$\\rho$=6~p/m$^2$') 
-plt.plot(ancho_d6[::],v_media_d6[::],'r',lw=0.6,zorder=2)
-plt.errorbar(ancho_d6[::],v_media_d6[::],err_media_d6[::],linestyle='-',fmt='.',color='w',ecolor='r',zorder=1) 
-
-plt.plot(ancho_d9[::],v_media_d9[::],'ko',markersize=4,zorder=3,label='$\\rho$=9~p/m$^2$') 
-plt.plot(ancho_d9[::],v_media_d9[::],'k',lw=0.6,zorder=2)
-plt.errorbar(ancho_d9[::],v_media_d9[::],err_media_d9[::],linestyle='-',fmt='.',color='w',ecolor='k',zorder=1) 
+plt.plot(ancho_d9,v_media_d9,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='$\\rho$=9~p/m$^2$') 
+#plt.errorbar(ancho_d9[::],v_media_d9[::],err_media_d9[::],linestyle='none',fmt='none',color='none',ecolor='r') 
 
 
 pylab.legend()
@@ -102,5 +89,5 @@ pylab.ylabel('velocity (m/s)')
 pylab.ylim(0, 1.2)
 pylab.xlim(0, 22.2)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
-plt.legend(loc='best',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
+plt.legend(loc='best',labelspacing=0.2,borderpad=0.2,handletextpad=0.1,fontsize=6,numpoints=1)
 pylab.savefig('v(y)_width22_k24.eps', format='eps', dpi=300, bbox_inches='tight')
