@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.4)  30 OCT 2018 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.4)  31 OCT 2018 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,26 +735,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 Package epstopdf Info: Source file: <plots/flow-density_vd1_multiple_widths.eps
 >
-(epstopdf)                    date: 2018-10-19 11:41:37
-(epstopdf)                    size: 240421 bytes
+(epstopdf)                    date: 2018-10-31 13:43:35
+(epstopdf)                    size: 247673 bytes
 (epstopdf)             Output file: <plots/flow-density_vd1_multiple_widths-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-10-19 11:53:22
-(epstopdf)                    size: 17729 bytes
+(epstopdf)                    date: 2018-10-31 13:44:00
+(epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_vd1_mul
 tiple_widths-eps-converted-to.pdf plots/flow-density_vd1_multiple_widths.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf, id=23, 208.78pt x
- 151.56625pt>
+ 147.55125pt>
 File: plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf>
 Package pdftex.def Info: plots/flow-density_vd1_multiple_widths-eps-converted-t
 o.pdf used on input line 29.
-(pdftex.def)             Requested size: 246.0pt x 178.59683pt.
+(pdftex.def)             Requested size: 246.0pt x 173.86578pt.
 Package epstopdf Info: Source file: <plots/speed-density_vd1_multiple_widths.ep
 s>
 (epstopdf)                    date: 2018-10-19 11:43:12
@@ -791,18 +791,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 [2 <./plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/spe
 ed-density_vd1_multiple_widths-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/v(y)_width22_k24.eps>
-(epstopdf)                    date: 2018-10-30 15:38:15
-(epstopdf)                    size: 215365 bytes
+(epstopdf)                    date: 2018-10-31 13:46:32
+(epstopdf)                    size: 215271 bytes
 (epstopdf)             Output file: <plots/v(y)_width22_k24-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-10-30 15:38:57
-(epstopdf)                    size: 15618 bytes
+(epstopdf)                    date: 2018-10-31 13:23:17
+(epstopdf)                    size: 15578 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_width22_k24-eps
 -converted-to.pdf plots/v(y)_width22_k24.eps>
 (epstopdf)             \includegraphics on input line 55.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=plots/v(y)_width22_k24-eps-converted-to.pdf plots
+/v(y)_width22_k24.eps)...executed safely (allowed).
 
-<plots/v(y)_width22_k24-eps-converted-to.pdf, id=55, 215.80624pt x 146.5475pt>
+Package epstopdf Info: Result file: <plots/v(y)_width22_k24-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2018-10-31 13:47:08
+(epstopdf)                    size: 15581 bytes.
+
+<plots/v(y)_width22_k24-eps-converted-to.pdf, id=67, 215.80624pt x 146.5475pt>
 File: plots/v(y)_width22_k24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v(y)_width22_k24-eps-converted-to.pdf>
@@ -810,18 +816,18 @@ Package pdftex.def Info: plots/v(y)_width22_k24-eps-converted-to.pdf used on in
 put line 55.
 (pdftex.def)             Requested size: 246.0pt x 167.05692pt.
 Package epstopdf Info: Source file: <plots/v(y)_multi_width.eps>
-(epstopdf)                    date: 2018-10-30 15:42:47
-(epstopdf)                    size: 218752 bytes
+(epstopdf)                    date: 2018-10-31 13:45:46
+(epstopdf)                    size: 218864 bytes
 (epstopdf)             Output file: <plots/v(y)_multi_width-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-10-30 15:43:09
-(epstopdf)                    size: 16832 bytes
+(epstopdf)                    date: 2018-10-31 13:46:00
+(epstopdf)                    size: 16889 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_multi_width-eps
 -converted-to.pdf plots/v(y)_multi_width.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots/v(y)_multi_width-eps-converted-to.pdf, id=56, 216.81pt x 146.5475pt>
+<plots/v(y)_multi_width-eps-converted-to.pdf, id=68, 216.81pt x 146.5475pt>
 File: plots/v(y)_multi_width-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v(y)_multi_width-eps-converted-to.pdf>
@@ -830,19 +836,19 @@ put line 64.
 (pdftex.def)             Requested size: 246.0pt x 166.28545pt.
 Package epstopdf Info: Source file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti.eps>
-(epstopdf)                    date: 2018-10-30 16:04:06
-(epstopdf)                    size: 211362 bytes
+(epstopdf)                    date: 2018-10-31 13:41:38
+(epstopdf)                    size: 215295 bytes
 (epstopdf)             Output file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-30 16:04:45
-(epstopdf)                    size: 15670 bytes
+(epstopdf)                    date: 2018-10-31 13:41:53
+(epstopdf)                    size: 16802 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
 ied_multi.eps>
 (epstopdf)             \includegraphics on input line 75.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=57, 20
+<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=69, 20
 4.765pt x 151.56625pt>
 File: plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -885,15 +891,16 @@ msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (3 pages, 272473 bytes).
+-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsb
+k/uncr8a.pfb>
+Output written on paper.pdf (3 pages, 281986 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 176 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

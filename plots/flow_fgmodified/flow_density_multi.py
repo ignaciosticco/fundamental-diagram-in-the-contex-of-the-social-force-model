@@ -57,9 +57,9 @@ density_kx10 = data_kx10[:,0]
 flow_kx10 = data_kx10[:,1]
 
 plt.plot(density,flow,'b--x',mew=0.7,markersize=4,label='SFM original') 
-plt.plot(density_kpx10,flow_kpx10,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='$\\kappa_w \\times$ 10') 
-plt.plot(density_kpx1_kix10,flow_kpx1_kix10,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='$\\kappa_i \\times$ 10') 
-plt.plot(density_kx10,flow_kx10,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='$\\kappa_w \\times 10 \quad \\kappa_i \\times$ 10') 
+plt.plot(density_kpx10,flow_kpx10,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='$\\kappa_w = 2.4\\times 10^{5}$') 
+plt.plot(density_kpx1_kix10,flow_kpx1_kix10,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='$\\kappa_i =2.4  \\times 10^{5}$') 
+plt.plot(density_kx10,flow_kx10,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='$\\kappa_w=\\kappa_i = 2.4 \\times 10^{5} $') 
 
 '''
 plt.plot(density,flow,'-bo',markersize=3.5,label='original')
@@ -70,8 +70,8 @@ plt.plot(density_kx10,flow_kx10,'-ko',markersize=3.5,label='kw x 10 and ki x 10'
 
 pylab.grid(False)
 #pylab.xlabel('time~$(s)$')
-pylab.xlabel('Density~(p~/m$^{2}$)')
-pylab.ylabel('Flow~(p~/m/s)')
+pylab.xlabel('Density~(P~m$^{-2}$)')
+pylab.ylabel('Flow~(P~m$^{-1}$s$^{-1}$)')
 #pylab.legend()
 #pylab.ylim(0.0, 60.0)
 #pylab.ylim(0.0, 3.6)
@@ -80,6 +80,6 @@ pylab.xlim(0.5, 9.5)
 #pylab.xticks(np.arange(0,1100,200))
 #pylab.xlim(0, 8)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
-plt.legend(loc='upper left',labelspacing=0.2,borderpad=0.3,handletextpad=0.5,fontsize=6,numpoints=1) 
+plt.legend(frameon=False,loc='upper left',labelspacing=0.2,borderpad=0.3,handletextpad=0.5,fontsize=6,numpoints=1) 
 pylab.savefig('flow-density_pasillo22m_fgmodified_multi.png', format='png', dpi=300, bbox_inches='tight')
 pylab.savefig('flow-density_pasillo22m_fgmodified_multi.eps', format='eps', dpi=300, bbox_inches='tight')

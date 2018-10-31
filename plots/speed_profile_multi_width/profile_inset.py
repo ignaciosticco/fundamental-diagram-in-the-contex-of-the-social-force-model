@@ -79,11 +79,11 @@ pylab.legend()
 #pylab.xticks(np.arange(0,9,2))
 #ax1.yticks(np.arange(0,1.1,0.25))
 plt.xlabel('y-position~/~width ')
-plt.ylabel('velocity (m/s)')
+plt.ylabel('Velocity (m/s)')
 plt.ylim(0.1, 1.5)
 #ax1.xlim(0, 1.02)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
-ax1.legend(loc='upper left',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
+ax1.legend(frameon=False,loc='upper left',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
 #pylab.savefig('v(y)_multi_width_k24.png', format='png', dpi=300, bbox_inches='tight')
 
 

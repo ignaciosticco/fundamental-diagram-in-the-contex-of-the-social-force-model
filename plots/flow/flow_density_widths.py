@@ -69,23 +69,22 @@ plt.plot(density_2m,flow_2m,'k--+',mew=0.7,markersize=4,label='width = 2m')
 plt.plot(density_4m,flow_4m,'b--x',mew=0.7,markersize=4,label='width = 4m') 
 plt.plot(density_10m,flow_10m,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='width = 10m') 
 plt.plot(density_15m,flow_15m,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='width = 15m') 
-plt.plot(density_22m,flow_22m,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='width = 22m') 
+plt.plot(density_22m[:len(density_22m)-1],flow_22m[:len(density_22m)-1],'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='width = 22m') 
 
 
 
 pylab.grid(False)
 #pylab.xlabel('time~$(s)$')
-pylab.xlabel('Density~(p~/m$^{2}$)')
-pylab.ylabel('Flow~(p~/m/s)')
+pylab.xlabel('Density~(P~m$^{-2}$)')
+pylab.ylabel('Flow~(P~m$^{-1}$s$^{-1}$)')
 #pylab.legend()
-#pylab.ylim(0.0, 60.0)
 #pylab.ylim(0.0, 3.6)
 #pylab.yticks(np.arange(3,11,2))
-#pylab.xlim(0.5, 8)
+pylab.ylim(0, 9.5)
 #pylab.xticks(np.arange(0,1100,200))
-#pylab.xlim(0, 8)
+pylab.xlim(1.0, 10)
 lgd=plt.legend(numpoints=1,handlelength=0.8) 
-plt.legend(loc='upper left',labelspacing=-0.1,borderpad=0.3,handletextpad=0.5,fontsize=6,numpoints=1) 
+plt.legend(frameon=False,loc='best',labelspacing=-0.1,borderpad=0.3,handletextpad=0.5,fontsize=6,numpoints=1) 
 #pylab.savefig('flow-density_vd1_multiple_widths.eps', format='eps', dpi=300, bbox_inches='tight')
 
 
@@ -100,15 +99,15 @@ flow_johansson = data_johansson[:,1]
 ############  PLOT  ############
 
 
-left, bottom, width, height = [0.62, 0.62, 0.28, 0.28]
+left, bottom, width, height = [0.17, 0.62, 0.28, 0.28]
 ax2 = fig.add_axes([left, bottom, width, height])
 
 ax2.plot(density_johansson,flow_johansson,'*',color='orange',markeredgecolor='orange',markersize=2) 
-
+fig.patch.set_facecolor('black')
 #pylab.yticks(np.arange(0,1.1,1),size='4.5')
 #pylab.xticks(np.arange(0,1.1,1),size='0.0')
-pylab.xlabel('density ',size='4.5',labelpad=-5)
-pylab.ylabel('flow ',size='5.5',labelpad=1)
+pylab.xlabel('Density~(Pm$^{-2}$) ',size='4.5',labelpad=1)
+pylab.ylabel('Flow~(Pm$^{-1}$s$^{-1}$)  ',size='3.5',labelpad=-3,zorder=1)
 #pylab.ylim(0.3, 1.1)
 #pylab.xlim(0, 1.02)
 #ax2.tick_params(axis='y', pad=-4)
@@ -119,8 +118,9 @@ plt.tick_params(axis='y',which='both',bottom=False,top=False,labelbottom=False)
 ax2.xaxis.set_ticks_position('none') 
 ax2.yaxis.set_ticks_position('none') 
 ax2.grid(False)
-#plt.text(0.01, 0.33, "0", size=4.5)
-#plt.text(0.97, 0.33, "1", size=4.5)
+plt.text(1.05, -0.2, "0", size=4.5)
+plt.text(9, -0.2, "10", size=4.5)
+plt.text(0.5, 1.8, "2", size=4.5)
 
 pylab.savefig('flow-density_vd1_multiple_widths.png', format='png', dpi=300, bbox_inches='tight')
 pylab.savefig('flow-density_vd1_multiple_widths.eps', format='eps', dpi=300, bbox_inches='tight')
