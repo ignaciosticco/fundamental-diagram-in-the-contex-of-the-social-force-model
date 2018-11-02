@@ -20,7 +20,7 @@ v(\rho_{max}) &< \frac{5}{9} v_d
 \end{align*}
 
 
-As our desired velocity is fixed $v_d = 1$~m/s, we conclude that the speed at the maximum density has to be bounded by $v(\rho_{max}) \lesssim 	0.5$~m/s in order to satisfy the qualitative behavior of the fundamental diagram reported in the literature.\\
+As our desired velocity is fixed $v_d = 1$~m/s, we conclude that the speed at the maximum density has to be bounded by $v(\rho_{max}) \lesssim 	0.5$~m/s in order to satisfy the qualitative behavior of the fundamental diagram reported in the literature.
 
 The above reasoning is consistent with the speed-density results shown in Fig.~\ref{fundamental_diagram_flow}. Notice that the speed values in $\rho_{max} = 9$ is higher than $v=0.5$~m/s for $w=15$~m and $w=22$~m. Whereas the speed value for $\rho_{max}$ is lower than $v=0.5$~m/s for narrow corridors ($w<15$)\\
 
@@ -45,7 +45,7 @@ was 28~m in all cases with periodic boundary conditions in the x direction.}
 
 \subsection{Speed profile}
 
-In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-position) of the pedestrians in the  corridor. When the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s), leading to a cruising velocity profile for every position in the corridor. For higher densities, the speed profile shifts to a parabola-like shape. Pedestrians near near the walls are the one with the lower speed. The speed increases when moving away from the wall until it reaches the maximum in the middle of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the speed profile. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.\\
+In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-position) of the pedestrians in the  corridor. When the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s), leading to a cruising velocity profile for every position in the corridor. For higher densities, the speed profile shifts to a parabola-like shape. Pedestrians near near the walls are the one with the lower speed. The speed increases when moving away from the wall until it reaches the maximum in the middle of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the speed profile. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.
 
 %The pedestrian-wall friction es mayor que la friccion entree peatones porque la formula es asi...
 
@@ -53,26 +53,71 @@ In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-position)
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/v(y)_width22_k24.eps}
-\caption{\label{speed-profile-w22} Speed profile (speed vs y-position) for different densities. The desired velocity was $v_d = 1$~m/s. The measurements were taken in $x=14$~m once the system reached the stationary state. The length of the corridor was 28~m in all cases with periodic boundary conditions in the x direction.  }
+\caption{\label{speed-profile-w22} Velocity profile (velocity vs y-position) for different densities (see legend for the corresponding densities). The simulated corridor was 28~m lenght. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the corridor width was $w = 22~m$ in all the cases. }
 \end{figure}
 
-In Fig.~\ref{speed-profile-multi_width} we show the speed profile for different widths, the x-axis is the y-position normalized by the with of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other, remember that when $\rho<5$ pedestrians avoid collisions. We can see the parabola shape in which lower velocities are in the areas near the walls. The inset of the figure shows the same data normalized by the maximum speed value for each corridor width. It is interesting that once normalized, all the data follow the same pattern. This suggests that regardless the scale of the corridor, the speed profile yields the same behavior. 
+In Fig.~\ref{speed-profile-multi_width} we show the speed profile for different widths, the x-axis is the y-position normalized by the with of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other, remember that when $\rho<5$ pedestrians manage to avoid collisions. We can see the parabola shape in which lower velocities are located in the areas near the walls. The inset of the figure shows the same data normalized by the maximum speed value correspondent to each corridor width. It is interesting that once normalized, all the data follow the same pattern. This suggests that regardless the scale of the corridor, the speed profile exhibit a fundamental behavior. 
 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/v(y)_multi_width.eps}
-\caption{\label{speed-profile-multi_width} Speed profile (speed vs y-position) for different corridors width.}
+\caption{\label{speed-profile-multi_width} Velocity profile (velocity vs y-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases. The inset shows the same data with velocity normalized by the maximum value corresponding to each dataset. }
 \end{figure}
 
 
+\subsection{Work of the friction force}
+
+
+\begin{figure}[htbp!]
+        \centering
+        \begin{subfigure}[b]{0.475\columnwidth}
+            \centering
+            \caption{}
+            \includegraphics[width=\textwidth]{plots/abswg_width10.eps}
+ 
+            \label{abswg_width10}
+        \end{subfigure}
+        %\hfill
+        \begin{subfigure}[b]{0.475\columnwidth}  
+            \centering
+            \caption{} 
+            \includegraphics[width=\textwidth]{plots/abswg_width15.eps}
+            
+            \label{abswg_width15}
+        \end{subfigure}
+        %\vskip\baselineskip
+        \begin{subfigure}[b]{0.475\columnwidth}   
+            \centering 
+            \caption{}            
+            \includegraphics[width=\textwidth]{plots/abswg_width22.eps}
+        
+            \label{abswg_width22}
+           \end{subfigure}        
+    
+ \caption{bla bla} 
+
+\end{figure}
+
 
 \subsection{Friction modification}
+
+As already mentioned, the results shown so far indicate that friction may be the key to improving the fundamental diagram. We want to make clear that improving the fundamental diagram means obtaining the congested branch reported by different authors, in particular in the Jamaraat study of Helbing et al. were the congested branch reaches a plateau. The original version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The value proposed was $\kappa = 2.4\times10^{4}$. This value is widely used by the pedestrian dynamics community despite it lacks a rigorous foundation. 
+
+We tested how the system reacts to the modification of the friction value. In Fig.~\ref{fgmodified-w22} shows the flow vs density for different friction values.The triangles correspond to the increment of the wall friction in one order of magnitude (now $\kappa_w = 2.4\times10^{5}$). In this case we left the pedestrian-pedestrian friction unchanged. We can see that the flow reduces a little bit, but this is not enough to produce the negative slope that characterizes the congested regime. 
+
+The circles correspond to a modification of the friction between pedestrians without changing the value of the wall friction. We increased the pedestrian-pedestrian friction by a factor of ten ($\kappa_i = 2.4\times10^{5}$). Here we see a significant reduction of the flow. The qualitative behavior resembles the fundamental diagram reported by Helbing et al. with a well defined congested branch for the greatest densities.
+
+We also tested the case were both friction coefficients are ten times the value of the original model (now $\kappa_w = \kappa_i = 2.4\times10^{5}$). The squared symbols represent this scenario. As expected, the flow reduces significantly respect the original case (cross symbol plot). Interestingly, the reduction of the flow is more than the reduction due to the increment of $\kappa_i$ plus the reduction of the flow due to $\kappa_w$. This behavior is indicative that the superposition principle does not hold in this system. This phenomena is explained by the non-linearity of the equation of motion.   
+
+This finding allows us to affirm that the friction plays a crucial role in the functional behavior of the fundamental diagram. The increment of both individual-individual friction and wall friction are determinant in order to achieve a congested branch. Other authors attain the congested branch modifying different aspects of the model. Parisi et al. impose zero desired velocity once pedestrians are close enough~\ref{parisi1}, Johannson increases the relaxation time in order to slow down the net-time headway~\ref{johannson} and more recently, Kwak et al.\ref{kwak} induce the jamming transition by an attraction. Our results show that the empirical behavior for the fundamental diagram can be achieved by properly increasing the friction coefficients. In appendix we discuss about how the modification of the relaxation time and the increment of the friction coefficient yield the same effect, since they affect the same term in the reduced-in-units equation of motion.  
+
+We argue that in real scenarios, a combination of all these factors may be the cause of the marked flow reduction that portray the fundamental diagram. The pedestrian's path can be very complex even if it is a simple enclosure (straight corridor) and the target is well defined (unidirectional flow). Beyond the complexities given by the internal motivations of pedestrians, we strongly suggest studying and modeling coefficients of friction between individuals and friction with the walls. These two parameters have shown to be very important in the dynamics and deserve a closer inspection in future research. 
 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/flow-density_pasillo22m_fgmodified_multi.eps}
-\caption{\label{fgmodified-w22} }
+\caption{\label{fgmodified-w22} Fundamental diagram (flow vs density) for different friction coefficient (see legend for the corresponding values). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed. For each density we measure the flow once the system reaches the stationary state.}
 \end{figure}
 
