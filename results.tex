@@ -2,17 +2,18 @@
 
 \subsection{Fundamental diagram in the original model}
 
-In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density since there are no collisions between pedestrians. This behavior applies to all the corridor width analyzed. In the congested branch ($\rho > 5$), we have two different scenarios:
+In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density, since there are no collisions between pedestrians. In this regime, pedestrians achieve the desired velocity, leading to a flow that grows linearly with the density. That is reason why the flow takes the value of $J \sim \rho$ until $\rho=5$. This behavior applies to all the corridor width analyzed. 
 
+On the other hand we have the congested branch  for $\rho > 5$. Here we face two different scenarios:
 
 \begin{itemize}
 \item i) In narrow corridors (say $w < 10$) we can see that the flow reduces as the density increases. This resembles the traditional behavior of the fundamental diagram reported in the literature. 
 \item ii) In wide corridors (say $w > 15$) we see that the flow increases with density. This contradicts the typical behavior of the fundamental diagram.   
 \end{itemize}
 
-%Since this discrepancy only appears in the congested branch, we can guess that the the friction force may be playing a role in the flow reduction.  
+We wonder what is the reason that determines the increase or decrease of the flow in the congested branch. Since the trajectories of pedestrians are straight (there are no crossing path that could reduce the flow), we can assert that the the friction force is the only factor in the flow reduction. The inset of the Fig.~\ref{fundamental_diagram_flow} corresponds to the empirical measures of Helbing et al. at the entrance of the Jamaraat bridge (the corridor with was $w=22$~m ). Notice that our simulated result corresponding to a $w=22$~m corridor, exhibit a different behavior in the congested branch. In the simulated case, the flow increases even for the greatest densities. On the contrary, the empirical measurement exhibit a flow reduction for $\rho > 5$ and it reaches a plateau for the highest density values.  
 
-In order to satisfy the fundamental diagram reported in the literature, It is necessary that the flow at the maximum density ($\rho_{max} = 9$) be less than the flow at $\rho = 5$. That is:  $J(\rho = 9) < J(\rho = 5)$. From the flow definition in Ec.~\ref{ec-flow} we can derive
+In order to satisfy the fundamental diagram reported in the literature, It is necessary that the flow at the maximum density ($\rho_{max} = 9$) be less than the flow at $\rho = 5$. That is:  $J(\rho = 9) < J(\rho = 5)$. From the flow definition in Eq.~\ref{ec-flow} we can derive
 
 \begin{align*} 
 v(\rho_{max}) &< \frac{5v_d}{\rho_{max}} \\
@@ -22,7 +23,7 @@ v(\rho_{max}) &< \frac{5}{9} v_d
 
 As our desired velocity is fixed $v_d = 1$~m/s, we conclude that the speed at the maximum density has to be bounded by $v(\rho_{max}) \lesssim 	0.5$~m/s in order to satisfy the qualitative behavior of the fundamental diagram reported in the literature.
 
-The above reasoning is consistent with the speed-density results shown in Fig.~\ref{fundamental_diagram_flow}. Notice that the speed values in $\rho_{max} = 9$ is higher than $v=0.5$~m/s for $w=15$~m and $w=22$~m. Whereas the speed value for $\rho_{max}$ is lower than $v=0.5$~m/s for narrow corridors ($w<15$)\\
+The above reasoning is consistent with the speed-density results shown in Fig.~\ref{fundamental_diagram_speed}. Notice that the speed values in $\rho_{max} = 9$ is higher than $v=0.5$~m/s for $w=15$~m and $w=22$~m. Whereas the speed value for $\rho_{max}$ is lower than $v=0.5$~m/s for narrow corridors ($w<15$)\\  % hablar en termino de los pasillos que satisface el diagrama fundamental y los que no. 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
