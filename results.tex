@@ -2,7 +2,7 @@
 
 \subsection{Fundamental diagram in the original model}
 
-In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density since there are no collisions between pedestrians. This behavior holds for all the corridor's width. In the congested branch ($\rho > 5$), we have two different scenarios:
+In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density since there are no collisions between pedestrians. This behavior applies to all the corridor width analyzed. In the congested branch ($\rho > 5$), we have two different scenarios:
 
 
 \begin{itemize}
@@ -10,7 +10,7 @@ In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density 
 \item ii) In wide corridors (say $w > 15$) we see that the flow increases with density. This contradicts the typical behavior of the fundamental diagram.   
 \end{itemize}
 
-Since this discrepancy only appears in the congested branch, we can argue that the the friction force is playing a fundamental role in the flow reduction.  
+%Since this discrepancy only appears in the congested branch, we can guess that the the friction force may be playing a role in the flow reduction.  
 
 In order to satisfy the fundamental diagram reported in the literature, It is necessary that the flow at the maximum density ($\rho_{max} = 9$) be less than the flow at $\rho = 5$. That is:  $J(\rho = 9) < J(\rho = 5)$. From the flow definition in Ec.~\ref{ec-flow} we can derive
 
@@ -68,8 +68,10 @@ In Fig.~\ref{speed-profile-multi_width} we show the speed profile for different 
 
 \subsection{Work done by friction force}
 
-We have shown how the velocity takes different values along the corridor. We also analyzed the work done by the friction between pedestrians in the corridor. The work exerted was numerically calculated for each pedestrian with the Simpson rule. The sampling rate was ($\Delta t = 0.05$~s). Once all the pedestrians had its work calculated, we proceed to create a squared grid in the corridor. The cells were 1~m length, and we associated the  
 
+We have shown how the velocity takes different values along the corridor. We also analyzed the work done by the friction between pedestrians in the corridor. The work exerted was numerically calculated for each pedestrian with the Simpson rule. The integration step was $\Delta t = 0.05$~s. Once all the pedestrians had its work calculated, we proceed to create a squared grid in the corridor. The cells were 1~m length, and we associated the work on the pedestrians to the cell where they were placed.  In Fig.~\ref{abswg} we show three heat maps of the absolute value of the work done by the pedestrian-pedestrian friction force. The axis represent the x location and y location of the corridor. The heat map denotes higher work for red color and lower work for the blue color. The walls are located at $y=0$ and $y=w$ (bottom and top of each figure). Fig.~\ref{abswg_width10} corresponds to a 10 m width corridor, Fig.~\ref{abswg_width15} corresponds to a 15 m width corridor and  Fig.~\ref{abswg_width10} corresponds to a 22 m width corridor.
+
+In the three figures we observe the same pattern: the regions near the walls (bottom and top) are the regions in which pedestrians suffer the higher work done by the friction. In the center of the corridor the work is reduced in all the cases. Another interesting observation is that the work seems to increase with the corridor width. This happens because in the wide corridors the relative velocity between pedestrians is greater. See Fig.~\ref{speed-profile-multi_width} and compare the slopes between the parabolas. It can be seen that the wider the corridor, the greater the slope (corresponding to locations near the wall). As it is stated in Eq.(\ref{granular}), the friction force depends on the compression and the relative velocity among pedestrians. The differences between Figs.~\ref{abswg_width10}, \ref{abswg_width15} and  \ref{abswg_width22}  are only explained by the increment of the relative velocity. The compression levels remain the same in the three cases since the compression only depends on the density (which is fix at $\rho=6$ for the three figures).
 
 
 \begin{figure}[htbp!]
@@ -97,8 +99,8 @@ We have shown how the velocity takes different values along the corridor. We als
         
             \label{abswg_width22}
            \end{subfigure}        
-    
  \caption{} 
+ \label{abswg}
 
 \end{figure}
 
