@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  2 NOV 2018 23:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  3 NOV 2018 07:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,27 +668,27 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip54
 \sf@bottom=\skip55
 )
-Class revtex4-1 Info: Patching array package. on input line 28.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 28.
+Class revtex4-1 Info: Patching array package. on input line 27.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 28.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 28.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 28.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
  (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -708,11 +708,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 Class revtex4-1 Info: Overriding lineo.sty, restoring output routine, on input 
-line 28.
-Class revtex4-1 Info: Line numbering not turned on yet on input line 28.
+line 27.
+Class revtex4-1 Info: Line numbering not turned on yet on input line 27.
 \openout3 = `paperNotes.bib'.
 
-Class revtex4-1 Info: Overriding \@LN@LLerror on input line 28.
+Class revtex4-1 Info: Overriding \@LN@LLerror on input line 27.
  (./abstract.tex) (./introduction.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
@@ -766,6 +766,11 @@ File: plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: plots/flow-density_vd1_multiple_widths-eps-converted-t
 o.pdf used on input line 29.
 (pdftex.def)             Requested size: 246.0pt x 173.86578pt.
+
+
+LaTeX Warning: Reference `velocity_profile' on page 2 undefined on input line 3
+6.
+
 Package epstopdf Info: Source file: <plots/speed-density_vd1_multiple_widths.ep
 s>
 (epstopdf)                    date: 2018-11-02 21:46:13
@@ -808,7 +813,7 @@ f>
 (epstopdf)                    size: 15581 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_width22_k24-eps
 -converted-to.pdf plots/v(y)_width22_k24.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 53.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots/v(y)_width22_k24-eps-converted-to.pdf, id=55, 215.80624pt x 146.5475pt>
@@ -816,7 +821,7 @@ File: plots/v(y)_width22_k24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v(y)_width22_k24-eps-converted-to.pdf>
 Package pdftex.def Info: plots/v(y)_width22_k24-eps-converted-to.pdf used on in
-put line 56.
+put line 53.
 (pdftex.def)             Requested size: 246.0pt x 167.05692pt.
 Package epstopdf Info: Source file: <plots/v(y)_multi_width.eps>
 (epstopdf)                    date: 2018-10-31 20:58:51
@@ -827,7 +832,7 @@ f>
 (epstopdf)                    size: 16889 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_multi_width-eps
 -converted-to.pdf plots/v(y)_multi_width.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 61.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots/v(y)_multi_width-eps-converted-to.pdf, id=56, 216.81pt x 146.5475pt>
@@ -835,7 +840,7 @@ File: plots/v(y)_multi_width-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v(y)_multi_width-eps-converted-to.pdf>
 Package pdftex.def Info: plots/v(y)_multi_width-eps-converted-to.pdf used on in
-put line 65.
+put line 61.
 (pdftex.def)             Requested size: 246.0pt x 166.28545pt.
  [3 <./plots/speed-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/v
 (y)_width22_k24-eps-converted-to.pdf> <./plots/v(y)_multi_width-eps-converted-t
@@ -848,7 +853,7 @@ Package epstopdf Info: Source file: <plots/abswg_width10.eps>
 (epstopdf)                    size: 33022 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
 nverted-to.pdf plots/abswg_width10.eps>
-(epstopdf)             \includegraphics on input line 83.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -859,7 +864,7 @@ File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
- line 83.
+ line 79.
 (pdftex.def)             Requested size: 116.8515pt x 79.23796pt.
 Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    date: 2018-11-01 20:45:25
@@ -869,7 +874,7 @@ Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    size: 53607 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
 nverted-to.pdf plots/abswg_width15.eps>
-(epstopdf)             \includegraphics on input line 91.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -880,7 +885,7 @@ File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width15-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
- line 91.
+ line 87.
 (pdftex.def)             Requested size: 116.8515pt x 76.2905pt.
 Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    date: 2018-11-01 20:43:25
@@ -890,7 +895,7 @@ Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    size: 84685 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
 nverted-to.pdf plots/abswg_width22.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -901,18 +906,20 @@ File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width22-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
- line 99.
+ line 95.
 (pdftex.def)             Requested size: 116.8515pt x 78.73645pt.
 
 
-LaTeX Warning: Reference `parisi1' on page 4 undefined on input line 119.
+LaTeX Warning: Reference `parisi1' on page 4 undefined on input line 115.
 
 
-LaTeX Warning: Reference `johannson' on page 4 undefined on input line 119.
+LaTeX Warning: Reference `johannson' on page 4 undefined on input line 115.
 
 
-LaTeX Warning: Reference `kwak' on page 4 undefined on input line 119.
+LaTeX Warning: Reference `kwak' on page 4 undefined on input line 115.
 
+[4 <./plots/abswg_width10-eps-converted-to.pdf> <./plots/abswg_width15-eps-conv
+erted-to.pdf> <./plots/abswg_width22-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti.eps>
 (epstopdf)                    date: 2018-10-31 20:58:51
@@ -924,27 +931,20 @@ ulti-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
 ied_multi.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=107, 2
+<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=135, 2
 04.765pt x 151.56625pt>
 File: plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>
 Package pdftex.def Info: plots/flow-density_pasillo22m_fgmodified_multi-eps-con
-verted-to.pdf used on input line 126.
+verted-to.pdf used on input line 122.
 (pdftex.def)             Requested size: 246.0pt x 182.1006pt.
 )
-(./conclusions.tex) (./acknowledgments.tex [4 <./plots/abswg_width10-eps-conver
-ted-to.pdf> <./plots/abswg_width15-eps-converted-to.pdf> <./plots/abswg_width22
--eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 6.
-
-) (./appendix.tex)
+(./conclusions.tex) (./acknowledgments.tex) (./appendix.tex)
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
@@ -954,15 +954,19 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
  ) 
 Here is how much of TeX's memory you used:
- 16528 strings out of 494910
- 305468 string characters out of 6179835
- 462486 words of memory out of 5000000
- 19475 multiletter control sequences out of 15000+600000
+ 16531 strings out of 494910
+ 305515 string characters out of 6179835
+ 462513 words of memory out of 5000000
+ 19478 multiletter control sequences out of 15000+600000
  9952 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,9n,54p,1133b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,54p,1517b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -985,7 +989,7 @@ msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (5 pages, 453001 bytes).
+Output written on paper.pdf (5 pages, 453969 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams

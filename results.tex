@@ -1,6 +1,6 @@
 \section{\label{results}Results}
 
-\subsection{Fundamental diagram in the original model}
+\subsection{\label{fundamental_diagram} Fundamental diagram in the original model}
 
 In Fig~\ref{fundamental_diagram_flow}, we show the fundamental diagram (density vs. flow) for different corridor widths. We can distinguish the two typical branches of the fundamental diagram. In the free flow branch ($\rho < 5$), the flow increases linearly with the density, since there are no collisions between pedestrians. In this regime, pedestrians achieve the desired velocity, leading to a flow that grows linearly with the density. That is reason why the flow takes the value of $J \sim \rho$ until $\rho=5$. This behavior applies to all the corridor width analyzed. 
 
@@ -33,7 +33,7 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
-The plots in Fig.\ref{fundamental_diagram_speed} support the fact that when the density is low enough, pedestrians manage to walk at the desired velocity ($v=1$~m/s). Only for $\rho>5$ the velocity begins the slow down proses. The inset shows the measurements at the entrance of the Jamaraat bridge. When comparing our results with the measurements of the Jamaraat bridge, it must be pointed out that the latter do not show a constant velocity for lower densities. We attribute this difference to the fact that in the real system, the pedestrian path are more complex when the density low. Another interesting finding here is that the wider the corridor, the greater the velocity for all the density values. In Section \ref{speed_profile} we will further discuss this topic.
+The plots in Fig.\ref{fundamental_diagram_speed} support the fact that when the density is low enough, pedestrians manage to walk at the desired velocity ($v=1$~m/s). Only for $\rho>5$ the velocity begins the slow down proses. The inset shows the measurements at the entrance of the Jamaraat bridge. When comparing our results with the measurements of the Jamaraat bridge, it must be pointed out that the latter do not show a constant velocity for lower densities. We attribute this difference to the fact that in the real system, the pedestrian path are more complex when the density low. Another interesting finding here is that the wider the corridor, the greater the velocity for all the density values. In Section \ref{velocity_profile} we will further discuss this topic.
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -44,12 +44,9 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
-\subsection{\label{speed_profile} Speed profile}
+\subsection{\label{velocity_profile} Velocity profile}
 
-In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-location) of the pedestrians in the  corridor. When the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s), leading to a cruising velocity profile for every position in the corridor. For higher densities, the speed profile shifts to a parabola-like shape. Pedestrians near near the walls are the one with the lower speed. The speed increases when moving away from the wall until it reaches the maximum in the middle of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the speed profile. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.
-
-%The pedestrian-wall friction es mayor que la friccion entree peatones porque la formula es asi...
-
+ As we mentioned in Section \ref{fundamental_diagram}, when the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s). Since this result is only valid for the area located in the middle of the corridor, we want to shed some light and understand what is happening in the entire corridor. In Fig.~\ref{speed-profile-w22} we show the velocity profile (velocity vs. y-location) of the pedestrians in the  corridor. We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously discussed). For higher densities, the velocity profile turns into to a parabola-like function that resembles the typical velocity profile under conditions of the laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near near the walls are the one with the lower velocity. The velocity increases when moving away from the wall until it reaches the maximum in the center of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the velocity distribution. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -57,8 +54,7 @@ In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-location)
 \caption{\label{speed-profile-w22} Velocity profile (velocity vs y-position) for different densities (see legend for the corresponding densities). The simulated corridor was 28~m lenght. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the corridor width was $w = 22~m$ in all the cases. }
 \end{figure}
 
-In Fig.~\ref{speed-profile-multi_width} we show the speed profile for different widths, the x-axis is the y-position normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other, remember that when $\rho<5$ pedestrians manage to avoid collisions. We can see the parabola shape in which lower velocities are placed in the areas near the walls. The inset of the figure shows the same data normalized by the maximum speed value correspondent to each corridor width. It is interesting that once normalized, all the data follow the same pattern. This suggests that regardless the scale of the corridor, the speed profile exhibit a fundamental behavior. 
-% Explicar que la "tasa" de crecimiento de la velocidad es la misma para todos los casos (fundamental behavior)
+In Fig.~\ref{speed-profile-multi_width} we show the velocity profile for different widths. The x-axis of the plot corresponds to the y-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other, remember that when $\rho<5$ pedestrians manage to avoid collisions. We can see the parabola shape in which lower velocities are located in the areas near the walls. There is a clear dependence of $v_{max}$ and the corridor width. It is interesting that the wider the corridor, the higher the maximum velocity value reached. The inset of the figure shows the same data normalized by the maximum speed value correspondent to each corridor width. Notice that once normalized, all the data follow the same pattern. This suggests that regardless the scale of the corridor, the speed profile exhibit a fundamental behavior. This means that, the velocity growth rate from the wall towards the center of the corridor, is the same regardless of the size of the corridor
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -74,6 +70,7 @@ We have shown how the velocity takes different values along the corridor. We als
 
 In the three figures we observe the same pattern: the regions near the walls (bottom and top) are the regions in which pedestrians suffer the higher work done by the friction. In the center of the corridor the work is reduced in all the cases. Another interesting observation is that the work seems to increase with the corridor width. This happens because in the wide corridors the relative velocity between pedestrians is greater. See Fig.~\ref{speed-profile-multi_width} and compare the slopes between the parabolas. It can be seen that the wider the corridor, the greater the slope (corresponding to locations near the wall). As it is stated in Eq.(\ref{granular}), the friction force depends on the compression and the relative velocity among pedestrians. The differences between Figs.~\ref{abswg_width10}, \ref{abswg_width15} and  \ref{abswg_width22}  are only explained by the increment of the relative velocity. The compression levels remain the same in the three cases since the compression only depends on the density (which is fix at $\rho=6$ for the three figures).
 
+% this gives the full picture of whats going on with the velocity profile...  the interaction pedestrian-wall is friction interaction that excerts the higest friction, since the wall acts like a steady pedestrian. The pedestrian interacting with the wall fells a downward draging force.... ver explicacion vieja.. 
 
 \begin{figure}[htbp!]
         \centering
