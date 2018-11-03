@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  3 NOV 2018 07:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  3 NOV 2018 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,7 +674,47 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
- (./paper.aux)
+ (./paper.aux
+
+LaTeX Warning: Label `abswg_width10' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width10' multiply defined.
+
+
+LaTeX Warning: Label `abswg_width15' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width15' multiply defined.
+
+
+LaTeX Warning: Label `abswg_width22' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width22' multiply defined.
+
+
+LaTeX Warning: Label `abswg_width10' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width10' multiply defined.
+
+
+LaTeX Warning: Label `abswg_width15' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width15' multiply defined.
+
+
+LaTeX Warning: Label `abswg_width22' multiply defined.
+
+
+LaTeX Warning: Label `sub@abswg_width22' multiply defined.
+
+
+LaTeX Warning: Label `abswg' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -689,8 +729,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count158
 \scratchdimen=\dimen176
@@ -766,11 +805,6 @@ File: plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf Graphic file
 Package pdftex.def Info: plots/flow-density_vd1_multiple_widths-eps-converted-t
 o.pdf used on input line 29.
 (pdftex.def)             Requested size: 246.0pt x 173.86578pt.
-
-
-LaTeX Warning: Reference `velocity_profile' on page 2 undefined on input line 3
-6.
-
 Package epstopdf Info: Source file: <plots/speed-density_vd1_multiple_widths.ep
 s>
 (epstopdf)                    date: 2018-11-02 21:46:13
@@ -853,7 +887,7 @@ Package epstopdf Info: Source file: <plots/abswg_width10.eps>
 (epstopdf)                    size: 33022 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
 nverted-to.pdf plots/abswg_width10.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 80.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -864,7 +898,7 @@ File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
- line 79.
+ line 80.
 (pdftex.def)             Requested size: 116.8515pt x 79.23796pt.
 Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    date: 2018-11-01 20:45:25
@@ -874,7 +908,7 @@ Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    size: 53607 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
 nverted-to.pdf plots/abswg_width15.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -885,7 +919,7 @@ File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width15-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
- line 87.
+ line 88.
 (pdftex.def)             Requested size: 116.8515pt x 76.2905pt.
 Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    date: 2018-11-01 20:43:25
@@ -895,7 +929,7 @@ Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    size: 84685 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
 nverted-to.pdf plots/abswg_width22.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -906,17 +940,17 @@ File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width22-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
- line 95.
+ line 96.
 (pdftex.def)             Requested size: 116.8515pt x 78.73645pt.
 
 
-LaTeX Warning: Reference `parisi1' on page 4 undefined on input line 115.
+LaTeX Warning: Reference `parisi1' on page 4 undefined on input line 116.
 
 
-LaTeX Warning: Reference `johannson' on page 4 undefined on input line 115.
+LaTeX Warning: Reference `johannson' on page 4 undefined on input line 116.
 
 
-LaTeX Warning: Reference `kwak' on page 4 undefined on input line 115.
+LaTeX Warning: Reference `kwak' on page 4 undefined on input line 116.
 
 [4 <./plots/abswg_width10-eps-converted-to.pdf> <./plots/abswg_width15-eps-conv
 erted-to.pdf> <./plots/abswg_width22-eps-converted-to.pdf>]
@@ -931,7 +965,7 @@ ulti-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
 ied_multi.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=135, 2
@@ -941,32 +975,127 @@ ic file (type pdf)
 
 <use plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>
 Package pdftex.def Info: plots/flow-density_pasillo22m_fgmodified_multi-eps-con
-verted-to.pdf used on input line 122.
+verted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 246.0pt x 182.1006pt.
-)
-(./conclusions.tex) (./acknowledgments.tex) (./appendix.tex)
+Package epstopdf Info: Source file: <plots/abswg_width10.eps>
+(epstopdf)                    date: 2018-11-01 20:46:05
+(epstopdf)                    size: 303992 bytes
+(epstopdf)             Output file: <plots/abswg_width10-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    size: 33022 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
+nverted-to.pdf plots/abswg_width10.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width10-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
+ line 140.
+(pdftex.def)             Requested size: 116.8515pt x 79.23796pt.
+Package epstopdf Info: Source file: <plots/abswg_width15.eps>
+(epstopdf)                    date: 2018-11-01 20:45:25
+(epstopdf)                    size: 398763 bytes
+(epstopdf)             Output file: <plots/abswg_width15-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    size: 53607 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
+nverted-to.pdf plots/abswg_width15.eps>
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width15-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
+ line 148.
+(pdftex.def)             Requested size: 116.8515pt x 76.2905pt.
+Package epstopdf Info: Source file: <plots/abswg_width22.eps>
+(epstopdf)                    date: 2018-11-01 20:43:25
+(epstopdf)                    size: 541384 bytes
+(epstopdf)             Output file: <plots/abswg_width22-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:44:20
+(epstopdf)                    size: 84685 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
+nverted-to.pdf plots/abswg_width22.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width22-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
+ line 156.
+(pdftex.def)             Requested size: 116.8515pt x 78.73645pt.
+Package epstopdf Info: Source file: <plots/abswg_width10.eps>
+(epstopdf)                    date: 2018-11-01 20:46:05
+(epstopdf)                    size: 303992 bytes
+(epstopdf)             Output file: <plots/abswg_width10-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    size: 33022 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
+nverted-to.pdf plots/abswg_width10.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width10-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
+ line 163.
+(pdftex.def)             Requested size: 116.8515pt x 79.23796pt.
+Package epstopdf Info: Source file: <plots/abswg_width15.eps>
+(epstopdf)                    date: 2018-11-01 20:45:25
+(epstopdf)                    size: 398763 bytes
+(epstopdf)             Output file: <plots/abswg_width15-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    size: 53607 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
+nverted-to.pdf plots/abswg_width15.eps>
+(epstopdf)             \includegraphics on input line 171.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width15-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
+ line 171.
+(pdftex.def)             Requested size: 116.8515pt x 76.2905pt.
+Package epstopdf Info: Source file: <plots/abswg_width22.eps>
+(epstopdf)                    date: 2018-11-01 20:43:25
+(epstopdf)                    size: 541384 bytes
+(epstopdf)             Output file: <plots/abswg_width22-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-11-01 20:44:20
+(epstopdf)                    size: 84685 bytes
+(epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
+nverted-to.pdf plots/abswg_width22.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
+
+<use plots/abswg_width22-eps-converted-to.pdf>
+Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
+ line 179.
+(pdftex.def)             Requested size: 116.8515pt x 78.73645pt.
+) (./conclusions.tex)
+(./acknowledgments.tex) (./appendix.tex)
 No file paper.bbl.
+[5 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
-[5 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
 (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  16531 strings out of 494910
- 305515 string characters out of 6179835
- 462513 words of memory out of 5000000
+ 305510 string characters out of 6179835
+ 462581 words of memory out of 5000000
  19478 multiletter control sequences out of 15000+600000
  9952 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,9n,54p,1517b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,54p,1517b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -989,7 +1118,7 @@ msfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (5 pages, 453969 bytes).
+Output written on paper.pdf (5 pages, 455215 bytes).
 PDF statistics:
  210 PDF objects out of 1000 (max. 8388607)
  166 compressed objects within 2 object streams
