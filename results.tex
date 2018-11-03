@@ -20,10 +20,9 @@ v(\rho_{max}) &< \frac{5v_d}{\rho_{max}} \\
 v(\rho_{max}) &< \frac{5}{9} v_d
 \end{align*}
 
+As our desired velocity is fixed $v_d = 1$~m/s, we conclude that the speed at the maximum density has to be bounded by $v(\rho_{max}) \lesssim  0.5$~m/s in order to satisfy the qualitative behavior of the fundamental diagram reported in the literature.
 
-As our desired velocity is fixed $v_d = 1$~m/s, we conclude that the speed at the maximum density has to be bounded by $v(\rho_{max}) \lesssim 	0.5$~m/s in order to satisfy the qualitative behavior of the fundamental diagram reported in the literature.
-
-The above reasoning is consistent with the speed-density results shown in Fig.~\ref{fundamental_diagram_speed}. Notice that the speed values in $\rho_{max} = 9$ is higher than $v=0.5$~m/s for $w=15$~m and $w=22$~m. Whereas the speed value for $\rho_{max}$ is lower than $v=0.5$~m/s for narrow corridors ($w<15$)\\  % hablar en termino de los pasillos que satisface el diagrama fundamental y los que no. 
+The above reasoning is consistent with the speed-density results shown in Fig.~\ref{fundamental_diagram_speed}.As a visual guide we plotted $v=0.5$~m/s with a dashed line. Pay attention to the speed values in $\rho_{max} = 9$. The values corresponding to the wider corridors ($w=15$~m and $w=22$~m) both exceed $v=0.5$~m/s. Otherwise, the values corresponding to narrower corridors fall below $v=0.5$~m/s. 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -34,6 +33,7 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
+The plots in Fig.\ref{fundamental_diagram_speed} support the fact that when the density is low enough, pedestrians manage to walk at the desired velocity ($v=1$~m/s). Only for $\rho>5$ the velocity begins the slow down proses. The inset shows the measurements at the entrance of the Jamaraat bridge. When comparing our results with the measurements of the Jamaraat bridge, it must be pointed out that the latter do not show a constant velocity for lower densities. We attribute this difference to the fact that in the real system, the pedestrian path are more complex when the density low. Another interesting finding here is that the wider the corridor, the greater the velocity for all the density values. In Section \ref{speed_profile} we will further discuss this topic.
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -44,7 +44,7 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
-\subsection{Speed profile}
+\subsection{\label{speed_profile} Speed profile}
 
 In Fig.~\ref{speed-profile-w22} we show the speed profile (speed vs. y-location) of the pedestrians in the  corridor. When the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s), leading to a cruising velocity profile for every position in the corridor. For higher densities, the speed profile shifts to a parabola-like shape. Pedestrians near near the walls are the one with the lower speed. The speed increases when moving away from the wall until it reaches the maximum in the middle of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the speed profile. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising speed profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.
 
