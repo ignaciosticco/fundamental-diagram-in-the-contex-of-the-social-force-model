@@ -40,26 +40,23 @@ params = {'backend': 'ps',
 pylab.rcParams.update(params)
 
 ### DATA ###
-data = np.genfromtxt("raw_histo_clsuters_density5.5_pasillo22m_kx10.txt",delimiter = ' ') 
+data = np.genfromtxt("raw_histo_clsuters_density5.5_pasillo22m.txt",delimiter = ' ') 
 
 
 #hist, bin_edges = np.histogram(data,bins=100)
 ###  PLOT  ###
-binwidth = 1
+binwidth = 50
 
 weights = np.ones_like(data)/float(len(data))
-#plt.hist(data,weights=weights)
 plt.hist(data, bins=np.arange(min(data), max(data) + binwidth, binwidth),weights=weights)
 
+
 pylab.grid(False)
-pylab.xlabel('Cluster size')
-pylab.ylabel('Frecuency')
-#pylab.xlim(2, 12)
-#pylab.xlim(2, 2900)
+pylab.xlabel('Cluster size~(p)',fontsize=15)
+pylab.ylabel('Frecuency',fontsize=15)
+#pylab.xticks(np.linspace(0,80,5))
+pylab.xlim(2, 3500)
 plt.yscale('log')
 pylab.ylim(10**(-4), 10**(0))
-#pylab.xticks(np.arange(0,1100,200))
-#pylab.xlim(0, 8)
-#lgd=plt.legend(numpoints=1,handlelength=0.8) 
-#plt.legend(loc='upper right',labelspacing=-0.1,borderpad=0.3,handletextpad=0.5,fontsize=6,numpoints=1) 
-pylab.savefig('size_distribution_w22_kx10_density5.5.eps', format='eps', dpi=300, bbox_inches='tight')
+plt.tick_params(labelsize=15)
+pylab.savefig('size_distribution_w22_density5_5.eps', format='eps', dpi=300, bbox_inches='tight')
