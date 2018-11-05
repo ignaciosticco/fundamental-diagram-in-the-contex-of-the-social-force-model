@@ -7,7 +7,7 @@ proposed by Helbing and co-workers \cite{Helbing1}. This model states that human
 motion is caused by the desire of people to reach a certain destination, as 
 well as other environmental factors. The pedestrians behavioral pattern in a 
 crowded environment can be modeled by three kind of forces: the ``desire 
-force'', the ``social force'' and the ``granular force''. 
+force'', the ``social force'' and the ``granular force''.
 
 The ``desire force'' represents the pedestrian's own desire to reach a 
 specific target position at a desired velocity $v_d$. But, in order to reach 
@@ -22,7 +22,7 @@ m_i\,\displaystyle\frac{v_d^{(i)}\,\mathbf{e}_d^
 {(i)}(t)-\mathbf{v}^{(i)}(t)}{\tau} \label{desired}
 \end{equation}
 
-\noindent where $m_i$ is the mass of the pedestrian $i$. $\mathbf{e}_d$ 
+where $m_i$ is the mass of the pedestrian $i$. $\mathbf{e}_d$ 
 corresponds to the unit vector pointing to the target position and $\tau$ is a 
 constant related to the relaxation time needed to reach his (her) desired 
 velocity. Its value is determined experimentally. For simplicity, we assume that 
@@ -39,11 +39,11 @@ say $i$ and $j$, to stay away from each other by a repulsive interaction force
         \label{social}
 \end{equation}
 
-\noindent where $(ij)$ means any pedestrian-pedestrian pair, or pedestrian-wall 
+where $(ij)$ means any pedestrian-pedestrian pair, or pedestrian-wall 
 pair. $A_i$ and $B_i$ are fixed values, $d_{ij}$ is the distance between  the 
 center of mass of the pedestrians $i$ and $j$ and the distance $r_{ij}=r_i+r_j$ 
 is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in 
-the $\vec{ji}$ direction. 
+the $\vec{ji}$ direction.
 
 Any two pedestrians touch each other if their distance $d_{ij}$ is smaller than 
 $r_{ij}$.  In this case, an additional force is included in the model, called 
@@ -58,7 +58,7 @@ expression reads
         \label{granular}
 \end{equation}
 
-\noindent where $\kappa$ is a fixed parameter. The function 
+where $\kappa$ is a fixed parameter. The function 
 $\Theta(r_{ij}-d_{ij})$ is zero when its argument is negative (that is, 
 $r_{ij}<d_{ij}$) and equals unity for any other case (Heaviside function). 
 $\Delta\mathbf{v}^{(ij)}\cdot\mathbf{t}_{ij}$ represents the difference between 
@@ -75,7 +75,7 @@ m_i\,\displaystyle\frac{d\mathbf{v}^{(i)}}{dt}=\mathbf{f}_d^{(i)}
 j=1}^{N}\mathbf{f}_g^{(ij)}\label{eq_mov}
 \end{equation}
 
-\noindent where the subscript $j$ represents all the other pedestrians 
+where the subscript $j$ represents all the other pedestrians 
 (excluding $i$) and the walls. 
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}

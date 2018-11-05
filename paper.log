@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  4 NOV 2018 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  4 NOV 2018 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,7 +890,7 @@ ulti-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
 ied_multi.eps>
-(epstopdf)             \includegraphics on input line 104.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
 <plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=138, 2
@@ -900,7 +900,7 @@ ic file (type pdf)
 
 <use plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>
 Package pdftex.def Info: plots/flow-density_pasillo22m_fgmodified_multi-eps-con
-verted-to.pdf used on input line 104.
+verted-to.pdf used on input line 106.
 (pdftex.def)             Requested size: 246.0pt x 182.1006pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5.eps
 >
@@ -912,7 +912,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5.eps
 (epstopdf)                    size: 8372 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5-eps-converted-to.pdf plots/size_distribution_w22_density4_5.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -927,7 +927,7 @@ File: plots/size_distribution_w22_density4_5-eps-converted-to.pdf Graphic file
 
 <use plots/size_distribution_w22_density4_5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density4_5-eps-converted-t
-o.pdf used on input line 120.
+o.pdf used on input line 122.
 (pdftex.def)             Requested size: 115.6203pt x 77.39815pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5_kx1
 0.eps>
@@ -940,7 +940,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5_kx1
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density4_5_k
 x10.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -955,7 +955,7 @@ file (type pdf)
 
 <use plots/size_distribution_w22_density4_5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density4_5_kx10-eps-conver
-ted-to.pdf used on input line 121.
+ted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 115.6203pt x 77.39815pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5.eps>
 (epstopdf)                    date: 2018-11-03 20:38:19
@@ -966,7 +966,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 8214 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5-eps-converted-to.pdf plots/size_distribution_w22_density5.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -980,7 +980,7 @@ File: plots/size_distribution_w22_density5-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use plots/size_distribution_w22_density5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5-eps-converted-to.
-pdf used on input line 122.
+pdf used on input line 124.
 (pdftex.def)             Requested size: 115.6203pt x 75.22215pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_kx10.
 eps>
@@ -993,7 +993,7 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_kx10.
 eps>
-(epstopdf)             \includegraphics on input line 123.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1008,7 +1008,7 @@ le (type pdf)
 
 <use plots/size_distribution_w22_density5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_kx10-eps-converte
-d-to.pdf used on input line 123.
+d-to.pdf used on input line 125.
 (pdftex.def)             Requested size: 115.6203pt x 75.22215pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5.eps
 >
@@ -1020,7 +1020,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5.eps
 (epstopdf)                    size: 8172 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5-eps-converted-to.pdf plots/size_distribution_w22_density5_5.eps>
-(epstopdf)             \includegraphics on input line 124.
+(epstopdf)             \includegraphics on input line 126.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1035,7 +1035,7 @@ File: plots/size_distribution_w22_density5_5-eps-converted-to.pdf Graphic file
 
 <use plots/size_distribution_w22_density5_5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_5-eps-converted-t
-o.pdf used on input line 124.
+o.pdf used on input line 126.
 (pdftex.def)             Requested size: 115.6203pt x 78.6983pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5_kx1
 0.eps>
@@ -1048,7 +1048,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5_kx1
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_5_k
 x10.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1063,18 +1063,19 @@ file (type pdf)
 
 <use plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_5_kx10-eps-conver
-ted-to.pdf used on input line 125.
+ted-to.pdf used on input line 127.
 (pdftex.def)             Requested size: 115.6203pt x 78.6983pt.
 )
-(./conclusions.tex) (./acknowledgments.tex) (./appendix.tex
+(./conclusions.tex) (./acknowledgments.tex) (./appendix.tex [5 <./plots/flow-de
+nsity_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 16.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
-
-[5 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 30.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
@@ -1157,10 +1158,10 @@ put line 186.
 ) (./paper.bbl [7 <./plots/fig_velocity_model-eps-converted-to.pdf> <./plots/fi
 g_flux_model-eps-converted-to.pdf>]) [8] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 16192 strings out of 494910
- 301014 string characters out of 6179835
+ 16191 strings out of 494910
+ 301006 string characters out of 6179835
  452087 words of memory out of 5000000
- 19120 multiletter control sequences out of 15000+600000
+ 19119 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,10n,54p,1517b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1190,7 +1191,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (8 pages, 547077 bytes).
+Output written on paper.pdf (8 pages, 547362 bytes).
 PDF statistics:
  334 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
