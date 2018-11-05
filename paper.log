@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  4 NOV 2018 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  5 NOV 2018 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
@@ -720,11 +720,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 Package epstopdf Info: Source file: <plots/flow-density_vd1_multiple_widths.eps
 >
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:43:35
 (epstopdf)                    size: 247673 bytes
 (epstopdf)             Output file: <plots/flow-density_vd1_multiple_widths-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:44:00
 (epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_vd1_mul
 tiple_widths-eps-converted-to.pdf plots/flow-density_vd1_multiple_widths.eps>
@@ -742,12 +742,12 @@ o.pdf used on input line 29.
 (pdftex.def)             Requested size: 246.0pt x 173.86578pt.
 Package epstopdf Info: Source file: <plots/speed-density_vd1_multiple_widths.ep
 s>
-(epstopdf)                    date: 2018-11-02 21:46:13
-(epstopdf)                    size: 248065 bytes
+(epstopdf)                    date: 2018-11-05 08:23:34
+(epstopdf)                    size: 248102 bytes
 (epstopdf)             Output file: <plots/speed-density_vd1_multiple_widths-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-11-02 21:46:13
-(epstopdf)                    size: 21331 bytes
+(epstopdf)                    date: 2018-11-05 08:24:58
+(epstopdf)                    size: 21345 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/speed-density_vd1_mu
 ltiple_widths-eps-converted-to.pdf plots/speed-density_vd1_multiple_widths.eps>
 
@@ -774,11 +774,11 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 50.
 
 Package epstopdf Info: Source file: <plots/v(y)_width22_k24.eps>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:46:32
 (epstopdf)                    size: 215271 bytes
 (epstopdf)             Output file: <plots/v(y)_width22_k24-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:47:08
 (epstopdf)                    size: 15581 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_width22_k24-eps
 -converted-to.pdf plots/v(y)_width22_k24.eps>
@@ -793,11 +793,11 @@ Package pdftex.def Info: plots/v(y)_width22_k24-eps-converted-to.pdf used on in
 put line 53.
 (pdftex.def)             Requested size: 246.0pt x 167.05692pt.
 Package epstopdf Info: Source file: <plots/v(y)_multi_width.eps>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:45:46
 (epstopdf)                    size: 218864 bytes
 (epstopdf)             Output file: <plots/v(y)_multi_width-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:46:00
 (epstopdf)                    size: 16889 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/v(y)_multi_width-eps
 -converted-to.pdf plots/v(y)_multi_width.eps>
@@ -815,10 +815,10 @@ put line 61.
 (y)_width22_k24-eps-converted-to.pdf> <./plots/v(y)_multi_width-eps-converted-t
 o.pdf>]
 Package epstopdf Info: Source file: <plots/abswg_width10.eps>
-(epstopdf)                    date: 2018-11-01 20:46:05
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 303992 bytes
 (epstopdf)             Output file: <plots/abswg_width10-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 33022 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
 nverted-to.pdf plots/abswg_width10.eps>
@@ -836,10 +836,10 @@ Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
  line 78.
 (pdftex.def)             Requested size: 115.6203pt x 78.40309pt.
 Package epstopdf Info: Source file: <plots/abswg_width15.eps>
-(epstopdf)                    date: 2018-11-01 20:45:25
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 398763 bytes
 (epstopdf)             Output file: <plots/abswg_width15-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-01 20:47:09
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 53607 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
 nverted-to.pdf plots/abswg_width15.eps>
@@ -857,10 +857,10 @@ Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
  line 79.
 (pdftex.def)             Requested size: 115.6203pt x 75.48708pt.
 Package epstopdf Info: Source file: <plots/abswg_width22.eps>
-(epstopdf)                    date: 2018-11-01 20:43:25
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 541384 bytes
 (epstopdf)             Output file: <plots/abswg_width22-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-01 20:44:20
+(epstopdf)                    date: 2018-11-02 10:01:23
 (epstopdf)                    size: 84685 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
 nverted-to.pdf plots/abswg_width22.eps>
@@ -881,11 +881,11 @@ Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
 verted-to.pdf> <./plots/abswg_width22-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti.eps>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:41:38
 (epstopdf)                    size: 215295 bytes
 (epstopdf)             Output file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-10-31 20:58:51
+(epstopdf)                    date: 2018-10-31 13:41:53
 (epstopdf)                    size: 16802 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
@@ -904,11 +904,11 @@ verted-to.pdf used on input line 106.
 (pdftex.def)             Requested size: 246.0pt x 182.1006pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5.eps
 >
-(epstopdf)                    date: 2018-11-03 20:30:53
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 192219 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density4_5-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:31:21
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8372 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5-eps-converted-to.pdf plots/size_distribution_w22_density4_5.eps>
@@ -931,11 +931,11 @@ o.pdf used on input line 122.
 (pdftex.def)             Requested size: 115.6203pt x 77.39815pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5_kx1
 0.eps>
-(epstopdf)                    date: 2018-11-03 20:30:51
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 194422 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density4_5_kx1
 0-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:31:22
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8787 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density4_5_k
@@ -958,11 +958,11 @@ Package pdftex.def Info: plots/size_distribution_w22_density4_5_kx10-eps-conver
 ted-to.pdf used on input line 123.
 (pdftex.def)             Requested size: 115.6203pt x 77.39815pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5.eps>
-(epstopdf)                    date: 2018-11-03 20:38:19
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 191832 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density5-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:40:46
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8214 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5-eps-converted-to.pdf plots/size_distribution_w22_density5.eps>
@@ -984,11 +984,11 @@ pdf used on input line 124.
 (pdftex.def)             Requested size: 115.6203pt x 75.22215pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_kx10.
 eps>
-(epstopdf)                    date: 2018-11-03 20:38:21
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 191841 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density5_kx10-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:40:46
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8146 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_kx10.
@@ -1012,11 +1012,11 @@ d-to.pdf used on input line 125.
 (pdftex.def)             Requested size: 115.6203pt x 75.22215pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5.eps
 >
-(epstopdf)                    date: 2018-11-03 20:48:40
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 191944 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density5_5-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:52:10
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8172 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5-eps-converted-to.pdf plots/size_distribution_w22_density5_5.eps>
@@ -1039,11 +1039,11 @@ o.pdf used on input line 126.
 (pdftex.def)             Requested size: 115.6203pt x 78.6983pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5_kx1
 0.eps>
-(epstopdf)                    date: 2018-11-03 20:49:37
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 191623 bytes
 (epstopdf)             Output file: <plots/size_distribution_w22_density5_5_kx1
 0-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-03 20:52:11
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 8137 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_5_k
@@ -1083,10 +1083,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
  []
 
 Package epstopdf Info: Source file: <./plots/pasillo.eps>
-(epstopdf)                    date: 2018-11-04 14:22:16
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 48660 bytes
 (epstopdf)             Output file: <./plots/pasillo-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-04 14:22:35
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 23490 bytes
 (epstopdf)             Command: <repstopdf --outfile=./plots/pasillo-eps-conver
 ted-to.pdf ./plots/pasillo.eps>
@@ -1110,11 +1110,11 @@ ution_w22_density5-eps-converted-to.pdf> <./plots/size_distribution_w22_density
 erted-to.pdf> <./plots/size_distribution_w22_density5_5_kx10-eps-converted-to.p
 df> <./plots/pasillo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./plots/fig_velocity_model.eps>
-(epstopdf)                    date: 2018-11-04 14:22:16
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 197098 bytes
 (epstopdf)             Output file: <./plots/fig_velocity_model-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-11-04 14:22:35
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 12293 bytes
 (epstopdf)             Command: <repstopdf --outfile=./plots/fig_velocity_model
 -eps-converted-to.pdf ./plots/fig_velocity_model.eps>
@@ -1133,11 +1133,11 @@ Package pdftex.def Info: ./plots/fig_velocity_model-eps-converted-to.pdf used o
 n input line 151.
 (pdftex.def)             Requested size: 246.0pt x 161.44455pt.
 Package epstopdf Info: Source file: <./plots/fig_flux_model.eps>
-(epstopdf)                    date: 2018-11-04 14:22:16
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 194754 bytes
 (epstopdf)             Output file: <./plots/fig_flux_model-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-11-04 14:22:35
+(epstopdf)                    date: 2018-11-05 08:04:19
 (epstopdf)                    size: 11515 bytes
 (epstopdf)             Command: <repstopdf --outfile=./plots/fig_flux_model-eps
 -converted-to.pdf ./plots/fig_flux_model.eps>
@@ -1158,12 +1158,12 @@ put line 186.
 ) (./paper.bbl [7 <./plots/fig_velocity_model-eps-converted-to.pdf> <./plots/fi
 g_flux_model-eps-converted-to.pdf>]) [8] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 16191 strings out of 494910
- 301006 string characters out of 6179835
- 452087 words of memory out of 5000000
- 19119 multiletter control sequences out of 15000+600000
+ 16189 strings out of 493029
+ 300986 string characters out of 6136233
+ 456773 words of memory out of 5000000
+ 19361 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  55i,10n,54p,1517b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dis
@@ -1191,7 +1191,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (8 pages, 547362 bytes).
+Output written on paper.pdf (8 pages, 546996 bytes).
 PDF statistics:
  334 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams

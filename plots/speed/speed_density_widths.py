@@ -72,15 +72,7 @@ plt.plot(density_10m,speed_10m,'g:^',mew=0.7,markerfacecolor='none',markersize=4
 plt.plot(density_15m,speed_15m,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='width = 15m') 
 plt.plot(density_22m,speed_22m,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='width = 22m') 
 
-
-'''
-plt.plot(density_2m,speed_2m,'-ob',markersize=3.5,label='width = 2m')
-plt.plot(density_4m,speed_4m,'-og',markersize=3.5,label='width = 4m')
-plt.plot(density_10m,speed_10m,'-oy',markersize=3.5,label='width = 10m')
-plt.plot(density_15m,speed_15m,'-or',markersize=3.5,label='width = 15m')
-plt.plot(density_22m,speed_22m,'-ok',markersize=3.5,label='width = 22m')
-'''
-
+plt.hlines(0.5, 0, 9.5, colors='k', linestyles='--')
 pylab.grid(False)
 #pylab.xlabel('time~$(s)$')
 pylab.xlabel('Density~(p~/m$^{2}$)')
