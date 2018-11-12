@@ -39,11 +39,10 @@ pylab.rcParams.update(params)
 
 #################### DATA LAMMPS ##############################
 
-data1= np.genfromtxt('./flux_model_01.dat', delimiter = ' ')	
-data4= np.genfromtxt('./flux_model_04.dat', delimiter = ' ')	
-data5= np.genfromtxt('./flux_model_05.dat', delimiter = ' ')	
-data6= np.genfromtxt('./flux_model_06.dat', delimiter = ' ')	
-data10= np.genfromtxt('./flux_model_10.dat', delimiter = ' ')	
+data1= np.genfromtxt('./flux_model_revised_1.dat', delimiter = ' ')	
+data4= np.genfromtxt('./flux_model_revised_10.dat', delimiter = ' ')	
+data5= np.genfromtxt('./flux_model_revised_100.dat', delimiter = ' ')	
+data6= np.genfromtxt('./flux_model_revised_1000.dat', delimiter = ' ')	
 
 #################### PLOT specification ##############################
 
@@ -60,9 +59,6 @@ flux5 =data5[:,1]
 alpha6=data6[:,0]
 flux6 =data6[:,1]
 
-alpha10=data10[:,0]
-flux10 =data10[:,1]
-
 alpha0=np.linspace(0.0,1.0,11)
 
 #################### PLOT specification ##############################
@@ -76,11 +72,10 @@ ax1.grid(False)
 #ax2 = ax1.twinx()
 #ax2.grid(False)
 
-ax1.plot(alpha1[5000:25000]+1,flux1[5000:25000],lw=0.7,color='orange',label=r'$0.01\,\alpha$')
-ax1.plot(alpha4[5000:25000]+1,flux4[5000:25000],lw=0.7,color='firebrick',label=r'$0.04\,\alpha$')
-ax1.plot(alpha5[5000:25000]+1,flux5[5000:25000],lw=0.7,color='steelblue',label=r'$0.05\,\alpha$')
-ax1.plot(alpha6[5000:25000]+1,flux6[5000:25000],lw=0.7,color='olive',label=r'$0.06\,\alpha$')
-ax1.plot(alpha10[5000:25000]+1,flux10[5000:25000],lw=0.7,color='gray',label=r'$0.10\,\alpha$')
+ax1.plot(alpha1[50:5050]+1,flux1[50:5050],lw=0.7,color='orange',label=r'$1\,\mathcal{K}$')
+ax1.plot(alpha4[50:5050]+1,flux4[50:5050],lw=0.7,color='firebrick',label=r'$10\,\mathcal{K}$')
+ax1.plot(alpha5[50:5050]+1,flux5[50:5050],lw=0.7,color='steelblue',label=r'$100\,\mathcal{K}$')
+ax1.plot(alpha6[50:5050]+1,flux6[50:5050],lw=0.7,color='olive',label=r'$1000\,\mathcal{K}$')
 ax1.plot(alpha0,alpha0,lw=0.7,linestyle='--',color='gray')
 #ax1.plot(alpha,velocity,lw=0.7,color='firebrick',label=r'$N=20$')
 #ax1.plot(alpha,velocity,lw=0.7,color='steelblue',label=r'$N=50$')
@@ -88,10 +83,10 @@ ax1.plot(alpha0,alpha0,lw=0.7,linestyle='--',color='gray')
 legend = plt.legend(loc='upper left',prop={'size':5})
 
 
-ax1.set_ylim(0.5,1.5)
+ax1.set_ylim(0,5)
 #ax1.set_yticks(np.arange(-200,-40,40))
-ax1.set_xlim(0, 10)
-ax1.set_xticks(np.arange(0,20,5))
+ax1.set_xlim(0, 5)
+ax1.set_xticks(np.arange(0,6,1))
 #ax1.set_xlabel(r'$1/T$~(MeV$^{-1}$)')
 #ax2.set_ylabel(r'$E_\mathrm{sym}$~(MeV)')
 ax1.set_xlabel(r'$\rho$')
