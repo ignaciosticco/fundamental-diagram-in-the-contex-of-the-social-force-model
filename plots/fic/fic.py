@@ -44,17 +44,31 @@ density_kx10 = data_kx10[:,0]
 fic_kx10 = data_kx10[:,1] 
 err_kx10 = data_kx10[:,2] 
 
+data_kwx10 = np.genfromtxt('density_fic_w22m_kwx10.txt', delimiter = ' ')
+density_kwx10 = data_kwx10[:,0] 
+fic_kwx10 = data_kwx10[:,1] 
+err_kwx10 = data_kwx10[:,2] 
+
+#data_kix10 = np.genfromtxt('density_fic_w22m_kix10.txt', delimiter = ' ')
+#density_kix10 = data_kwx10[:,0] 
+#fic_kix10 = data_kix10[:,1] 
+#err_kix10 = data_kix10[:,2] 
+
 
 ###  PLOT  ###
 
-#fig, ax1 = plt.subplots()
-plt.plot(density_kroiginal,fic_koriginal,'b--o',mew=0.7,markersize=4,label='$\\kappa = 2.4 \\times 10^{4}$') 
+
+plt.plot(density_kroiginal,fic_koriginal,'b--x',mew=0.7,markersize=4,label='SFM original') 
 plt.errorbar(density_kroiginal,fic_koriginal,err_koriginal,linestyle='none',fmt='none',color='none',ecolor='b') 
 
-#fig, ax2 = plt.subplots()
-plt.plot(density_kx10,fic_kx10,'r-s',mew=0.7,markersize=4,label='$\\kappa = 2.4 \\times 10^{5}$') 
-plt.errorbar(density_kx10,fic_kx10,err_kx10,linestyle='none',fmt='none',color='none',ecolor='r') 
+plt.plot(density_kwx10,fic_kwx10,'g:^',mew=0.7,markersize=4,label='$\\kappa_w = 2.4\\times 10^{5}$') 
+plt.errorbar(density_kwx10,fic_kwx10,err_kwx10,linestyle='none',fmt='none',color='none',ecolor='g') 
 
+#plt.plot(density_kix10,fic_kix10,'y-.o',mew=0.7,markersize=4,label='$\\kappa_i =2.4  \\times 10^{5}$') 
+#plt.errorbar(density_kix10,fic_kix10,err_kwx10,linestyle='none',fmt='none',color='none',ecolor='y') 
+
+plt.plot(density_kx10,fic_kx10,'-rs',mew=0.7,markersize=4,label='$\\kappa_w=\\kappa_i = 2.4 \\times 10^{5} $') 
+plt.errorbar(density_kx10,fic_kx10,err_kx10,linestyle='none',fmt='none',color='none',ecolor='r') 
 
 
 pylab.legend()
@@ -62,7 +76,7 @@ pylab.xticks(np.arange(4.0,5.7,0.2))
 plt.xlabel('Global density ')
 plt.ylabel('fracc.  clusterized indiv')
 plt.ylim(0.0, 1.02)
-plt.xlim(4.0,5.5)
+plt.xlim(4.2,5.5)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
 plt.legend(frameon=False,loc='lower right',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
 pylab.savefig('fracc_clusteriz_vs_density.png', format='png', dpi=300, bbox_inches='tight')
