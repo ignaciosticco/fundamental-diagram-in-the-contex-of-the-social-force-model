@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{7}%
+\begin{thebibliography}{13}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -59,6 +59,28 @@
   }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf
   {\bibinfo {volume} {407}},\ \bibinfo {pages} {487} (\bibinfo {year}
   {2000})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helbing}\ and\ \citenamefont
+  {Moln\'ar}(1995)}]{Helbing4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Helbing}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Moln\'ar}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review E}\ }\textbf {\bibinfo {volume} {51}},\ \bibinfo {pages}
+  {4282} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parisi}\ and\ \citenamefont {Dorso}(2005)}]{Dorso1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Parisi}}\ and\ \bibinfo {author} {\bibfnamefont {C.~O.}\ \bibnamefont
+  {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physica
+  A}\ }\textbf {\bibinfo {volume} {354}},\ \bibinfo {pages} {606} (\bibinfo
+  {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parisi}\ and\ \citenamefont {Dorso}(2007)}]{Dorso2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Parisi}}\ and\ \bibinfo {author} {\bibfnamefont {C.~O.}\ \bibnamefont
+  {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physica
+  A}\ }\textbf {\bibinfo {volume} {385}},\ \bibinfo {pages} {343} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Frank}\ and\ \citenamefont {Dorso}(2011)}]{Dorso3}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
@@ -66,6 +88,42 @@
   {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physica
   A}\ }\textbf {\bibinfo {volume} {390}},\ \bibinfo {pages} {2135} (\bibinfo
   {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sticco}\ \emph {et~al.}(2017)\citenamefont {Sticco},
+  \citenamefont {Frank}, \citenamefont {Cerrotta},\ and\ \citenamefont
+  {Dorso}}]{Dorso5}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Sticco}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Frank}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Cerrotta}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dorso}},\ }\href
+  {\doibase http://dx.doi.org/10.1016/j.physa.2017.01.079} {\bibfield
+  {journal} {\bibinfo  {journal} {Physica A: Statistical Mechanics and its
+  Applications}\ }\textbf {\bibinfo {volume} {474}},\ \bibinfo {pages} {172 }
+  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frank}\ and\ \citenamefont {Dorso}(2015)}]{Dorso4}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Frank}}\ and\ \bibinfo {author} {\bibfnamefont {C.~O.}\ \bibnamefont
+  {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {International Journal of Modern Physics C}\ }\textbf {\bibinfo {volume}
+  {26}},\ \bibinfo {pages} {1} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frank}\ and\ \citenamefont {Dorso}(2016)}]{Dorso6}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Frank}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dorso}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {International
+  Journal of Modern Physics C}\ }\textbf {\bibinfo {volume} {27}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cornes}\ \emph {et~al.}(2017)\citenamefont {Cornes},
+  \citenamefont {Frank},\ and\ \citenamefont {Dorso}}]{Cornes1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Cornes}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Frank}}, \
+  and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Dorso}},\ }\href
+  {\doibase https://doi.org/10.1016/j.physa.2017.05.013} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physica A: Statistical Mechanics and its Applications}\
+  }\textbf {\bibinfo {volume} {484}},\ \bibinfo {pages} {282 } (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kwak}\ \emph {et~al.}(2017)\citenamefont {Kwak},
   \citenamefont {Jo}, \citenamefont {Luttinen},\ and\ \citenamefont
   {Kosonen}}]{kwak}%
@@ -103,11 +161,4 @@
   {Johansson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {026120}
   (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Parisi}\ and\ \citenamefont {Dorso}(2005)}]{Dorso1}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Parisi}}\ and\ \bibinfo {author} {\bibfnamefont {C.~O.}\ \bibnamefont
-  {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physica
-  A}\ }\textbf {\bibinfo {volume} {354}},\ \bibinfo {pages} {606} (\bibinfo
-  {year} {2005})}\BibitemShut {NoStop}%
 \end{thebibliography}%

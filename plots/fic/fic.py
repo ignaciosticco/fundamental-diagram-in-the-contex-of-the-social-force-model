@@ -57,17 +57,17 @@ err_kix10 = data_kix10[:,2]
 
 ###  PLOT  ###
 
-plt.plot(density_kx10,fic_kx10,'-rs',mew=0.7,markersize=4,label='$\\kappa_w=\\kappa_i = 2.4 \\times 10^{5} $') 
+plt.plot(density_kx10,fic_kx10,'-rs',mew=0.7,markersize=4,label='$\\kappa_w=\\kappa_i = 2.4 \\times 10^{6} $') 
 plt.errorbar(density_kx10,fic_kx10,err_kx10,linestyle='none',fmt='none',color='none',ecolor='r') 
 
 
 plt.plot(density_kroiginal,fic_koriginal,'b--x',mew=0.7,markersize=4,label='SFM original') 
 plt.errorbar(density_kroiginal,fic_koriginal,err_koriginal,linestyle='none',fmt='none',color='none',ecolor='b') 
 
-plt.plot(density_kwx10,fic_kwx10,'g:^',mew=0.7,markersize=4,label='$\\kappa_w = 2.4\\times 10^{5}$') 
+plt.plot(density_kwx10,fic_kwx10,'g:^',mew=0.7,markersize=4,label='$\\kappa_w = 2.4\\times 10^{6}$') 
 plt.errorbar(density_kwx10,fic_kwx10,err_kwx10,linestyle='none',fmt='none',color='none',ecolor='g') 
 
-plt.plot(density_kix10,fic_kix10,'y-.o',mew=0.7,markersize=4,label='$\\kappa_i =2.4  \\times 10^{5}$') 
+plt.plot(density_kix10,fic_kix10,'y-.o',mew=0.7,markersize=4,label='$\\kappa_i =2.4  \\times 10^{6}$') 
 plt.errorbar(density_kix10,fic_kix10,err_kwx10,linestyle='none',fmt='none',color='none',ecolor='y') 
 
 
@@ -75,7 +75,7 @@ plt.errorbar(density_kix10,fic_kix10,err_kwx10,linestyle='none',fmt='none',color
 pylab.legend()
 pylab.xticks(np.arange(4.0,5.7,0.2))
 plt.xlabel('Density~(P~m$^{-2}$) ')
-plt.ylabel('fracc.  clusterized indiv')
+plt.ylabel('frac. clusterized indiv.')
 plt.ylim(0.0, 1.02)
 plt.xlim(4.1,5.5)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
