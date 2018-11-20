@@ -70,8 +70,7 @@ ax1.plot(alpha1,velocity1,lw=0.7,color='orange',label=r'$N=10$')
 ax1.plot(alpha2,velocity2,lw=0.7,color='firebrick',label=r'$N=20$')
 ax1.plot(alpha3,velocity3,lw=0.7,color='steelblue',label=r'$N=50$')
 
-legend = plt.legend(loc='upper right',prop={'size':5})
-
+legend = plt.legend(frameon=False,loc='upper right',prop={'size':5})
 
 ax1.set_ylim(0, 1.25)
 #ax1.set_yticks(np.arange(-200,-40,40))
