@@ -73,7 +73,7 @@ plt.errorbar(density_kx10,fic_kx10,err_kx10,linestyle='none',fmt='none',color='n
 
 pylab.legend()
 pylab.xticks(np.arange(4.0,5.7,0.2))
-plt.xlabel('Global density ')
+pylab.xlabel('Density~(P~m$^{-2}$)')
 plt.ylabel('fracc.  clusterized indiv')
 plt.ylim(0.0, 1.02)
 plt.xlim(4.2,5.5)
