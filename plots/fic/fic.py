@@ -75,7 +75,7 @@ plt.errorbar(density_kix10,fic_kix10,err_kwx10,linestyle='none',fmt='none',color
 pylab.legend()
 pylab.xticks(np.arange(4.0,5.7,0.2))
 plt.xlabel('Density~(P~m$^{-2}$) ')
-plt.ylabel('frac. clusterized indiv.')
+plt.ylabel('frac. clustered indiv.')
 plt.ylim(0.0, 1.02)
 plt.xlim(4.1,5.5)
 #lgd=plt.legend(numpoints=1,handlelength=0.8) 
