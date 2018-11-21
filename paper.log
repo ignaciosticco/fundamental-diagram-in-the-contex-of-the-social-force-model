@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  20 NOV 2018 07:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  20 NOV 2018 07:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,18 +1128,12 @@ Package epstopdf Info: Source file: <plots/fracc_clusteriz_vs_density.eps>
 (epstopdf)                    size: 231988 bytes
 (epstopdf)             Output file: <plots/fracc_clusteriz_vs_density-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2018-11-20 07:00:13
-(epstopdf)                    size: 20145 bytes
+(epstopdf)                    date: 2018-11-20 07:05:40
+(epstopdf)                    size: 20368 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/fracc_clusteriz_vs_d
 ensity-eps-converted-to.pdf plots/fracc_clusteriz_vs_density.eps>
 (epstopdf)             \includegraphics on input line 138.
-runsystem(repstopdf --outfile=plots/fracc_clusteriz_vs_density-eps-converted-to
-.pdf plots/fracc_clusteriz_vs_density.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <plots/fracc_clusteriz_vs_density-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2018-11-20 07:05:40
-(epstopdf)                    size: 20368 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./plots/fracc_clusteriz_vs_density-eps-converted
