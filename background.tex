@@ -80,9 +80,28 @@ where the subscript $j$ represents all the other pedestrians
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}
 
+Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus its attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics in unidirectional and bidirectional flows. 
 
-
+In this paper we use the mathematical expressions defined by Helbing et al. as regards to the fundamental diagram analysis. Thus, the density definition reads 
 
 \begin{equation}
-J(\rho)=\rho v \label{ec-flow}
+\rho(\vec{r},t)=\sum_{j}f(\vec{r}_j(t)-\vec{r}) \label{ec-density}
+\end{equation}
+
+where function f is
+
+\begin{equation}
+f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
+\end{equation}
+
+The local speeds have been defined via the weighted average  
+
+\begin{equation}
+\vec{V}(\vec{r},t)=\frac{\sum_j \vec{v}_jf(\vec{r}_j(t)-\vec{r}) }{\sum_j f(\vec{r}_j(t)-\vec{r}) } \label{ec-v}
+\end{equation}
+
+while flows have been determined according to the fluid-dynamic formula
+
+\begin{equation}
+\vec{J}(\vec{r},t)=\rho(\vec{r},t)V(\vec{r},t) \label{ec-flow}
 \end{equation}
