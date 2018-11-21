@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  21 NOV 2018 06:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  21 NOV 2018 07:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1163,7 +1163,7 @@ rted-to.pdf> <./plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pd
 f>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 42.
+ on input line 30.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
@@ -1243,16 +1243,12 @@ g_flux_model-eps-converted-to.pdf>]) [9] (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 16227 strings out of 494910
- 301693 string characters out of 6179835
+ 16226 strings out of 494910
+ 301682 string characters out of 6179835
  456431 words of memory out of 5000000
- 19154 multiletter control sequences out of 15000+600000
+ 19153 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,10n,54p,1517b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1281,7 +1277,7 @@ y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (9 pages, 571688 bytes).
+Output written on paper.pdf (9 pages, 571912 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  315 compressed objects within 4 object streams
