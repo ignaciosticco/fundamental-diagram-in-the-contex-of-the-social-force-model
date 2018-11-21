@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  21 NOV 2018 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  21 NOV 2018 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1243,10 +1243,10 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 
 ) [9 <./plots/fig_flux_model-eps-converted-to.pdf>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 16229 strings out of 493029
- 301706 string characters out of 6136233
- 459174 words of memory out of 5000000
- 19400 multiletter control sequences out of 15000+600000
+ 16251 strings out of 493029
+ 302012 string characters out of 6136233
+ 459478 words of memory out of 5000000
+ 19422 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,54p,1517b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1276,7 +1276,7 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (9 pages, 573963 bytes).
+Output written on paper.pdf (9 pages, 575368 bytes).
 PDF statistics:
  379 PDF objects out of 1000 (max. 8388607)
  315 compressed objects within 4 object streams
