@@ -67,9 +67,9 @@ fig, ax1 = plt.subplots()
 
 plt.plot(density_2m,flow_2m,'k--+',mew=0.7,markersize=4,label='width = 2m') 
 plt.plot(density_4m,flow_4m,'b--x',mew=0.7,markersize=4,label='width = 4m') 
-plt.plot(density_10m,flow_10m,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='width = 10m') 
-plt.plot(density_15m,flow_15m,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='width = 15m') 
-plt.plot(density_22m[:len(density_22m)-1],flow_22m[:len(density_22m)-1],'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='width = 22m') 
+plt.plot(density_10m,flow_10m,'g:^',mew=0.7,markerfacecolor='g',markersize=4,markeredgecolor='k',label='width = 10m') 
+plt.plot(density_15m,flow_15m,'y-.o',mew=0.7,markerfacecolor='y',markeredgecolor='k',markersize=4,zorder=3,label='width = 15m') 
+plt.plot(density_22m[:len(density_22m)-1],flow_22m[:len(density_22m)-1],'-rs',mew=0.7,markerfacecolor='r',markeredgecolor='k',markersize=4,label='width = 22m') 
 
 
 

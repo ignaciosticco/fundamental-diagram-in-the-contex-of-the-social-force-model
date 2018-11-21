@@ -40,23 +40,24 @@ params = {'backend': 'ps',
 pylab.rcParams.update(params)
 
 ### DATA ###
-data = np.genfromtxt("raw_histo_clsuters_density5.5_pasillo22m.txt",delimiter = ' ') 
+data = np.genfromtxt("raw_histo_clsuters_density4.5_pasillo22m_kx10.txt",delimiter = ' ') 
 
 
 #hist, bin_edges = np.histogram(data,bins=100)
 ###  PLOT  ###
-binwidth = 50
+binwidth = 1
 
 weights = np.ones_like(data)/float(len(data))
 plt.hist(data, bins=np.arange(min(data), max(data) + binwidth, binwidth),weights=weights)
 
-
 pylab.grid(False)
 pylab.xlabel('Cluster size~(p)',fontsize=15)
 pylab.ylabel('Frecuency',fontsize=15)
-#pylab.xticks(np.linspace(0,80,5))
-pylab.xlim(2, 3500)
+pylab.title('$\\rho=4.5$ \quad   $\\kappa=2.4\\times10^6$',fontsize=15)
+pylab.xticks(np.linspace(0,80,5))
+#pylab.xticks(np.linspace(0,3000,4))
+pylab.xlim(0, 80)
 plt.yscale('log')
 pylab.ylim(10**(-4), 10**(0))
 plt.tick_params(labelsize=15)
-pylab.savefig('size_distribution_w22_density5_5.eps', format='eps', dpi=300, bbox_inches='tight')
+pylab.savefig('size_distribution_w22_density4_5_kx10.eps', format='eps', dpi=300, bbox_inches='tight')

@@ -46,6 +46,9 @@ of the corridor once the system reached the stationary state. The length of the 
 was 28~m in all cases with periodic boundary conditions in the x direction.}
 \end{figure}
 
+In this subsection we have shown that the original social force model is not capable of reproducing the fundamental diagram since the flow increases even for overcrowded scenarios. 
+
+
 \subsection{\label{velocity_profile} Velocity profile}
 
  As we mentioned in Section \ref{fundamental_diagram}, when the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s). Since this result is only valid for the area located in the middle of the corridor, we want to shed some light and understand what is happening in the entire corridor. In Fig.~\ref{speed-profile-w22} we show the velocity profile (velocity vs. y-location) of the pedestrians in the  corridor. We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously proved). For higher densities, the velocity profile turns into a parabola-like function. This shape resembles the typical velocity profile under conditions of laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near near the walls are the one with the lower velocity. The velocity increases when moving away from the wall until it reaches the maximum in the center of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the velocity distribution. We did some simulations removing the walls and adding periodic boundary conditions in the y-coordinate. This yield to constant-cruising velocity profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.
@@ -63,6 +66,8 @@ In Fig.~\ref{speed-profile-multi_width} we show the velocity profile for differe
 {plots/v(y)_multi_width.eps}
 \caption{\label{speed-profile-multi_width} Velocity profile (velocity vs y-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases. The inset shows the same data with velocity normalized by the maximum value corresponding to each dataset. }
 \end{figure}
+
+In this subsection we have shown that the velocity profile has a parabola shape. Pedestrains attaim the maximum velocity in the middle of the corridor while the minimum is by the walls. We found out that once normalized by vmax and the corridor width, the velocity profile yields a universal behavior (regardless the width of the corridor) 
 
 
 \subsection{Work done by friction force}
@@ -84,17 +89,19 @@ In the three figures we observe the same pattern: the regions near the walls (bo
  \label{abswg}
 \end{figure}
 
+In this subsection we have shown that the pedestrians in contact with the wall are the one with the higher work of friction force. 
+
 \subsection{Friction modification}
 
-As already mentioned, the results shown so far indicate that friction may be the key to improving the fundamental diagram. We want to make clear that improving the fundamental diagram means obtaining the congested branch reported by different authors, in particular in the Jamaraat study of Helbing et al. where the congested branch reaches a plateau in a 22~m width corridor. The original version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The value proposed was $\kappa = 2.4\times10^{4}$. This value is widely used in many scientific papers despite it lacks a rigorous foundation. 
+As already mentioned, the results shown so far indicate that friction may be the key to improving the fundamental diagram. We want to make clear that improving the fundamental diagram means obtaining the congested branch reported by different authors, in particular in the Jamaraat study of Helbing et al. where the congested branch reaches a plateau in a 22~m width corridor. The original version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The value proposed was $\kappa = 2.4\times10^{5}$. This value is widely used in many scientific papers despite it lacks a rigorous foundation. 
 
 We tested how the system reacts to the modification of the friction value. We define $\kappa_i$ as the friction coeficiente of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coeficiente of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.
 
-The triangles plot in Fig.~\ref{fgmodified-w22} correspond to the increment of the wall friction in one order of magnitude (now $\kappa_w = 2.4\times10^{5}$). In this case we left the pedestrian-pedestrian friction unchanged (i.e., $\kappa_i = 2.4\times10^{4}$). We can see that the flow reduces a little bit, but this is not enough to produce the negative slope that characterizes the congested regime. 
+The triangles plot in Fig.~\ref{fgmodified-w22} correspond to the increment of the wall friction in one order of magnitude (now $\kappa_w = 2.4\times10^{6}$). In this case we left the pedestrian-pedestrian friction unchanged (i.e., $\kappa_i = 2.4\times10^{5}$). We can see that the flow reduces a little bit, but this is not enough to produce the negative slope that characterizes the congested regime. 
 
-The circles correspond to a modification of the friction between pedestrians without changing the value of the wall friction. We increased the pedestrian-pedestrian friction by a factor of ten ($\kappa_i = 2.4\times10^{5}$). Here we see a significant reduction of the flow. The qualitative behavior resembles the fundamental diagram reported by Helbing et al. with a well defined congested branch for the greatest densities.
+The circles correspond to a modification of the friction between pedestrians without changing the value of the wall friction. We increased the pedestrian-pedestrian friction by a factor of ten ($\kappa_i = 2.4\times10^{6}$). Here we see a significant reduction of the flow. The qualitative behavior resembles the fundamental diagram reported by Helbing et al. with a well defined congested branch for the greatest densities.
 
-We also tested the case were both friction coefficients are ten times the value of the original model (now $\kappa_w = \kappa_i = 2.4\times10^{5}$). The squared symbols represent this scenario. As expected, the flow reduces significantly respect the original case (cross symbol plot). Interestingly, the reduction of the flow is more than the reduction due to the increment of $\kappa_i$ plus the reduction of the flow due to $\kappa_w$. This behavior is indicative that the superposition principle does not hold in this system because of the non-linearity of the equation of motion.   
+We also tested the case were both friction coefficients are ten times the value of the original model (now $\kappa_w = \kappa_i = 2.4\times10^{6}$). The squared symbols represent this scenario. As expected, the flow reduces significantly respect the original case (cross symbol plot). Interestingly, the reduction of the flow is more than the reduction due to the increment of $\kappa_i$ plus the reduction of the flow due to $\kappa_w$. This behavior is indicative that the superposition principle does not hold in this system because of the non-linearity of the equation of motion.   
 
 This finding allows us to affirm that the friction plays a crucial role in the functional behavior of the fundamental diagram. The increment of both individual-individual friction and wall friction are determinant in order to achieve a congested branch. Other authors attain the congested branch modifying different aspects of the model. Parisi et al. impose zero desired velocity once pedestrians are close enough~\cite{parisi2}, Johannson increases the relaxation time in order to slow down the net-time headway Ref.~\cite{johansson} and more recently, Kwak et al. in Ref.~\cite{kwak} induce the jamming transition by an attraction. Our results show that the empirical behavior for the fundamental diagram can be achieved by properly increasing the friction coefficients. In Appendix \ref{appendix_1} we discuss about how the modification of the relaxation time and the increment of the friction coefficient yield the same effect, since they affect the same term in the reduced-in-units equation of motion.  
 
@@ -109,6 +116,7 @@ We want to emphasize that the proposals stated in Refs.~\cite{parisi2,johansson,
 \caption{\label{fgmodified-w22} Fundamental diagram (flow vs density) for different friction coefficient (see legend for the corresponding values). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed. For each density, we measure the flow once the system reaches the stationary state.}
 \end{figure}
 
+In this subsection we have shown that an adequate modification of the friction coefficients yields a fundamental diagram with the congested branch reported in the literature. We discuss different approaches proposed by other authors in orther to attain this problem. See appendix for a more detailed discussion.
 
 \subsection{\label{clusters}Clusters}
 
@@ -131,12 +139,16 @@ We also found that this phenomena is prompted by the friction. If the friction i
 \label{cluster_distribution}
 \end{figure}
 
+To understand the full picture, in Fig.~\ref{fic} we show the fraction of clustered individual as a function of the density for four different situations in which we change the friction coefficients. The fraction of clustered individuals is defined as the amount of pedestrians that belong to a cluster over the total number pedestrians in the corridor. 
+We can see that there is a transition from a non-clustered crowd to a full-clustered crowd. This transition occurs for a very limited range of densities, causing the process of cluster formation to occur for $4.4<\rho<5.3$. When the friction coefficient is high, the transition takes place for lower density values. This result is consistent with the histograms shown in Fig~.\ref{cluster_distribution}, supporting the fact that friction promotes the formation of clusters. 
+
+As expected, the transition becomes more abrupt when both $\kappa_i$ and $\kappa_w$ are incremented (squared symbol plot). When only one of those two coefficients is incremented, the fraction of clustered individuals is greater than the original model. Notice that there is not a big difference between the modification of $\kappa_i$ and the modification of $\kappa_w$. This suggests that it does not matter if the clusterization begins to take place in the areas near the walls or in the middle of the crowd.
 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/fracc_clusteriz_vs_density.eps}
-\caption{\label{speed-profile-multi_width}  }
+\caption{\label{fic} Fraction of clusterized individuals as a function of the density. Square symbol correspond to $\kappa_w=\kappa_i=2.4\times 10^6$, circles to $\kappa_i=2.4\times 10^6$ and $\kappa_w=2.4\times 10^5$, triangles to to $\kappa_i=2.4\times 10^5$ and $\kappa_w=2.4\times 10^6$ and crosses to the coefficients of the original Social Force model ($\kappa_i=2.4\times 10^5$ and $\kappa_w=2.4\times 10^5$). The pedestrians walk across a corridor with $v_d=1$m/s. The measurements were recorded every 0.5~s once the system reaches the stationary state. The values corresponding to the fraction of clustered individuals were averaged for 170~s. The cluster cutoff distance was 0.46~m (equivalent to the shoulders width of the pedestrians).   }
 \end{figure}
 
 

@@ -80,7 +80,7 @@ ax1.plot(alpha0,alpha0,lw=0.7,linestyle='--',color='gray')
 #ax1.plot(alpha,velocity,lw=0.7,color='firebrick',label=r'$N=20$')
 #ax1.plot(alpha,velocity,lw=0.7,color='steelblue',label=r'$N=50$')
 
-legend = plt.legend(loc='upper left',prop={'size':5})
+legend = plt.legend(frameon=False,loc='upper left',prop={'size':5})
 
 
 ax1.set_ylim(0,5)

@@ -69,15 +69,13 @@ err_media_d9 = data_d9[:,2]
 plt.plot(ancho_d2,v_media_d2,'b--x',mew=0.7,markersize=4,label='$\\rho$=2~p/m$^2$') 
 #plt.errorbar(ancho_d2,v_media_d2,err_media_d2,linestyle='none',fmt='none',color='none',ecolor='b') 
 
-
-plt.plot(ancho_d5,v_media_d5,'g:^',mew=0.7,markerfacecolor='none',markersize=4,markeredgecolor='g',label='$\\rho$=5~p/m$^2$') 
+plt.plot(ancho_d5,v_media_d5,'g:^',mew=0.7,markerfacecolor='g',markersize=4,markeredgecolor='k',label='$\\rho$=5~p/m$^2$') 
 #plt.errorbar(ancho_d5[::],v_media_d5[::],err_media_d5[::],linestyle='none',fmt='none',color='none',ecolor='g') 
 
-plt.plot(ancho_d6,v_media_d6,'y-.o',mew=0.7,markerfacecolor='none',markeredgecolor='y',markersize=4,zorder=3,label='$\\rho$=6~p/m$^2$') 
+plt.plot(ancho_d6,v_media_d6,'y-.o',mew=0.7,markerfacecolor='y',markeredgecolor='k',markersize=4,zorder=3,label='$\\rho$=6~p/m$^2$') 
 #plt.errorbar(ancho_d6[::],v_media_d6[::],err_media_d6[::],linestyle='none',fmt='none',color='none',ecolor='y') 
 
-
-plt.plot(ancho_d9,v_media_d9,'-rs',mew=0.7,markerfacecolor='none',markeredgecolor='r',markersize=4,label='$\\rho$=9~p/m$^2$') 
+plt.plot(ancho_d9,v_media_d9,'-rs',mew=0.7,markerfacecolor='r',markeredgecolor='k',markersize=4,label='$\\rho$=9~p/m$^2$') 
 #plt.errorbar(ancho_d9[::],v_media_d9[::],err_media_d9[::],linestyle='none',fmt='none',color='none',ecolor='r') 
 
 
