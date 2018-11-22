@@ -25,8 +25,8 @@ m_i\,\displaystyle\frac{v_d^{(i)}\,\mathbf{e}_d^
 where $m_i$ is the mass of the pedestrian $i$. $\mathbf{e}_d$ 
 corresponds to the unit vector pointing to the target position and $\tau$ is a 
 constant related to the relaxation time needed to reach his (her) desired 
-velocity. Its value is determined experimentally. For simplicity, we assume that 
-$v_d$ remains constant during an evacuation process and is the same for all 
+velocity. For simplicity, we assume that 
+$v_d$ remains constant during the entire process and is the same for all 
 individuals, but $\mathbf{e}_d$ changes according to the current position of the 
 pedestrian. Detailed values for $m_i$ and $\tau$ can be found in 
 Refs.~\cite{Helbing1,Dorso3}. 
@@ -35,32 +35,32 @@ The ``social force'' represents the psychological tendency of two pedestrians,
 say $i$ and $j$, to stay away from each other by a repulsive interaction force 
 
 \begin{equation}
-        \mathbf{f}_s^{(ij)} = A_i\,e^{(r_{ij}-d_{ij})/B_i}\mathbf{n}_{ij} 
+        \mathbf{f}_s^{(ij)} = A_i\,e^{(R_{ij}-r_{ij})/B_i}\mathbf{n}_{ij} 
         \label{social}
 \end{equation}
 
 where $(ij)$ means any pedestrian-pedestrian pair, or pedestrian-wall 
-pair. $A_i$ and $B_i$ are fixed values, $d_{ij}$ is the distance between  the 
-center of mass of the pedestrians $i$ and $j$ and the distance $r_{ij}=r_i+r_j$ 
+pair. $A_i$ and $B_i$ are fixed values, $r_{ij}$ is the distance between  the 
+center of mass of the pedestrians $i$ and $j$ and the distance $R_{ij}=R_i+R_j$ 
 is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in 
 the $\vec{ji}$ direction.
 
-Any two pedestrians touch each other if their distance $d_{ij}$ is smaller than 
-$r_{ij}$.  In this case, an additional force is included in the model, called 
-the ``granular force''. This force is considered be a linear function of the 
+Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
+$R_{ij}$.  In this case, an additional force is included in the model, called 
+the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the 
 relative (tangential) velocities of the contacting individuals. Its mathematical 
 expression reads 
 
 \begin{equation}
         \mathbf{f}_g^{(ij)} = 
-\kappa\,(r_{ij}-d_{ij})\,\Theta(r_{ij}-d_{ij})\,\Delta
+\kappa\,(R_{ij}-r_{ij})\,\Theta(R_{ij}-r_{ij})\,\Delta
 \mathbf{v}^{(ij)}\cdot\mathbf{t}_{ij} 
         \label{granular}
 \end{equation}
 
-where $\kappa$ is a fixed parameter. The function 
-$\Theta(r_{ij}-d_{ij})$ is zero when its argument is negative (that is, 
-$r_{ij}<d_{ij}$) and equals unity for any other case (Heaviside function). 
+where $\kappa$ is the friction coefficient. The function 
+$\Theta(R_{ij}-r_{ij})$ is zero when its argument is negative (that is, 
+$R_{ij}<r_{ij}$) and equals unity for any other case (Heaviside function). 
 $\Delta\mathbf{v}^{(ij)}\cdot\mathbf{t}_{ij}$ represents the difference between 
 the tangential velocities of the sliding bodies (or between the individual and 
 the walls).   
@@ -76,32 +76,49 @@ j=1}^{N}\mathbf{f}_g^{(ij)}\label{eq_mov}
 \end{equation}
 
 where the subscript $j$ represents all the other pedestrians 
-(excluding $i$) and the walls. 
+(excluding $i$) and the walls.
+
+In the original model, there is no distinction between the friction coefficient of pedestrian-pedestrian interaction and pedestrian-wall interaction. Both interactions are modeled with the constant parameter $\kappa$. In this paper we analyze situations in which the friction coefficient may take different values. We define $\kappa_i$ and $\kappa_w$ as the friction coefficient related to the pedestrian-pedestrian interaction and the pedestrian-wall interaction respectively. 
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}
 
 Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus its attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. 
 
-In this paper we use the mathematical expressions defined by Helbing et al. as regards to the fundamental diagram analysis. Thus, the density definition reads 
+In this paper we use the mathematical expressions defined by Helbing et al. in Ref.~\cite{helbing3} as regards to the fundamental diagram analysis. Thus, the local density at place $\vec{r}=(x,y)$ and time $t$ is defined as
 
 \begin{equation}
 \rho(\vec{r},t)=\sum_{j}f(\vec{r}_j(t)-\vec{r}) \label{ec-density}
 \end{equation}
 
-where function f is
+where function $f(\vec{r}_j(t)-\vec{r})$ is a Gaussian distance-dependent weight function defined as
 
 \begin{equation}
 f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
 \end{equation}
 
+$\vec{r}_j(t)$ are the positions of the pedestrians $j$ in the surrounding of $\vec{r}$ and R is a measurement parameter. 
 The local speeds have been defined via the weighted average  
 
 \begin{equation}
 \vec{V}(\vec{r},t)=\frac{\sum_j \vec{v}_jf(\vec{r}_j(t)-\vec{r}) }{\sum_j f(\vec{r}_j(t)-\vec{r}) } \label{ec-v}
 \end{equation}
 
-while flows have been determined according to the fluid-dynamic formula
+while flow have been determined according to the fluid-dynamic formula
 
 \begin{equation}
 \vec{J}(\vec{r},t)=\rho(\vec{r},t)V(\vec{r},t) \label{ec-flow}
 \end{equation}
+
+
+\subsection{\label{granular-cluster} Granular cluster}
+
+We define a ``granular cluster'' ($C_g$) according to the definition given in Ref.~\cite{Dorso1}
+
+\begin{equation}
+C_g:P_i~\epsilon~ C_g \Leftrightarrow \exists~ j~\epsilon~C_g / r_{ij} < (R_i+R_j) \label{ec-cluster}
+\end{equation}
+
+
+where ($P_i$) indicate the ith pedestrian and R is his/her radius (shoulders width). That means, $C_g$ is a
+set of pedestrians that interact not only with social and desired force, but also with granular forces (\textit{i.e.} friction forces).
+In Section \ref{clusters} we explore the granular clusters present in our simulations results. 
