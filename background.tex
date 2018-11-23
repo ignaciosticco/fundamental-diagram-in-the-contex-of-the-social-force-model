@@ -46,7 +46,8 @@ is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in
 the $\vec{ji}$ direction.
 
 Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
-$R_{ij}$. Analogously, a pedestrian touch a wall if his/her distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall,  Its mathematical expression reads 
+$R_{ij}$. Analogously, a pedestrian touch a wall if his/her distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall, the force is a linear function of the tangential velocity. % Mejorar esta oracion!
+Its mathematical expression reads 
 
 \begin{equation}
         \mathbf{f}_g^{(ij)} = 
