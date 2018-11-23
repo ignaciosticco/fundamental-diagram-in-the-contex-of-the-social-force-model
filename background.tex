@@ -46,10 +46,7 @@ is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in
 the $\vec{ji}$ direction.
 
 Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
-$R_{ij}$.  In this case, an additional force is included in the model, called 
-the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the 
-relative (tangential) velocities of the contacting individuals. Its mathematical 
-expression reads 
+$R_{ij}$. Analogously, a pedestrian touch a wall if his/her distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall,  Its mathematical expression reads 
 
 \begin{equation}
         \mathbf{f}_g^{(ij)} = 
@@ -93,7 +90,7 @@ In this paper we use the mathematical expressions defined by Helbing et al. in R
 where function $f(\vec{r}_j(t)-\vec{r})$ is a Gaussian distance-dependent weight function defined as
 
 \begin{equation}
-f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
+f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}\exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
 \end{equation}
 
 $\vec{r}_j(t)$ are the positions of the pedestrians $j$ in the surrounding of $\vec{r}$ and R is a measurement parameter. 
@@ -110,7 +107,7 @@ while flow have been determined according to the fluid-dynamic formula
 \end{equation}
 
 
-\subsection{\label{granular-cluster} Granular cluster}
+\subsection{\label{granular-cluster} Clustering structures}
 
 We define a ``granular cluster'' ($C_g$) according to the definition given in Ref.~\cite{Dorso1}
 

@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{18}%
+\begin{thebibliography}{21}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -88,9 +88,9 @@
   {Dorso}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physica
   A}\ }\textbf {\bibinfo {volume} {390}},\ \bibinfo {pages} {2135} (\bibinfo
   {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Sticco}\ \emph {et~al.}(2017)\citenamefont {Sticco},
-  \citenamefont {Frank}, \citenamefont {Cerrotta},\ and\ \citenamefont
-  {Dorso}}]{Dorso5}%
+\bibitem [{\citenamefont {Sticco}\ \emph
+  {et~al.}(2017{\natexlab{a}})\citenamefont {Sticco}, \citenamefont {Frank},
+  \citenamefont {Cerrotta},\ and\ \citenamefont {Dorso}}]{Dorso5}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
   {Sticco}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Frank}},
@@ -99,7 +99,7 @@
   {\doibase http://dx.doi.org/10.1016/j.physa.2017.01.079} {\bibfield
   {journal} {\bibinfo  {journal} {Physica A: Statistical Mechanics and its
   Applications}\ }\textbf {\bibinfo {volume} {474}},\ \bibinfo {pages} {172 }
-  (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  (\bibinfo {year} {2017}{\natexlab{a}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Frank}\ and\ \citenamefont {Dorso}(2015)}]{Dorso4}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
@@ -170,6 +170,40 @@
   {Pettr{\'e}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical Review E}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages}
   {036111} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helbing}\ \emph {et~al.}(2007)\citenamefont
+  {Helbing}, \citenamefont {Johansson},\ and\ \citenamefont
+  {Al-Abideen}}]{helbing3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Helbing}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Johansson}},
+  \ and\ \bibinfo {author} {\bibfnamefont {H.~Z.}\ \bibnamefont {Al-Abideen}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
+  E}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages} {046109} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Littlefield}(2008)}]{metric_handbook}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Littlefield}},\ }\href@noop {} {\emph {\bibinfo {title} {Metric handbook}}}\
+  (\bibinfo  {publisher} {Routledge},\ \bibinfo {year} {2008})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Plimpton}(1995)}]{plimpton}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Plimpton}},\ }\href {\doibase http://dx.doi.org/10.1006/jcph.1995.1039}
+  {\bibfield  {journal} {\bibinfo  {journal} {Journal of Computational
+  Physics}\ }\textbf {\bibinfo {volume} {117}},\ \bibinfo {pages} {1 }
+  (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sticco}\ \emph
+  {et~al.}(2017{\natexlab{b}})\citenamefont {Sticco}, \citenamefont {Cornes},
+  \citenamefont {Frank},\ and\ \citenamefont {Dorso}}]{sticco}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Sticco}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Cornes}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Frank}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dorso}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
+  {\bibinfo {volume} {96}},\ \bibinfo {pages} {052303} (\bibinfo {year}
+  {2017}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kwak}\ \emph {et~al.}(2017)\citenamefont {Kwak},
   \citenamefont {Jo}, \citenamefont {Luttinen},\ and\ \citenamefont
   {Kosonen}}]{kwak}%
@@ -181,16 +215,6 @@
   {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review E}\ }\textbf
   {\bibinfo {volume} {96}},\ \bibinfo {pages} {022319} (\bibinfo {year}
   {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Helbing}\ \emph {et~al.}(2007)\citenamefont
-  {Helbing}, \citenamefont {Johansson},\ and\ \citenamefont
-  {Al-Abideen}}]{helbing3}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Helbing}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Johansson}},
-  \ and\ \bibinfo {author} {\bibfnamefont {H.~Z.}\ \bibnamefont {Al-Abideen}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
-  E}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages} {046109} (\bibinfo
-  {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Parisi}\ \emph {et~al.}(2009)\citenamefont {Parisi},
   \citenamefont {Gilman},\ and\ \citenamefont {Moldovan}}]{parisi2}%
   \BibitemOpen

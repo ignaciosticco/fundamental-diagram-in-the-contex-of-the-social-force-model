@@ -1,4 +1,15 @@
 \section{\label{simulations}Numerical simulations}
 
-The simulations processes were performed on a $28m~\times~w$ rectangular corridor.  
+The simulations processes were performed on a straight corridor of length $L=$ 28~m and variable width size $w$. We explored different width values ranging from $w=2$~m to $w=40$~m. The corridor had two horizontal walls. One of them was placed at $y=0$ and the other one was placed at $y=w$. The length of each wall was $L$. The pedestrians were modeled as soft spheres of radius $R_i=0.23$~m, this size was fixed according to Ref.~\cite{metric_handbook}. Initially, the individuals were randomly distributed along the corridor with a fixed global density and with random initial velocities, resembling a Gaussian distribution with null mean value. We explored global density values in the range $1<\rho<9$. The number of pedestrians in the simulation was given by the global density and the corridor dimensions chosen in each case. \\
 
+The simulations were supported by LAMMPS molecular dynamics simulator with parallel computing capabilities \cite{plimpton}.
+The time integration algorithm followed the velocity Verlet scheme with a time step of $10^{-4}$~s. All the necessary parameters
+were set to the same values as in previous works (see Refs. \cite{sticco,Dorso5}), except for the friction coefficient $\kappa$. In this work we use the original value $\kappa=2.4 \times 10^{5}$ and we further utilize $\kappa_i=2.4 \times 10^{6}$ and $\kappa_w=2.4 \times 10^{6}$, being $\kappa_i$ and $\kappa_w$ the pedestrian-pedestrian friction coefficient and the pedestrian-wall friction coefficient respectively. \\
+
+We implemented special modules in C++ for upgrading the LAMMPS capabilities to attain the social force model simulations. We also checked over the LAMMPS output with previous computations (see Refs. \cite{sticco,Dorso6}).\\
+
+The desired velocity for each pedestrian i was $\vec{v}_d^{~i}=1$~m/s~$\hat{e}_d$, where the target $\hat{e}_d^{~i}$ was set as the $\hat{e}_d^{~i}=(L,y_i)(L^2+y_i^2)^{-1/2}$, being $L$ the x-location of the end of the corridor and $y_i$ the y-location corresponding to the ith pedestrian. This produced the pedestrians to move from left to right in an unidirectional flow. Pedestrians that overpassed $x=L$ were re-injected in $x=0$ preserving its current velocity and y-location (\textit{i.e.} periodic boundary conditions). This mechanism was carried out in order to keep
+the crowd size unchanged.\\
+
+The measurements taken once the system reaches the stationary state ($t=30$~s), the configurations of the systems were recorded every 0.05~s, that is, at intervals as short as 10\% of the pedestrian’s relaxation time (see Sec. \ref{sfm}). The recorded magnitudes were the pedestrian’s
+positions and velocities for each process. We also computed the clusterering structures using a LAMMPS built in function.  
