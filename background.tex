@@ -7,7 +7,7 @@ proposed by Helbing and co-workers \cite{Helbing1}. This model states that human
 motion is caused by the desire of people to reach a certain destination, as 
 well as other environmental factors. The pedestrians behavioral pattern in a 
 crowded environment can be modeled by three kind of forces: the ``desire 
-force'', the ``social force'' and the ``granular force''.
+force'', the ``social force'' and the ``granular force''.\\
 
 The ``desire force'' represents the pedestrian's own desire to reach a 
 specific target position at a desired velocity $v_d$. But, in order to reach 
@@ -29,7 +29,7 @@ velocity. For simplicity, we assume that
 $v_d$ remains constant during the entire process and is the same for all 
 individuals, but $\mathbf{e}_d$ changes according to the current position of the 
 pedestrian. Detailed values for $m_i$ and $\tau$ can be found in 
-Refs.~\cite{Helbing1,Dorso3}. 
+Refs.~\cite{Helbing1,Dorso3}. \\
 
 The ``social force'' represents the psychological tendency of two pedestrians,  
 say $i$ and $j$, to stay away from each other by a repulsive interaction force 
@@ -43,7 +43,7 @@ where $(ij)$ means any pedestrian-pedestrian pair, or pedestrian-wall
 pair. $A_i$ and $B_i$ are fixed values, $r_{ij}$ is the distance between  the 
 center of mass of the pedestrians $i$ and $j$ and the distance $R_{ij}=R_i+R_j$ 
 is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in 
-the $\vec{ji}$ direction.
+the $\vec{ji}$ direction.\\
 
 Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
 $R_{ij}$. Analogously, a pedestrian touch a wall if his/her distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall, the force is a linear function of the tangential velocity. % Mejorar esta oracion!
@@ -74,13 +74,13 @@ j=1}^{N}\mathbf{f}_g^{(ij)}\label{eq_mov}
 \end{equation}
 
 where the subscript $j$ represents all the other pedestrians 
-(excluding $i$) and the walls.
+(excluding $i$) and the walls.\\
 
 In the original model, there is no distinction between the friction coefficient of pedestrian-pedestrian interaction and pedestrian-wall interaction. Both interactions are modeled with the constant parameter $\kappa$. In this paper we analyze situations in which the friction coefficient may take different values. We define $\kappa_i$ and $\kappa_w$ as the friction coefficient related to the pedestrian-pedestrian interaction and the pedestrian-wall interaction respectively. 
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}
 
-Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus its attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. 
+Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus its attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
 
 In this paper we use the mathematical expressions defined by Helbing et al. in Ref.~\cite{helbing3} as regards to the fundamental diagram analysis. Thus, the local density at place $\vec{r}=(x,y)$ and time $t$ is defined as
 
