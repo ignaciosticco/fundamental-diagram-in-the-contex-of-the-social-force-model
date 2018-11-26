@@ -1,5 +1,4 @@
-# Sacado de https://scipy.github.io/old-wiki/pages/Cookbook/Matplotlib/LaTeX_Examples.html
-
+import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 import pylab
 import numpy as np
@@ -62,31 +61,26 @@ ancho_w40 = np.true_divide(ancho_w40,40.0)
 
 ###  PLOT  ###
 
+fig, ax1 = plt.subplots()
+ax1.plot(ancho_w4,v_media_w4,'b--x',mew=0.7,markersize=4,label='width=4m') 
+ax1.errorbar(ancho_w4[::4],v_media_w4[::4],err_media_w4[::4],linestyle='none',fmt='none',color='none',ecolor='b') 
 
-plt.plot(ancho_w4,v_media_w4,'bo',markersize=4,zorder=3,label='width=4m') 
-plt.plot(ancho_w4,v_media_w4,'b',lw=0.6,zorder=2)
-plt.errorbar(ancho_w4,v_media_w4,err_media_w4,linestyle='-',fmt='.',color='w',ecolor='b',zorder=1) 
+ax1.plot(ancho_w15[::2],v_media_w15[::2],'g:^',mew=0.7,markerfacecolor='g',markersize=4,markeredgecolor='k',label='width=15m') 
+ax1.errorbar(ancho_w15[::4],v_media_w15[::4],err_media_w15[::4],linestyle='none',fmt='none',color='none',ecolor='g') 
 
-plt.plot(ancho_w15,v_media_w15,'go',markersize=4,zorder=3,label='width=15m') 
-plt.plot(ancho_w15,v_media_w15,'g',lw=0.6,zorder=2)
-plt.errorbar(ancho_w15,v_media_w15,err_media_w15,linestyle='-',fmt='.',color='w',ecolor='g',zorder=1) 
+ax1.plot(ancho_w22[::2],v_media_w22[::2],'y-.o',mew=0.7,markerfacecolor='y',markeredgecolor='k',markersize=4,zorder=3,label='width=22m') 
+ax1.errorbar(ancho_w22[::4],v_media_w22[::4],err_media_w22[::4],linestyle='none',fmt='none',color='none',ecolor='y') 
 
-plt.plot(ancho_w22,v_media_w22,'yo',markersize=4,zorder=3,label='width=22m') 
-plt.plot(ancho_w22,v_media_w22,'y',lw=0.6,zorder=2)
-plt.errorbar(ancho_w22,v_media_w22,err_media_w22,linestyle='-',fmt='.',color='w',ecolor='y',zorder=1) 
-
-plt.plot(ancho_w40,v_media_w40,'ro',markersize=4,zorder=3,label='width=40m') 
-plt.plot(ancho_w40,v_media_w40,'r',lw=0.6,zorder=2)
-plt.errorbar(ancho_w40,v_media_w40,err_media_w40,linestyle='-',fmt='.',color='w',ecolor='r',zorder=1) 
+ax1.plot(ancho_w40[::2],v_media_w40[::2],'-rs',mew=0.7,markerfacecolor='r',markeredgecolor='k',markersize=4,label='width=40m') 
+ax1.errorbar(ancho_w40[::4],v_media_w40[::4],err_media_w40[::4],linestyle='none',fmt='none',color='none',ecolor='r') 
 
 
 pylab.legend()
-#pylab.xticks(np.arange(0,9,2))
-pylab.yticks(np.arange(0,1.1,0.25))
-pylab.xlabel('y-position~/~width ')
-pylab.ylabel('velocity (m/s)')
-pylab.ylim(0, 1.02)
-pylab.xlim(0, 1.02)
-#lgd=plt.legend(numpoints=1,handlelength=0.8) 
-plt.legend(loc='best',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
-pylab.savefig('v(y)_multi_width_k24.png', format='png', dpi=300, bbox_inches='tight')
+
+plt.xlabel('y-location~/~width ')
+plt.ylabel('Velocity (m/s)')
+plt.ylim(0.1, 1.3)
+ax1.legend(frameon=False,loc='upper left',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
+
+pylab.savefig('v(y)_multi_w.png', format='png', dpi=300, bbox_inches='tight')
+pylab.savefig('v(y)_multi_w.eps', format='eps', dpi=300, bbox_inches='tight')

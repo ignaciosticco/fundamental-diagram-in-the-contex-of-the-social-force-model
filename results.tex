@@ -59,12 +59,22 @@ In this subsection we have shown that the original social force model is not cap
 \caption{\label{speed-profile-w22} Velocity profile (velocity vs y-position) for different densities (see legend for the corresponding densities). The simulated corridor was 28~m lenght. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the corridor width was $w = 22~$m in all the cases. }
 \end{figure}
 
-In Fig.~\ref{speed-profile-multi_width} we show the velocity profile for different widths. The horizontal axis of the plot corresponds to the y-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other. Remember that when $\rho<5$, the pedestrians manage to avoid collisions. We can see the parabola shape in which the lowest velocities are in the areas near the walls. There is a clear dependence on $v_{max}$ with the corridor width. It is interesting that the wider the corridor, the higher the maximum velocity value reached. The inset of the figure shows the same data normalized by the maximum speed value corresponding to each corridor width. Notice that once normalized, all the data follow the same pattern. This suggests that regardless the scale of the corridor, the velocity profile exhibits a fundamental behavior. This means that, the velocity growth rate from the wall towards the center of the corridor, is the same in spite of the size of the corridor width.\\
+In Fig.~\ref{speed-profile-multi_width} we show the velocity profile for different widths. The horizontal axis of the plot corresponds to the y-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other. Remember that when $\rho<5$, the pedestrians manage to avoid collisions. We can see the parabola shape in which the lowest velocities are in the areas near the walls. There is a clear dependence on $v_{max}$ with the corridor width. It is interesting that the wider the corridor, the higher the maximum velocity value reached.\\
+
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/v(y)_multi_width.eps}
-\caption{\label{speed-profile-multi_width} Velocity profile (velocity vs y-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases. The inset shows the same data with velocity normalized by the maximum value corresponding to each dataset. }
+\caption{\label{speed-profile-multi_width} Velocity profile (velocity vs y-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases. }
+\end{figure}
+
+
+Fig.~\ref{speed-profile-width-normaliz} exhibits the velocity profile with the horizontal axis normalized by the corresponding corridor width (just like in Fig.~\ref{speed-profile-multi_width}). In this case, the vertical axis is normalized by the maximum velocity corresponding to each data set. Filled markers correspond density $\rho=9$, while empty markers correspond to $\rho=6$. Notice that all the data follow the same  pattern. This suggests that regardless the scale of the corridor, the velocity profile exhibits a fundamental behavior. Hence, the velocity growth rate from the wall towards the center of the corridor, is the same in spite of the size of the corridor width. 
+
+\begin{figure}[htbp!]
+\includegraphics[width=\columnwidth]
+{plots/v(y)_multi_width_normaliz.eps}
+\caption{\label{speed-profile-width-normaliz} Velocity profile (velocity vs y-position) for different corridors width (see legend for the corresponding widths) and two different densities. Empty markers correspond to $\rho=6$ while filled markers correspond to  $\rho=9$. The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the x-direction. Initially, pedestrians were randomly distributed. The horizontal axis is normalized by the corridor width, the vertical axis is normalized by the maximum velocity attained in each case.}
 \end{figure}
 
 In this subsection we have shown that the velocity profile has a parabola shape. Pedestrians attain the maximum velocity in the middle of the corridor while the minimum is by the walls. We found out that once normalized by $v_{max}$ and the corridor width, the velocity profile yields a universal behavior (regardless the width of the corridor).\\
