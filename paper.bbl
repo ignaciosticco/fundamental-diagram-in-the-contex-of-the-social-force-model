@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{21}%
+\begin{thebibliography}{26}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -231,4 +231,63 @@
   {Johansson}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo {pages} {026120}
   (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pastor}\ \emph {et~al.}(2015)\citenamefont {Pastor},
+  \citenamefont {Garcimart\'{\i}n}, \citenamefont {Gago}, \citenamefont
+  {Peralta}, \citenamefont {Mart\'{\i}n-G\'omez}, \citenamefont {Ferrer},
+  \citenamefont {Maza}, \citenamefont {Parisi}, \citenamefont {Pugnaloni},\
+  and\ \citenamefont {Zuriguel}}]{parisi1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Pastor}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Garcimart\'{\i}n}}, \bibinfo {author} {\bibfnamefont {P.~A.}\ \bibnamefont
+  {Gago}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Peralta}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Mart\'{\i}n-G\'omez}},
+  \bibinfo {author} {\bibfnamefont {L.~M.}\ \bibnamefont {Ferrer}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Maza}}, \bibinfo {author}
+  {\bibfnamefont {D.~R.}\ \bibnamefont {Parisi}}, \bibinfo {author}
+  {\bibfnamefont {L.~A.}\ \bibnamefont {Pugnaloni}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Zuriguel}},\ }\href {\doibase
+  10.1103/PhysRevE.92.062817} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo {pages} {062817}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Feliciani}\ and\ \citenamefont
+  {Nishinari}(2016)}]{feliciani1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Feliciani}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Nishinari}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Physical Review E}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo {pages}
+  {032304} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helbing}\ \emph {et~al.}(2001)\citenamefont
+  {Helbing}, \citenamefont {Moln{\'a}r}, \citenamefont {Farkas},\ and\
+  \citenamefont {Bolay}}]{helbing5}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Helbing}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Moln{\'a}r}},
+  \bibinfo {author} {\bibfnamefont {I.~J.}\ \bibnamefont {Farkas}}, \ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Bolay}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Environment and planning B:
+  planning and design}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages}
+  {361} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Guo}\ \emph {et~al.}(2015)\citenamefont {Guo},
+  \citenamefont {Wang},\ and\ \citenamefont {Zheng}}]{guo1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Guo}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Wang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Zheng}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physica A: Statistical Mechanics
+  and its Applications}\ }\textbf {\bibinfo {volume} {432}},\ \bibinfo {pages}
+  {87} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Qiao}\ \emph {et~al.}(2017)\citenamefont {Qiao},
+  \citenamefont {Sun}, \citenamefont {Qiu}, \citenamefont {Rong},\ and\
+  \citenamefont {Liu}}]{qiao1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Qiao}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Sun}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Qiu}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Rong}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Liu}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Promet-Traffic\&Transportation}\ }\textbf
+  {\bibinfo {volume} {29}},\ \bibinfo {pages} {489} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
 \end{thebibliography}%
