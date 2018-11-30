@@ -124,6 +124,16 @@
   {\bibinfo  {journal} {Physica A: Statistical Mechanics and its Applications}\
   }\textbf {\bibinfo {volume} {484}},\ \bibinfo {pages} {282 } (\bibinfo {year}
   {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helbing}\ \emph {et~al.}(2007)\citenamefont
+  {Helbing}, \citenamefont {Johansson},\ and\ \citenamefont
+  {Al-Abideen}}]{helbing3}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Helbing}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Johansson}},
+  \ and\ \bibinfo {author} {\bibfnamefont {H.~Z.}\ \bibnamefont {Al-Abideen}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
+  E}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages} {046109} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Smith}\ and\ \citenamefont {Dickie}(1993)}]{fruin1}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
@@ -170,16 +180,6 @@
   {Pettr{\'e}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
   {Physical Review E}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages}
   {036111} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Helbing}\ \emph {et~al.}(2007)\citenamefont
-  {Helbing}, \citenamefont {Johansson},\ and\ \citenamefont
-  {Al-Abideen}}]{helbing3}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Helbing}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Johansson}},
-  \ and\ \bibinfo {author} {\bibfnamefont {H.~Z.}\ \bibnamefont {Al-Abideen}},\
-  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical review
-  E}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo {pages} {046109} (\bibinfo
-  {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Littlefield}(2008)}]{metric_handbook}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
