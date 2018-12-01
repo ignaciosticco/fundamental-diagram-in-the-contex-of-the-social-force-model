@@ -79,6 +79,7 @@ Fig.~\ref{speed-profile-width-normaliz} exhibits the scaled velocity profile. Th
 
 In this subsection we have shown that the velocity profile has a parabola shape. Pedestrians attain the maximum velocity in the middle of the corridor while the minimum is by the walls. We found out that once normalized by $v_{max}$ and the corridor width, the velocity profile yields a universal behavior (regardless the width of the corridor).\\
 
+So far we have that narrower corridors produce lower velocities along the corridor. We also learned that the velocity needs to be low enough to avoid the flow increment present in wider corridors. This inspired us to analyze the role of the friction coefficient in a simple model for the corridor (see Appendix \ref{appendix_2}).   
 
 \subsection{Work done by friction force}
 
@@ -105,7 +106,7 @@ In this subsection we have shown that the pedestrians in contact with the wall a
 
 As already mentioned, the results shown so far indicate that friction may be the key to improving the fundamental diagram. We want to make clear that improving the fundamental diagram means obtaining the congested branch reported by different authors, in particular in the Jamaraat study of Helbing et al. where the congested branch reaches a plateau in a 22~m width corridor. The original version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The value proposed was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies despite it lacks a rigorous foundation. \\
 
-We tested how the system reacts to the modification of the friction value. We define $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.\\
+In Appendix \ref{appendix_2} we tested the friction coefficient modification and we found that the fundamental diagram changes its behavior to the empirical one, if the friction coefficient was properly increased. Given this insight, we performed numerical simulations to prove the analytical results. We define $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.\\
 
 The triangles plot in Fig.~\ref{fgmodified-w22} correspond to the increment of the wall friction in one order of magnitude (now $\kappa_w = 2.4\times10^{6}$). In this case we left the pedestrian-pedestrian friction unchanged (\textit{i.e.}, $\kappa_i = 2.4\times10^{5}$). We can see that the flow reduces a little bit, but this is not enough to produce the negative slope that characterizes the congested regime. \\
 
