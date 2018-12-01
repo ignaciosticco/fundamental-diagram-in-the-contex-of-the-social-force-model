@@ -177,7 +177,7 @@ where $\langle v_i\rangle$ equals unity for the case $\alpha=0$, and thus, it
 was omitted in (\ref{eqn_appendix_2:4}). The density $\rho=\rho_0+c\,\alpha$ 
 corresponds to the packing density (that, the density above the contacting 
 threshold) and $c$ corresponds to a somewhat ``packing coefficient''. 
-Fig.~(\ref{fig:appendix_2:2}) shows the flux as a function of the density, 
+Fig.~\ref{fig:appendix_2:2} shows the flow as a function of the density, 
 assuming $\rho_0=1$ for simplicity. \\
 
 
@@ -198,23 +198,23 @@ The pedestrian flux $J$ attains two possible behaviors, according to
 Fig.~\ref{fig:appendix_2:2}. For packing coefficients $c<0.05$, the flux 
 diminishes as the corridor becomes more crowded. But, if $c$ surpasses this 
 threshold, the flux slope becomes positive, although the mean velocity 
-diminishes. We conclude that the role of the pedestrians' density is crucial 
+diminishes. We conclude that the role of the pedestrians' friction coefficient is crucial 
 for building the fundamental diagram.   
 
 
 \section{\label{appendix_3} Testing out previous results}
 
 
-In this appendix we show that the friction modification does not alter characteristic behaviors of pedestrian dynamics. In order to check this out, we performed numerical simulations of a room of 225 pedestrian escaping through a narrow door (bottleneck contour). The evacuation time $t_e$ is a function of the desired velocity $v_d$. This function has a minimum such that below it, $t_e$ is a decreasing function of $v_d$ while above, the tendency is reversed. It means that the evacuation process is optimum at moderated $v_d$ . This is a well known phenomena called the Faster-is-slower effect. This effect was reported in numerical simulations \cite{Helbing1,Dorso5} and it has also experimental support \cite{parisi1}.\\
+In this Appendix we show that the friction modification does not alter characteristic behaviors of pedestrian dynamics. In order to check this out, we performed numerical simulations of a room of 225 pedestrian escaping through a narrow door (bottleneck enclosure). The evacuation time (clearance time) $t_e$ is a function of the desired velocity $v_d$. This function has a minimum such that below it, $t_e$ is a decreasing function of $v_d$ while above, the tendency is reversed. It means that the evacuation process is optimum at moderated $v_d$ . This is a well known phenomena called the Faster-is-slower effect. This effect was reported in numerical simulations \cite{Helbing1,Dorso5} and it has also experimental support \cite{parisi1}.\\
 
 In Fig.~\ref{fis} we show the evacuation time as a function of the desired velocity corresponding to a friction coefficient ten times grater than the friction coefficient of the original Social Force Model (\textit{i.e.} now $\kappa=2.4\times 10^{5}$). We can see that this modification preserves the Faster-is-slower effect. The inset exhibits the evacuation time as a function of the desired velocity with the friction coefficient of the original model ($\kappa=2.4\times 10^{5}$).\\
 
-Another pedestrian dynamics phenomena is the lane formation reported in bidirectional flows \cite{feliciani1,helbing5,guo1,qiao1}. This means, individuals spontaneously organize in lanes of uniform walking direction, if the pedestrian density is high enough. One of the major achievements of the Social Force Model is its ability to reproducing this emergent phenomena. The microscopic interactions between pedestrians is enough to produce a global pattern. We run bidirectional flow simulation and verified that the friction increment still reproduces the lane formation process.\\  
+Another pedestrian dynamics phenomena is the lane formation reported in bidirectional flows \cite{feliciani1,helbing5,guo1,qiao1}. This means, individuals spontaneously organize in lanes of uniform walking direction, if the pedestrian density is high enough. One of the major achievements of the Social Force Model is its ability to reproducing this emergent phenomena in which the microscopic interactions between pedestrians is enough to produce a global pattern. We run bidirectional flow simulation and verified that the friction increment still reproduces the lane formation process.\\  
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {./plots/fis_kx10.eps}
-\caption{\label{fis} Mean evacuation time (seconds) vs. the pedestrian’s desired velocity (m/s). The room was 20 m × 20 m size. Mean values were computed from 30 evacuation processes. The pedestrians were initially placed in a regular square arrangement along the room with random velocities, resembling a Gaussian distribution with null mean value. The friction coefficient was $\kappa=2.4\times10^{6}$. The inset shows the evacuation time vs the desired velocity for the friction coefficient corresponding to the original model ($\kappa=2.4\times10^{5}$).  }
+\caption{\label{fis} Mean evacuation time (seconds) vs. the pedestrian’s desired velocity (m/s). The room was 20 m $\times$ 20 m size. Mean values were computed from 30 evacuation processes. The pedestrians were initially placed in a regular square arrangement along the room with random velocities, resembling a Gaussian distribution with null mean value. The friction coefficient was $\kappa=2.4\times10^{6}$. The inset shows the evacuation time vs the desired velocity for the friction coefficient corresponding to the original model ($\kappa=2.4\times10^{5}$).  }
 \end{figure}
 
 
