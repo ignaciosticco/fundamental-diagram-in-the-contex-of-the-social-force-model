@@ -11,11 +11,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: paperNotes.bib
 Database file #2: paper.bib
-I was expecting an "="---line 66 of file paper.bib
- : 
- : pages={487-490}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
 control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
 Warning--jnrlst (dependency: not reversed) set 1
@@ -28,45 +23,45 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 29 entries,
+You've used 32 entries,
             5847 wiz_defined-function locations,
-            1786 strings with 19251 characters,
-and the built_in function-call counts, 27202 in all, are:
-= -- 1730
-> -- 707
-< -- 202
-+ -- 230
-- -- 181
-* -- 4174
-:= -- 2662
-add.period$ -- 28
-call.type$ -- 29
-change.case$ -- 109
-chr.to.int$ -- 36
-cite$ -- 29
-duplicate$ -- 2578
-empty$ -- 1982
-format.name$ -- 417
-if$ -- 5370
+            1810 strings with 20097 characters,
+and the built_in function-call counts, 31295 in all, are:
+= -- 1952
+> -- 845
+< -- 231
++ -- 270
+- -- 215
+* -- 4873
+:= -- 3018
+add.period$ -- 31
+call.type$ -- 32
+change.case$ -- 121
+chr.to.int$ -- 39
+cite$ -- 32
+duplicate$ -- 2955
+empty$ -- 2282
+format.name$ -- 499
+if$ -- 6203
 int.to.chr$ -- 2
-int.to.str$ -- 36
-missing$ -- 343
-newline$ -- 133
-num.names$ -- 81
-pop$ -- 1117
+int.to.str$ -- 39
+missing$ -- 392
+newline$ -- 142
+num.names$ -- 91
+pop$ -- 1254
 preamble$ -- 1
-purify$ -- 135
+purify$ -- 150
 quote$ -- 0
-skip$ -- 982
+skip$ -- 1114
 stack$ -- 0
-substring$ -- 674
-swap$ -- 2400
-text.length$ -- 81
+substring$ -- 778
+swap$ -- 2791
+text.length$ -- 101
 text.prefix$ -- 0
 top$ -- 10
-type$ -- 389
+type$ -- 441
 warning$ -- 1
-while$ -- 87
+while$ -- 100
 width$ -- 0
-write$ -- 266
-(There was 1 error message)
+write$ -- 290
+(There was 1 warning)
