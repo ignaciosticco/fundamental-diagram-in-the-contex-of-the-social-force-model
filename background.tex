@@ -80,7 +80,7 @@ In the original model, there is no distinction between the friction coefficient 
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}
 
-Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus its attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
+Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus their attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics along corridors in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
 
 In this paper we use the mathematical expressions defined by Helbing et al. in Ref.~\cite{helbing3} as regards to the fundamental diagram analysis. Thus, the local density at place $\vec{r}=(x,y)$ and time $t$ is defined as
 
@@ -107,10 +107,12 @@ while flow have been determined according to the fluid-dynamic formula
 \vec{J}(\vec{r},t)=\rho(\vec{r},t)\vec{V}(\vec{r},t) \label{ec-flow}
 \end{equation}
 
+It is well known that the original version of the social force model is incapable of reproducing the fundamental diagram at high densities. Different approaches have been proposed to fix this failure: increasing the net-time headway~\cite{johansson}, canceling the desired velocity~\cite{parisi2} or even inducing the jamming state by an attraction~\cite{kwak}. These approaches are very useful when individuals do not feel anxious to reach certain destination (\textit{i.e.} non panicking individuals). However, when individuals are escaping or rushing due to a stressful situation, pedestrians would not consider reducing their desired force nor feel the urge to see an attraction.
 
 \subsection{\label{granular-cluster} Clustering structures}
 
-Groups of pedestrians can be defined as the set of individuals that for any member of the group (say, $i$) there exists at least another member belonging to the same group ($j$) in contact with the former. Thus, we define a ``granular cluster'' ($C_g$) following the mathematical formula given in Ref.~\cite{Dorso1}
+One of the characteristic feature of pedestrian dynamics is the formation of clusters. Clusters of pedestrians can 
+be defined as the set of individuals that for any member of the group (say, $i$) there exists at least another member belonging to the same group ($j$) in contact with the former. Thus, we define a ``granular cluster'' ($C_g$) following the mathematical formula given in Ref.~\cite{Dorso1}
 
 \begin{equation}
 C_g:P_i~\epsilon~ C_g \Leftrightarrow \exists~ j~\epsilon~C_g / r_{ij} < (R_i+R_j) \label{ec-cluster}
@@ -119,4 +121,4 @@ C_g:P_i~\epsilon~ C_g \Leftrightarrow \exists~ j~\epsilon~C_g / r_{ij} < (R_i+R_
 
 where ($P_i$) indicate the ith pedestrian and $R_i$ is his/her radius (shoulders width). That means, $C_g$ is a
 set of pedestrians that interact not only with social and desired force, but also with granular forces (\textit{i.e.} friction forces).
-The size of the cluster is defined as the number of pedestrians that compose it. The fraction of clusterized individuals is defined as the quotient between clustered individuals with respect to the total number of individuals in the crowd. In Section \ref{clusters} we analyze the clustering structures in terms of these two observables. 
+The size of the cluster is defined as the number of pedestrians that compose it. The fraction of clustered individuals is defined as the quotient between clustered individuals with respect to the total number of individuals in the crowd. In Section \ref{clusters} we analyze the clustering structures in terms of these two observables. 
