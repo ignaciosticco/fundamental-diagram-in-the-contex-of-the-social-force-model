@@ -31,8 +31,8 @@ individuals, but $\mathbf{e}_d$ changes according to the current position of the
 pedestrian. Detailed values for $m_i$ and $\tau$ can be found in 
 Refs.~\cite{Helbing1,Dorso3}. \\
 
-The ``social force'' represents the psychological tendency of two pedestrians,  
-say $i$ and $j$, to stay away from each other by a repulsive interaction force 
+The ``social force'' represents the psychological tendency of any two pedestrians,  
+say $i$ and $j$, to stay away from each other. It is represented by a repulsive interaction force 
 
 \begin{equation}
         \mathbf{f}_s^{(ij)} = A_i\,e^{(R_{ij}-r_{ij})/B_i}\mathbf{n}_{ij} 
@@ -46,7 +46,7 @@ is the sum of the pedestrians radius. $\mathbf{n}_{ij}$ means the unit vector in
 the $\vec{ji}$ direction.\\
 
 Any two pedestrians touch each other if their distance $r_{ij}$ is smaller than 
-$R_{ij}$. Analogously, a pedestrian touch a wall if his/her distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall, the force is a linear function of the tangential velocity. % Mejorar esta oracion!
+$R_{ij}$. Analogously, any pedestrian touches a wall if his (her) distance $r_{ij}$ to the wall is smaller than $R_i$. In these cases, an additional force is included in the model, called the ``granular force''(\textit{i.e.} friction force). This force is considered to be a linear function of the relative (tangential) velocities of the contacting individuals. In the case of the friction exerted by the wall, the force is a linear function of the pedestrian tangential velocity. 
 Its mathematical expression reads 
 
 \begin{equation}
@@ -74,15 +74,15 @@ j=1}^{N}\mathbf{f}_g^{(ij)}\label{eq_mov}
 \end{equation}
 
 where the subscript $j$ represents all the other pedestrians 
-(excluding $i$) and the walls.\\
+(excluding $i$).\\
 
-In the original model, there is no distinction between the friction coefficient of pedestrian-pedestrian interaction and pedestrian-wall interaction. Both interactions are modeled with the constant parameter $\kappa$. In this paper we analyze situations in which the friction coefficient may take different values. We define $\kappa_i$ and $\kappa_w$ as the friction coefficient related to the pedestrian-pedestrian interaction and the pedestrian-wall interaction respectively. 
+In the original model, there is no distinction between the friction coefficient of pedestrian-pedestrian interaction and pedestrian-wall interaction. Both interactions are modeled with the same constant parameter $\kappa$. In this paper we analyze situations in which the friction coefficient may take different values. We define $\kappa_i$ and $\kappa_w$ as the friction coefficient related to the pedestrian-pedestrian interaction and the pedestrian-wall interaction, respectively. 
 
 \subsection{\label{fundamental-diagram} Fundamental Diagram}
 
-Inspired in the vehicular traffic dynamic studies, many researches of pedestrian dynamics focus their attention on the relation between the flow and density of a moving crowd. This analysis is called fundamental diagram and it has become one of the most common ways to characterize the pedestrians dynamics along corridors in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
+Inspired from vehicular traffic dynamic studies, many researches on pedestrian dynamics focus their attention on the relation between the flow and the density of a moving crowd. This relation is represented by ``fundamental diagram" and it has become one of the most common ways to characterize the pedestrians' dynamics along corridors in unidirectional and bidirectional flows \cite{fruin1,mori1,polus1,seyfried1,jelic1}. \\
 
-In this paper we use the mathematical expressions defined by Helbing et al. in Ref.~\cite{helbing3} as regards to the fundamental diagram analysis. Thus, the local density at place $\vec{r}=(x,y)$ and time $t$ is defined as
+We follow the same definition as in in Ref.~\cite{helbing3} regarded to the fundamental diagram analysis. That is, we mean by the local density at place $\vec{r}=(x,y)$ and time $t$ the following expression
 
 \begin{equation}
 \rho(\vec{r},t)=\sum_{j}f(\vec{r}_j(t)-\vec{r}) \label{ec-density}
@@ -94,24 +94,24 @@ where function $f(\vec{r}_j(t)-\vec{r})$ is a Gaussian distance-dependent weight
 f(\vec{r}_j-\vec{r})=\frac{1}{\pi R^2}\exp[-\left \| \vec{r}_j-\vec{r} \right \|^2/R^2] \label{ec-f}
 \end{equation}
 
-$\vec{r}_j(t)$ are the positions of the pedestrians $j$ in the surrounding of $\vec{r}$ and R is a measurement parameter. 
-The local speeds have been defined via the weighted average  
+$\vec{r}_j(t)$ are the positions of the pedestrians $j$ in the surroundings of $\vec{r}$ and $R$ is a measurement parameter. 
+The local speeds are defined as the weighted average  
 
 \begin{equation}
 \vec{V}(\vec{r},t)=\frac{\sum_j \vec{v}_jf(\vec{r}_j(t)-\vec{r}) }{\sum_j f(\vec{r}_j(t)-\vec{r}) } \label{ec-v}
 \end{equation}
 
-while flow have been determined according to the fluid-dynamic formula
+while flow is determined according to the fluid-dynamic formula
 
 \begin{equation}
 \vec{J}(\vec{r},t)=\rho(\vec{r},t)\vec{V}(\vec{r},t) \label{ec-flow}
 \end{equation}
 
-It is well known that the original version of the social force model is incapable of reproducing the fundamental diagram at high densities. Different approaches have been proposed to fix this failure: increasing the net-time headway~\cite{johansson}, canceling the desired velocity~\cite{parisi2} or even inducing the jamming state by an attraction~\cite{kwak}. These approaches are very useful when individuals do not feel anxious to reach certain destination (\textit{i.e.} non panicking individuals). However, when individuals are escaping or rushing due to a stressful situation, pedestrians would not consider reducing their desired force nor feel the urge to see an attraction.
+It is well known that the seminal version of the social force model is incapable of reproducing the fundamental diagram at high densities (say above 5 p/m$^{2}$). Different approaches were proposed to fix this drawback: increasing the net-time headway~\cite{johansson}, canceling the desired velocity~\cite{parisi2} or even inducing the jamming state by an attraction target~\cite{kwak}. These approaches seems suitable when individuals are not so anxious to reach a certain destination (\textit{i.e.} non panicking individuals). However, when individuals are escaping or rushing due to a stressful situation, pedestrians would neither consider reducing their desired force nor being captured by an attraction.
 
 \subsection{\label{granular-cluster} Clustering structures}
 
-One of the characteristic feature of pedestrian dynamics is the formation of clusters. Clusters of pedestrians can 
+A characteristic feature of pedestrian dynamics is the formation of clusters. Clusters of pedestrians can 
 be defined as the set of individuals that for any member of the group (say, $i$) there exists at least another member belonging to the same group ($j$) in contact with the former. Thus, we define a ``granular cluster'' ($C_g$) following the mathematical formula given in Ref.~\cite{Dorso1}
 
 \begin{equation}
@@ -119,6 +119,6 @@ C_g:P_i~\epsilon~ C_g \Leftrightarrow \exists~ j~\epsilon~C_g / r_{ij} < (R_i+R_
 \end{equation}
 
 
-where ($P_i$) indicate the ith pedestrian and $R_i$ is his/her radius (shoulders width). That means, $C_g$ is a
-set of pedestrians that interact not only with social and desired force, but also with granular forces (\textit{i.e.} friction forces).
-The size of the cluster is defined as the number of pedestrians that compose it. The fraction of clustered individuals is defined as the quotient between clustered individuals with respect to the total number of individuals in the crowd. In Section \ref{clusters} we analyze the clustering structures in terms of these two observables. 
+where ($P_i$) indicate the \textit{ith} pedestrian and $R_i$ is his(her) radius (shoulders width). That means, $C_g$ is a
+set of pedestrians that interact not only with the social and the desired forces, but also with granular forces (\textit{i.e.} friction forces).
+The size of the cluster is defined as the number of pedestrians belonging to it. The fraction of clustered individuals is defined as the ratio between clustered individuals with respect to the total number of individuals in the crowd. In Section \ref{clusters} we analyze the clustering structures in terms of these two observables. 
