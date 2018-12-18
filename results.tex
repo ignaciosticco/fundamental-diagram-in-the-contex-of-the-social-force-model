@@ -53,15 +53,9 @@ We may summarize our first results as follows. We were able to validate the semi
 
 \subsection{\label{velocity_profile} Velocity profile}
 
-<<<<<<< HEAD
 As we mentioned in Section \ref{fundamental_diagram}, when the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s). Since the results of the previous Section only hold for the area located in the middle of the corridor (see Fig.\ref{corridor}), we want to shed some light and understand what is happening across the entire corridor.\\
 
 Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}-location) of the pedestrians across the corridor (see caption for details). We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously noticed in Section \ref{fundamental_diagram}). For higher densities, the velocity profile turns into a parabola-like function. This shape resembles the usual velocity profile for laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near the walls are the ones with the lower velocity. The velocity increases when departing from the wall until it reaches the maximum at the center of the corridor. This behavior suggests that the wall friction on the pedestrians, is playing a relevant role on the velocity distribution. We did some tests removing the walls, while setting periodic boundary conditions in the $y$-coordinate. This yield to constant-cruising velocity profiles for all the densities, confirming that the walls are a necessary condition for attaining a parabola-shaped speed profile.\\
-=======
-As we mentioned in Section \ref{fundamental_diagram}, when the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s). Since the results of the previous section only hold for the area located in the middle of the corridor (see Fig.\ref{corridor}), we want to shed some light and understand what is happening across the entire corridor.\\
-
-Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}-location) of the pedestrians across the corridor (see caption for details). We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously proved). For higher densities, the velocity profile turns into a parabola-like function. This shape resembles the typical velocity profile under conditions of laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near near the walls are the one with the lower velocity. The velocity increases when moving away from the wall until it reaches the maximum in the center of the corridor. This behavior suggests that the friction that the wall exerts on pedestrians, is playing a fundamental role in the velocity distribution. We did some simulations removing the walls and adding periodic boundary conditions in the $y$-coordinate. This yield to constant-cruising velocity profiles for all the densities, confirming that the walls are a necessary condition in order to produce a parabola-shaped speed profile.\\
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -69,25 +63,17 @@ Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}
 \caption{\label{speed-profile-w22} Mean velocity profile (velocity vs \textit{y}-position) for different densities (see the inserted legend). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the \textit{x}-direction. Initially, pedestrians were randomly distributed, the corridor width was $w = 22~$m for all the cases. The bin size was 1~m.}
 \end{figure}
 
-<<<<<<< HEAD
 Fig.~\ref{speed-profile-multi_width} shows the velocity profile for different widths. The horizontal axis of the plot corresponds to the $y$-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians slow down. Recall that when $\rho<5$, collisions between pedestrians are not relevant (within the SFM). We can see that the lowest velocities occur in the regions near the walls. Additionally, there is a clear relation between $v_{max}$ and the corridor width. That is, the wider the corridor, the higher the maximum reached velocity.\\
-=======
-In Fig.~\ref{speed-profile-multi_width} we show the velocity profile for different widths. The horizontal axis of the plot corresponds to the $y$-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians collide with each other. Remember that when $\rho<5$, the pedestrians manage to avoid collisions. We can see the parabola shape in which the lowest velocities are in the areas near the walls. There is a clear dependence on $v_{max}$ with the corridor width. It is interesting that the wider the corridor, the higher the maximum velocity value reached.\\
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
 
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
 {plots/v(y)_multi_width.eps}
-<<<<<<< HEAD
 \caption{\label{speed-profile-multi_width} Velocity profile (velocity vs $y$-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the $x$-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases (high density regime). The bin size was 1~m except for $w=4$~m since the bin was 0.5~m.}
-=======
-\caption{\label{speed-profile-multi_width} Velocity profile (velocity vs $y$-position) for different corridors width (see legend for the corresponding widths). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the $x$-direction. Initially, pedestrians were randomly distributed, the density was $\rho = 6$ in all the cases. The bin size was 1~m except for $w=4$~m since the bin was 0.5~m. }
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
 \end{figure}
 
 
-Fig.~\ref{speed-profile-width-normaliz} exhibits the scaled velocity profile. The horizontal axis is normalized by the corresponding corridor width (just like in Fig.~\ref{speed-profile-multi_width}). Now, the vertical axis is normalized by the maximum velocity ($v_max$) corresponding to each data set. Filled markers correspond density $\rho=9$, while empty markers correspond to $\rho=6$. Notice that all the data follow the same  pattern, suggesting that the velocity profile exhibits a somewhat fundamental behavior, regardless the scale of the corridor (and the density). Hence, the velocity growth rate from the wall towards the center of the corridor, is the same in spite of the size of the corridor width. 
+Fig.~\ref{speed-profile-width-normaliz} exhibits the scaled velocity profile. The horizontal axis is normalized by the corresponding corridor width (just like in Fig.~\ref{speed-profile-multi_width}). Now, the vertical axis is normalized by the maximum velocity ($v_max$) corresponding to each data set. Filled markers correspond density $\rho=9$, while empty markers correspond to $\rho=6$. Notice that all the data follow the same  pattern, suggesting that the velocity profile exhibits a somewhat fundamental behavior, regardless the scale of the corridor (and the density). Hence, the velocity growth rate from the wall towards the center of the corridor, is the same in spite of the size of the corridor width. \\
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -95,47 +81,35 @@ Fig.~\ref{speed-profile-width-normaliz} exhibits the scaled velocity profile. Th
 \caption{\label{speed-profile-width-normaliz} Scaled velocity profile (normalized velocity) vs. $y$-location for different corridors width (see legend for the corresponding widths) and two different densities. Empty markers correspond to $\rho=6$ while filled markers correspond to  $\rho=9$. The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the $x$-direction. Initially, pedestrians were randomly distributed. The horizontal axis is normalized by the corridor width, the vertical axis is normalized by the maximum velocity reached in each case.  The bin size was 1~m for all cases except for $w=4$~m since the bin was 0.5~m.}
 \end{figure}
 
-In summary, the scaled velocity profile (see Fig.\ref{_multi_width_normaliz}) does not report any relevant different as the corridor widens (withing the high density regime). This suggests that the pedestrian dynamics remain essentially the same. The maximum attainable velocity ($v_{max}$), however, seems to be a sensible parameter with respect to the flux.  The narrow corridors attain lower values of $v_max$ and thus lower flux. We may expect the flow not to increase if $v_{max}$ remains low enough along the explore density range.\\
+{\color{red} In summary, the scaled velocity profile (see Fig.~\ref{speed-profile-width-normaliz}) does not report any relevant different as the corridor widens (withing the high density regime). This suggests that the pedestrian dynamics remain essentially the same. The maximum attainable velocity ($v_{max}$), however, seems to be a sensible parameter with respect to the flux.  The narrow corridors attain lower values of $v_max$ and thus lower flux. We may expect the flow not to increase if $v_{max}$ remains low enough along the explore density range.\\
 
-%In this subsection we have shown that the velocity profile has a parabola shape. Pedestrians attain the maximum velocity in the middle of the corridor while the minimum is by the walls. We found out that once normalized by $v_{max}$ and the corridor width, the velocity profile yields a universal behavior (regardless the width of the corridor).\\
 
-We may hypothesize that the friction force is somehow the key factor in the
-flow reduction, as reported in the experimental fundamental diagram. This hypothesis further inspired us to analyze the role of the friction coefficient in a simple model for the corridor (see Appendix B). 
+ We may hypothesize that the friction force is somehow the key factor in the
+flow reduction, as reported in the experimental fundamental diagram. This hypothesis further inspired us to analyze the role of the friction coefficient in a simple model for the corridor (see \ref{appendix_2}). }
 
 \subsection{Work done by friction force}
 
-<<<<<<< HEAD
 In the previous Section we studied the velocity profiles for different corridors as a function of density. Here we present the spacial distribution of the work done by the friction force. Only the pedestrian-pedestrian friction was computed.\\
-=======
-The work, was numerically calculated using the Trapezoidal rule on each pedestrian. The integration time step was $\Delta t = 0.05$~s. We divided the corridor into a grid with 1~m$\times$1~m cells in order to associate the work values with spacial location. In Fig.~\ref{abswg} we show three heat maps of the absolute value of the work done by the friction force. The horizontal and vertical axis represent the $x$-location and $y$-location of the corridor respectively. The heat map denotes higher work for red color and lower work for blue color. The walls are located at $y=0$ and $y=w$ (bottom and top of each figure). Fig.~\ref{abswg_width10} corresponds to a 10 m width corridor, Fig.~\ref{abswg_width15} corresponds to a 15 m width corridor and Fig.~\ref{abswg_width22} corresponds to a 22 m width corridor.\\
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
 
 The work, was numerically obtained through the integration Trapezoidal rule on each pedestrian. The integration time step was $\Delta t = 0.05$~s. We binned the corridor into a squared grid of 1~m$\times$1~m cells in order to associate the work values with the corresponding spacial location. Fig.~\ref{abswg} shows three color maps of the absolute value of the work done by the friction force. The horizontal and vertical axis represent the $x$-location and $y$-location of the corridor respectively. The color map associates higher work values with red colors and lower work for blue colors. The walls are located at $y=0$ and $y=w$ (bottom and top of each figure). Fig.~\ref{abswg_width10} corresponds to a 10 m width corridor, Fig.~\ref{abswg_width15} corresponds to a 15 m width corridor and Fig.~\ref{abswg_width22} corresponds to a 22 m width corridor.\\
 
-<<<<<<< HEAD
 In the three figures we observe similar pattern: the regions near the walls (bottom and top) are the most dissipative ones. The center of the corridor is though not a very dissipative one. Furthermore, work seems to increase with the corridor width. This occurs because the relative velocity between pedestrians is greater in the wide corridors than in narrow ones. This can be checked by comparing the slopes between parabolas in Fig.~\ref{speed-profile-multi_width}. As can be seen there, the wider the corridor, the greater the slope (corresponding to locations near the wall).\\
 
 Recall from Eq.(\ref{granular}), that the friction force depends on the compression and the relative velocity among pedestrians. The compression levels remain the same in the three cases since the compression only depends on the density (which is fix at $\rho=6$ for the three color maps). Thus, the differences between Figs.~\ref{abswg_width10}, \ref{abswg_width15} and \ref{abswg_width22} can only explained by the increment of the relative velocity between individuals. \\
 
-=======
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
 \begin{figure}[!htbp]
     \subfloat[]{\includegraphics[width=0.67\columnwidth]{plots/abswg_width10.eps}\label{abswg_width10}}\\ 
     \subfloat[]{\includegraphics[width=0.67\columnwidth]{plots/abswg_width15.eps}\label{abswg_width15}}\\
     \subfloat[]{\includegraphics[width=0.67\columnwidth]{plots/abswg_width22.eps}\label{abswg_width22}}\
-<<<<<<< HEAD
 \caption[width=0.47\columnwidth] {Color map for the absolute value of the work done by the friction. (a) Corresponds to $w=$10~m (b) $w=$15~m and (c) $w=$22~m. The axis represent the location in the corridor ($x$ and $y$). The scale bar on the right is expressed in Joule units. The work was numerically integrated following the Trapezoidal rule with $\Delta t =0.05$~s. The pedestrians desired velocity was $v_d = 1$~m/s. The contour lines were computed on a square grid of 1m$\times$~1m and then splined to get smoother curves.} 
-=======
-\caption[width=0.47\columnwidth] {Heat map for the absolute value of the work done by the friction. The axis represent the location in the corridor ($x$ and $y$). The scale bar on the right is expressed in J units. The work was numerically integrated with the Trapezoidal rule with $\Delta t =0.05$~s. The pedestrians desired velocity was $v_d = 1$~m/s. The contour lines were computed on a square grid of 1~m$\times$~1m and then splined to get smooth curves.} 
->>>>>>> 40f6f99f456a1f60a61ce0658e37800c9fd548b5
- \label{abswg}
+\label{abswg}
 \end{figure}
 
 The above observations drive the following conclusion. The maximum attainable velocity $v_max$ accomplishes a maximum velocity slope (with its associated friction dissipation). Either the friction with the walls and the friction between the pedestrians appear as relevant magnitudes for properly slowing down the crowd velocity, in order to fit the experimental data. \ref{appendix_2} supports this assertion with a simple example.  
 
 \subsection{Friction modification}
 
-As already mentioned, the results shown so far indicate that friction may be the key magnitude for fitting the fundamental diagram into the experimental data. We want to make clear that fitting the experimental data means mimicking (qualitatively) the congested regime reported by different authors (including the Jamaraat study in Ref.~\ref{helbing3}) for corridors as width as 22~m. The seminal version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The proposed value was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies despite it lacks a rigorous foundation. \\
+As already mentioned, the results shown so far indicate that friction may be the key magnitude for fitting the fundamental diagram into the experimental data. We want to make clear that fitting the experimental data means mimicking (qualitatively) the congested regime reported by different authors (including the Jamaraat study in Ref.~\cite{helbing3}) for corridors as width as 22~m. The seminal version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The proposed value was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies despite it lacks a rigorous foundation. \\
 
 We tested the friction coefficient modification in Appendix \ref{appendix_2} and we found that the fundamental diagram experiences a qualitatively change when the friction coefficient $\kappa$ is varied. We further performed numerical simulations in the context of the SFM. We call $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.\\
 
