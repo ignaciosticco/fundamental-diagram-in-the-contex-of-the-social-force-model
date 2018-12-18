@@ -42,10 +42,12 @@ pylab.rcParams.update(params)
 
 ######## DATA ########
 
-data1 = np.genfromtxt("wfg_density6_width10",delimiter = ' ')
+wall_up = 22.0       ## PARAMETER
+
+data1 = np.genfromtxt("wfg_density6_width%i"%wall_up,delimiter = ' ')
 indice1 = data1[:,0]
 wg = np.abs(data1[:,1])
-data2 = np.genfromtxt("config_density6_width10",delimiter = ' ')
+data2 = np.genfromtxt("config_density6_width%i"%wall_up,delimiter = ' ')
 indice2 = data2[:,0]
 x = data2[:,1]
 y = data2[:,2]
@@ -54,7 +56,7 @@ vy = data2[:,4]
 diameter = data2[:,5]
 
 ## Room sizes ##
-wall_up = 10.0       ## PARAMETER
+
 wall_down = 0.0
 begin_corridor = 2.0
 end_corridor =  26.0
@@ -83,14 +85,14 @@ print(np.max(grid_wg))
 ###  PLOT  ###
 
 levels=np.linspace(0,361.3,70,endpoint=True)
-levbar=np.linspace(0,361.3,7,endpoint=True)
+levbar=np.linspace(0,361.3,4,endpoint=True)
 plt.contourf(grid_x,grid_y,grid_wg, levels, cmap=plt.cm.jet,labelsize=13,zorder=1)
-#plt.colorbar(ticks=levbar)
-cb = plt.colorbar()
-cb.ax.set_yticklabels(cb.ax.get_yticklabels(), fontsize=12)
+plt.colorbar(ticks=levbar)
+#cb = plt.colorbar()
+#cb.ax.set_yticklabels(cb.ax.get_yticklabels(), fontsize=12)
 plt.grid(False)
-plt.xlabel('location x~(m)',fontsize=13)
-plt.ylabel('location y~(m)',fontsize=13)
-plt.yticks(fontsize=13)
+plt.xlabel('$x$-location~(m)',fontsize=13)
+plt.ylabel('$y$-location~(m)',fontsize=13)
+plt.yticks(np.linspace(0,wall_up-2,5), fontsize=13)
 plt.xticks(fontsize=13)
-pylab.savefig('abswg_width10.eps',format='eps', bbox_inches='tight')
+pylab.savefig('abswg_width%i.eps'%wall_up,format='eps', bbox_inches='tight')

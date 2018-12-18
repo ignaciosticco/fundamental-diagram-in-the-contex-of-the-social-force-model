@@ -72,15 +72,15 @@ ax1.grid(False)
 #ax2 = ax1.twinx()
 #ax2.grid(False)
 
-ax1.plot(alpha1[50:5050]+1,flux1[50:5050],lw=0.7,color='orange',label=r'$1\,\mathcal{K}$')
-ax1.plot(alpha4[50:5050]+1,flux4[50:5050],lw=0.7,color='firebrick',label=r'$10\,\mathcal{K}$')
-ax1.plot(alpha5[50:5050]+1,flux5[50:5050],lw=0.7,color='steelblue',label=r'$100\,\mathcal{K}$')
-ax1.plot(alpha6[50:5050]+1,flux6[50:5050],lw=0.7,color='olive',label=r'$1000\,\mathcal{K}$')
+ax1.plot(alpha1[50:5050]+1,flux1[50:5050],lw=0.7,color='orange',label=r'$\mathcal{K}=1$')
+ax1.plot(alpha4[50:5050]+1,flux4[50:5050],lw=0.7,color='firebrick',label=r'$\mathcal{K}=10$')
+ax1.plot(alpha5[50:5050]+1,flux5[50:5050],lw=0.7,color='steelblue',label=r'$\mathcal{K}=100$')
+ax1.plot(alpha6[50:5050]+1,flux6[50:5050],lw=0.7,color='olive',label=r'$\mathcal{K}=1000$')
 ax1.plot(alpha0,alpha0,lw=0.7,linestyle='--',color='gray')
 #ax1.plot(alpha,velocity,lw=0.7,color='firebrick',label=r'$N=20$')
 #ax1.plot(alpha,velocity,lw=0.7,color='steelblue',label=r'$N=50$')
 
-legend = plt.legend(frameon=False,loc='upper left',prop={'size':5})
+legend = plt.legend(loc='upper left',prop={'size':5})
 
 
 ax1.set_ylim(0,5)

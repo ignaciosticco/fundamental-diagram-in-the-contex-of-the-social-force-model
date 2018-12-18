@@ -82,7 +82,7 @@ plt.errorbar(ancho_d9[::4],v_media_d9[::4],err_media_d9[::4],linestyle='none',fm
 pylab.legend()
 #pylab.xticks(np.arange(0,9,2))
 pylab.yticks(np.arange(0,1.1,0.25))
-pylab.xlabel('y position (m)')
+pylab.xlabel('$y$-location~(m)')
 pylab.ylabel('Velocity (m/s)')
 pylab.ylim(0, 1.2)
 pylab.xlim(0, 22.2)

@@ -77,10 +77,10 @@ ax1.errorbar(ancho_w40[::4],v_media_w40[::4],err_media_w40[::4],linestyle='none'
 
 pylab.legend()
 
-plt.xlabel('y-location~/~width ')
+plt.xlabel('$y$-location~/~width ')
 plt.ylabel('Velocity (m/s)')
 plt.ylim(0.1, 1.3)
 ax1.legend(frameon=False,loc='upper left',labelspacing=0.1,borderpad=0.1,handletextpad=0.1,fontsize=6,numpoints=1)
 
-pylab.savefig('v(y)_multi_w.png', format='png', dpi=300, bbox_inches='tight')
-pylab.savefig('v(y)_multi_w.eps', format='eps', dpi=300, bbox_inches='tight')
+pylab.savefig('v(y)_multi_width.png', format='png', dpi=300, bbox_inches='tight')
+pylab.savefig('v(y)_multi_width.eps', format='eps', dpi=300, bbox_inches='tight')

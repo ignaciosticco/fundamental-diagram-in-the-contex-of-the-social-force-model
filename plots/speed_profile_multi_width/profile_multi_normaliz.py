@@ -155,7 +155,7 @@ plt.errorbar(ancho_w40_d9[::12],v_media_w40_d9[::12],error_norm_w40_d9[::12],lin
 pylab.legend()
 #pylab.xticks(np.arange(0,9,2))
 pylab.yticks(np.arange(0,1.1,0.25))
-pylab.xlabel('y-location~/~width ')
+pylab.xlabel('$y$-location~/~width ')
 pylab.ylabel('$v~/~v_{max}$ ')
 pylab.ylim(0.25, 1.1)
 pylab.xlim(0, 1.02)
