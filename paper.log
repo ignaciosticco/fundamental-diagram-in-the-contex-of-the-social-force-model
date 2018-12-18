@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  18 DEC 2018 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,68 +710,58 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 66.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./introduction.tex
-Underfull \hbox (badness 2005) in paragraph at lines 3--13
+Underfull \hbox (badness 2005) in paragraph at lines 3--12
 \OT1/cmr/m/n/10 Hel-bing and co-workers pos-tu-lated that ei-ther the
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 3--13
-\OT1/cmr/m/n/10 en-vi-ron-ment and the in-di-vid-u-als' own de-sire af-fect
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 3--13
-\OT1/cmr/m/n/10 with re-spect to the mo-men-tum of par-ti-cles [[], []].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--13
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 14--19
-\OT1/cmr/m/n/10 how-ever, a step up im-ple-men-ta-tion [[]--[]], al-though
+Underfull \hbox (badness 1189) in paragraph at lines 13--18
+\OT1/cmr/m/n/10 im-ple-men-ta-tion [[]--[]], al-though sus-tain-ing the ba-sic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--19
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 20--30
+Underfull \hbox (badness 1147) in paragraph at lines 19--29
 \OT1/cmr/m/n/10 ten-dency is ex-pected to de-crease as ap-proach-ing a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--30
+Underfull \hbox (badness 10000) in paragraph at lines 19--29
 
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 31--39
+Underfull \hbox (badness 1616) in paragraph at lines 30--38
 \OT1/cmr/m/n/10 pil-grim-age in Mina-Makkah (2006). They showed
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 31--39
+Underfull \hbox (badness 1087) in paragraph at lines 30--38
 \OT1/cmr/m/n/10 den-sity $\OML/cmm/m/it/10 ^^Z$\OT1/cmr/m/n/10 ) that highly de
 nse crowds (seem-ingly up
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--39
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--50
+Underfull \hbox (badness 10000) in paragraph at lines 40--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--62
+Underfull \hbox (badness 10000) in paragraph at lines 50--62
 
  []
 
@@ -901,16 +891,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/10 Fig 2[], shows the fun-da-men-tal di-a-gram (flow vs.
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 7--8
-\OT1/cmr/m/n/10 in-creases lin-early with the den-sity, since col-li-sions
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -1005,7 +985,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-
+[5 <./plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/spe
+ed-density_vd1_multiple_widths-eps-converted-to.pdf>]
 Underfull \hbox (badness 1062) in paragraph at lines 58--59
 \OT1/cmr/m/n/10 cap-tion for de-tails). We can see that low-density
  []
@@ -1015,8 +996,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[5 <./plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/spe
-ed-density_vd1_multiple_widths-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/v(y)_width22_k24.eps>
 (epstopdf)                    date: 2018-12-17 14:35:56
 (epstopdf)                    size: 238572 bytes
@@ -1067,16 +1046,6 @@ Package pdftex.def Info: plots/v(y)_multi_width-eps-converted-to.pdf used on in
 put line 71.
 (pdftex.def)             Requested size: 246.0pt x 167.4244pt.
 
-Underfull \hbox (badness 1194) in paragraph at lines 76--77
-[]\OT1/cmr/m/n/10 Fig. 6[] ex-hibits the scaled ve-loc-ity pro-file. The
- []
-
-
-Underfull \hbox (badness 1642) in paragraph at lines 76--77
-\OT1/cmr/m/n/10 hor-i-zon-tal axis is nor-mal-ized by the cor-re-spond-ing
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
@@ -1111,29 +1080,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
 [6 <./plots/v(y)_width22_k24-eps-converted-to.pdf> <./plots/v(y)_multi_width-ep
 s-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 93.
+ on input line 94.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
@@ -1145,7 +1109,7 @@ Package epstopdf Info: Source file: <plots/abswg_width10.eps>
 (epstopdf)                    size: 36070 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width10-eps-co
 nverted-to.pdf plots/abswg_width10.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1156,7 +1120,7 @@ File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width10-eps-converted-to.pdf used on input
- line 101.
+ line 106.
 (pdftex.def)             Requested size: 164.81955pt x 120.62302pt.
 Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    date: 2018-12-17 14:05:16
@@ -1166,7 +1130,7 @@ Package epstopdf Info: Source file: <plots/abswg_width15.eps>
 (epstopdf)                    size: 56549 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width15-eps-co
 nverted-to.pdf plots/abswg_width15.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1177,7 +1141,7 @@ File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width15-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width15-eps-converted-to.pdf used on input
- line 102.
+ line 107.
 (pdftex.def)             Requested size: 164.81955pt x 120.62302pt.
 Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    date: 2018-12-17 14:10:14
@@ -1187,7 +1151,7 @@ Package epstopdf Info: Source file: <plots/abswg_width22.eps>
 (epstopdf)                    size: 87812 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/abswg_width22-eps-co
 nverted-to.pdf plots/abswg_width22.eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1198,75 +1162,75 @@ File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width22-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
- line 103.
+ line 108.
 (pdftex.def)             Requested size: 164.81955pt x 119.12459pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 118--119
-\OT1/cmr/m/n/10 of the fric-tion be-tween pedes-tri-ans with-out chang-
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 118--119
-\OT1/cmr/m/n/10 ing the value of the wall fric-tion. We in-creased
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 [7 <./plots/v(y)_multi_width_normaliz-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 119.
+ on input line 122.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 1661) in paragraph at lines 123--124
+\OT1/cmr/m/n/10 of the fric-tion be-tween pedes-tri-ans with-out chang-
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 123--124
+\OT1/cmr/m/n/10 ing the value of the wall fric-tion. We in-creased
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 129--130
 []\OT1/cmr/m/n/10 Recall that other au-thors ad-dress the ``con-gested
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
@@ -1283,7 +1247,7 @@ ulti-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/flow-density_pasillo
 22m_fgmodified_multi-eps-converted-to.pdf plots/flow-density_pasillo22m_fgmodif
 ied_multi.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1298,25 +1262,41 @@ ic file (type pdf)
 
 <use plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>
 Package pdftex.def Info: plots/flow-density_pasillo22m_fgmodified_multi-eps-con
-verted-to.pdf used on input line 136.
+verted-to.pdf used on input line 141.
 (pdftex.def)             Requested size: 246.0pt x 182.1006pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 1348) in paragraph at lines 157--162
+\OT1/cmr/m/n/10 den-sity pro-duces big-ger size clus-ters un-til the size
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 157--162
+\OT1/cmr/m/n/10 dis-tri-bu-tion sud-denly switches to a bi-modal dis-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 163--169
 
  []
 
@@ -1330,7 +1310,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5.eps
 (epstopdf)                    size: 12677 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5-eps-converted-to.pdf plots/size_distribution_w22_density4_5.eps>
-(epstopdf)             \includegraphics on input line 153.
+(epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1345,7 +1325,7 @@ File: plots/size_distribution_w22_density4_5-eps-converted-to.pdf Graphic file
 
 <use plots/size_distribution_w22_density4_5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density4_5-eps-converted-t
-o.pdf used on input line 153.
+o.pdf used on input line 171.
 (pdftex.def)             Requested size: 115.6203pt x 84.43732pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5_kx1
 0.eps>
@@ -1358,7 +1338,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density4_5_kx1
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density4_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density4_5_k
 x10.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1373,7 +1353,7 @@ file (type pdf)
 
 <use plots/size_distribution_w22_density4_5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density4_5_kx10-eps-conver
-ted-to.pdf used on input line 154.
+ted-to.pdf used on input line 172.
 (pdftex.def)             Requested size: 115.6203pt x 84.43732pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5.eps>
 (epstopdf)                    date: 2018-11-20 14:57:08
@@ -1384,7 +1364,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 12680 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5-eps-converted-to.pdf plots/size_distribution_w22_density5.eps>
-(epstopdf)             \includegraphics on input line 155.
+(epstopdf)             \includegraphics on input line 173.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1398,7 +1378,7 @@ File: plots/size_distribution_w22_density5-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use plots/size_distribution_w22_density5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5-eps-converted-to.
-pdf used on input line 155.
+pdf used on input line 173.
 (pdftex.def)             Requested size: 115.6203pt x 82.0544pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_kx10.
 eps>
@@ -1411,7 +1391,7 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_kx10.
 eps>
-(epstopdf)             \includegraphics on input line 156.
+(epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1426,7 +1406,7 @@ le (type pdf)
 
 <use plots/size_distribution_w22_density5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_kx10-eps-converte
-d-to.pdf used on input line 156.
+d-to.pdf used on input line 174.
 (pdftex.def)             Requested size: 115.6203pt x 82.0544pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5.eps
 >
@@ -1438,7 +1418,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5.eps
 (epstopdf)                    size: 12522 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5-eps-converted-to.pdf plots/size_distribution_w22_density5_5.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1453,7 +1433,7 @@ File: plots/size_distribution_w22_density5_5-eps-converted-to.pdf Graphic file
 
 <use plots/size_distribution_w22_density5_5-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_5-eps-converted-t
-o.pdf used on input line 157.
+o.pdf used on input line 175.
 (pdftex.def)             Requested size: 115.6203pt x 87.3351pt.
 Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5_kx1
 0.eps>
@@ -1466,7 +1446,7 @@ Package epstopdf Info: Source file: <plots/size_distribution_w22_density5_5_kx1
 (epstopdf)             Command: <repstopdf --outfile=plots/size_distribution_w2
 2_density5_5_kx10-eps-converted-to.pdf plots/size_distribution_w22_density5_5_k
 x10.eps>
-(epstopdf)             \includegraphics on input line 158.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1481,15 +1461,15 @@ file (type pdf)
 
 <use plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: plots/size_distribution_w22_density5_5_kx10-eps-conver
-ted-to.pdf used on input line 158.
+ted-to.pdf used on input line 176.
 (pdftex.def)             Requested size: 115.6203pt x 87.3351pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
 
  []
 
@@ -1502,7 +1482,7 @@ rted-to.pdf>
 (epstopdf)                    size: 21629 bytes
 (epstopdf)             Command: <repstopdf --outfile=plots/fracc_clusteriz_vs_d
 ensity-eps-converted-to.pdf plots/fracc_clusteriz_vs_density.eps>
-(epstopdf)             \includegraphics on input line 171.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1516,22 +1496,22 @@ File: plots/fracc_clusteriz_vs_density-eps-converted-to.pdf Graphic file (type
 pdf)
  <use plots/fracc_clusteriz_vs_density-eps-converted-to.pdf>
 Package pdftex.def Info: plots/fracc_clusteriz_vs_density-eps-converted-to.pdf 
-used on input line 171.
+used on input line 190.
 (pdftex.def)             Requested size: 246.0pt x 174.54715pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-) (./conclusions.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
 [9 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 4.
+ on input line 204.
+
+) (./conclusions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1548,13 +1528,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-) (./acknowledgments.tex [10 <./plots/size_distribution_w22_density4_5-eps-conv
-erted-to.pdf> <./plots/size_distribution_w22_density4_5_kx10-eps-converted-to.p
-df> <./plots/size_distribution_w22_density5-eps-converted-to.pdf> <./plots/size
-_distribution_w22_density5_kx10-eps-converted-to.pdf> <./plots/size_distributio
-n_w22_density5_5-eps-converted-to.pdf> <./plots/size_distribution_w22_density5_
-5_kx10-eps-converted-to.pdf> <./plots/fracc_clusteriz_vs_density-eps-converted-
-to.pdf>]) (./appendix.tex
+[10 <./plots/size_distribution_w22_density4_5-eps-converted-to.pdf> <./plots/si
+ze_distribution_w22_density4_5_kx10-eps-converted-to.pdf> <./plots/size_distrib
+ution_w22_density5-eps-converted-to.pdf> <./plots/size_distribution_w22_density
+5_kx10-eps-converted-to.pdf> <./plots/size_distribution_w22_density5_5-eps-conv
+erted-to.pdf> <./plots/size_distribution_w22_density5_5_kx10-eps-converted-to.p
+df> <./plots/fracc_clusteriz_vs_density-eps-converted-to.pdf>])
+(./acknowledgments.tex) (./appendix.tex
 Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
@@ -1680,7 +1660,8 @@ File: ./plots/fig_flux_model-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./plots/fig_flux_model-eps-converted-to.pdf used on in
 put line 185.
 (pdftex.def)             Requested size: 246.0pt x 178.2687pt.
-
+ [12 <./plots/fig_velocity_model-eps-converted-to.pdf> <./plots/fig_flux_model-
+eps-converted-to.pdf>]
 Underfull \hbox (badness 1215) in paragraph at lines 207--208
 \OT1/cmr/m/n/10 nu-mer-i-cal sim-u-la-tions of a room of 225 pedes-trian
  []
@@ -1690,8 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
-[12 <./plots/fig_velocity_model-eps-converted-to.pdf> <./plots/fig_flux_model-e
-ps-converted-to.pdf>]
+
 Underfull \hbox (badness 1735) in paragraph at lines 209--210
 \OT1/cmr/m/n/10 of the de-sired ve-loc-ity cor-re-spond-ing to a fric-tion
  []
@@ -1762,41 +1742,46 @@ t line 223.
 (pdftex.def)             Requested size: 246.0pt x 174.88924pt.
 ) (./paper.bbl [13 <./plots/fis_kx10-eps-converted-to.pdf> <./plots/fis_cocient
 e-eps-converted-to.pdf>])
-[14] (./paper.aux) ) 
+[14] (./paper.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
+
+
+ ) 
 Here is how much of TeX's memory you used:
- 16322 strings out of 494910
- 303597 string characters out of 6179835
- 456870 words of memory out of 5000000
- 19248 multiletter control sequences out of 15000+600000
+ 16323 strings out of 494910
+ 303613 string characters out of 6179835
+ 455885 words of memory out of 5000000
+ 19249 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,10n,54p,1637b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (14 pages, 624561 bytes).
+ 55i,10n,54p,1659b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on paper.pdf (14 pages, 626144 bytes).
 PDF statistics:
  461 PDF objects out of 1000 (max. 8388607)
  389 compressed objects within 4 object streams
