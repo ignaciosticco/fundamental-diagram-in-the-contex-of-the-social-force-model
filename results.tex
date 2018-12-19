@@ -93,7 +93,7 @@ In the previous Section we studied the velocity profiles for different corridors
 { \color{red} The work on each pedestrian was numerically obtained through the integration Trapezoidal rule (according to Ec.~\ref{ec-trapezoidal}). The integration time step was $\Delta t = 0.05$~s}. 
 
 \begin{equation}
-W_i(t) \simeq \left [ \vec{f}_i(t+\Delta t) + \vec{f}_i(t)  \right ]\cdot \frac{\Delta \vec{x}}{2}, \label{ec-trapezoidal}
+W_i(t) \simeq \left [ \vec{f}_i(t+\Delta t) + \vec{f}_i(t)  \right ]\cdot \frac{\Delta \vec{x}}{2} \label{ec-trapezoidal}
 \end{equation}
 
 Once the work on every pedestrian is calculated, we proceed to bin the corridor into a squared grid of 1~m$\times$1~m cells in order to associate the work values with the corresponding spacial location. Fig.~\ref{abswg} shows three color maps of the absolute value of the work done by the friction force. The horizontal and vertical axis represent the $x$-location and $y$-location of the corridor respectively. The color map associates higher work values with red colors and lower work for blue colors. The walls are located at $y=0$ and $y=w$ (bottom and top of each figure). Fig.~\ref{abswg_width10} corresponds to a 10 m width corridor, Fig.~\ref{abswg_width15} corresponds to a 15 m width corridor and Fig.~\ref{abswg_width22} corresponds to a 22 m width corridor.\\
