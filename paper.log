@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  19 DEC 2018 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  19 DEC 2018 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1656,32 +1656,27 @@ put line 185.
 (pdftex.def)             Requested size: 246.0pt x 178.2687pt.
  [12 <./plots/fig_velocity_model-eps-converted-to.pdf> <./plots/fig_flux_model-
 eps-converted-to.pdf>]
-Underfull \hbox (badness 1215) in paragraph at lines 207--208
+Underfull \hbox (badness 1215) in paragraph at lines 207--209
 \OT1/cmr/m/n/10 nu-mer-i-cal sim-u-la-tions of a room of 225 pedes-trian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 209--210
-\OT1/cmr/m/n/10 of the de-sired ve-loc-ity cor-re-spond-ing to a fric-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 211--212
+Underfull \hbox (badness 1137) in paragraph at lines 212--213
 \OT1/cmr/m/n/10 this emer-gent phe-nom-ena in which the mi-cro-scopic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
@@ -1693,7 +1688,7 @@ Package epstopdf Info: Source file: <./plots/fis_kx10.eps>
 (epstopdf)                    size: 19442 bytes
 (epstopdf)             Command: <repstopdf --outfile=./plots/fis_kx10-eps-conve
 rted-to.pdf ./plots/fis_kx10.eps>
-(epstopdf)             \includegraphics on input line 215.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1704,7 +1699,7 @@ File: ./plots/fis_kx10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./plots/fis_kx10-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/fis_kx10-eps-converted-to.pdf used on input li
-ne 215.
+ne 216.
 (pdftex.def)             Requested size: 246.0pt x 172.43332pt.
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
@@ -1721,7 +1716,7 @@ Package epstopdf Info: Source file: <./plots/fis_cociente.eps>
 (epstopdf)                    size: 12157 bytes
 (epstopdf)             Command: <repstopdf --outfile=./plots/fis_cociente-eps-c
 onverted-to.pdf ./plots/fis_cociente.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1732,7 +1727,7 @@ File: ./plots/fis_cociente-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./plots/fis_cociente-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/fis_cociente-eps-converted-to.pdf used on inpu
-t line 223.
+t line 224.
 (pdftex.def)             Requested size: 246.0pt x 174.88924pt.
 ) (./paper.bbl [13 <./plots/fis_kx10-eps-converted-to.pdf> <./plots/fis_cocient
 e-eps-converted-to.pdf>])
@@ -1770,7 +1765,7 @@ onts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (14 pages, 626258 bytes).
+Output written on paper.pdf (14 pages, 626489 bytes).
 PDF statistics:
  461 PDF objects out of 1000 (max. 8388607)
  389 compressed objects within 4 object streams
