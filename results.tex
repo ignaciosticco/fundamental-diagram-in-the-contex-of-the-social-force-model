@@ -17,7 +17,7 @@ In the case of narrow corridors, both the simulated case and the empirical resul
 
 The inset in Fig.~\ref{fundamental_diagram_flow} corresponds to the empirical data from Helbing (\cite{helbing3}). at the entrance of the Jamaraat bridge (the corridor width was $w=22$~m). Notice that our simulated results corresponding to a $w=22$~m corridor, exhibit a different behavior along the congested regime. In the simulated case, the flow increases even for the greatest explored density. On the contrary, the empirical data exhibit a flow reduction for $\rho > 5$ until reaching a plateau for the highest explored density values.  \\
 
-{ \color{red} In order to fulfill the experimental fundamental diagram, it becomes necessary that the flow at the maximum explored density ($\rho_{max} = 9$) does not exceed the flow at $\rho = 5$ (upper bound). That is:  $J(\rho = 9) < J(\rho = 5)$. From the flow definition in Eq.~(\ref{ec-flow}) we can derive the bounding values }
+In order to fulfill the experimental fundamental diagram, it becomes necessary that the flow at the maximum explored density ($\rho_{max} = 9$) does not exceed the flow at $\rho = 5$ (upper bound). That is:  $J(\rho = 9) < J(\rho = 5)$. From the flow definition in Eq.~(\ref{ec-flow}) we can derive the bounding values.
 
 \begin{align*} 
 v(\rho_{max}) &< \frac{5v_d}{\rho_{max}} \leq \frac{5}{9} v_d \\
@@ -36,9 +36,9 @@ of the corridor once the system reached the stationary state (see Fig.~\ref{corr
 was $L=$28~m for all cases (with periodic boundary conditions in the \textit{x} direction).}
 \end{figure}
 
-{\color{red} The results shown in Fig.~\ref{fundamental_diagram_speed} confirm the fact that when the density is low enough, pedestrians manage to walk at the desired velocity ($v=v_d=1$~m/s). Above $\rho>5$, however, the velocity begins to slow down. The inset shows the experimental data at the entrance of the Jamaraat bridge. We may conclude that our simulations agree with the experimental data for narrow corridors, but disagree as these become wider. The wider the corridor, the greater the velocity for all the density values explored. In Section \ref{velocity_profile} we will further discuss this topic.\\
+The results shown in Fig.~\ref{fundamental_diagram_speed} confirm the fact that when the density is low enough, pedestrians manage to walk at the desired velocity ($v=v_d=1$~m/s). Above $\rho>5$, however, the velocity begins to slow down. The inset shows the experimental data at the entrance of the Jamaraat bridge. We may conclude that our simulations agree with the experimental data for narrow corridors, but disagree as these become wider. The wider the corridor, the greater the velocity for all the density values explored. In Section \ref{velocity_profile} we will further discuss this topic.\\
 
-It should be pointed out that the Jamaraat data does not a exhibit a ``really" constant velocity for low densities. But this seems reasonable since our simulations do not include the complexities of the real situation when the density is low. We will not analyze this phenomenon in this investigation.} \\
+It should be pointed out that the Jamaraat data does not a exhibit a ``really" constant velocity for low densities. But this seems reasonable since our simulations do not include the complexities of the real situation when the density is low. We will not analyze this phenomenon in this investigation. \\
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -63,7 +63,7 @@ Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}
 \caption{\label{speed-profile-w22} Mean velocity profile (velocity vs \textit{y}-position) for different densities (see the inserted legend). The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the \textit{x}-direction. Initially, pedestrians were randomly distributed, the corridor width was $w = 22~$m for all the cases. The bin size was 1~m.}
 \end{figure}
 
-Fig.~\ref{speed-profile-multi_width} shows the velocity profile for different widths. The horizontal axis of the plot corresponds to the $y$-location normalized by the width of the corridor. {\color{red} The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians slow down.} Recall that when $\rho<5$, collisions between pedestrians are not relevant (within the SFM). We can see that the lowest velocities occur in the regions near the walls. Additionally, there is a clear relation between $v_{max}$ and the corridor width. That is, the wider the corridor, the higher the maximum reached velocity.\\
+Fig.~\ref{speed-profile-multi_width} shows the velocity profile for different widths. The horizontal axis of the plot corresponds to the $y$-location normalized by the width of the corridor. The density chosen was $\rho = 6$ since we wanted to study a situation in which pedestrians slow down. Recall that when $\rho<5$, collisions between pedestrians are not relevant (within the SFM). We can see that the lowest velocities occur in the regions near the walls. Additionally, there is a clear relation between $v_{max}$ and the corridor width. That is, the wider the corridor, the higher the maximum reached velocity.\\
 
 
 \begin{figure}[htbp!]
@@ -81,16 +81,16 @@ Fig.~\ref{speed-profile-width-normaliz} exhibits the scaled velocity profile. Th
 \caption{\label{speed-profile-width-normaliz} Scaled velocity profile (normalized velocity) vs. $y$-location for different corridors width (see legend for the corresponding widths) and two different densities. Empty markers correspond to $\rho=6$ while filled markers correspond to  $\rho=9$. The simulated corridor was 28~m length. Pedestrians walk from left to right with periodic boundary condition in the $x$-direction. Initially, pedestrians were randomly distributed. The horizontal axis is normalized by the corridor width, the vertical axis is normalized by the maximum velocity reached in each case.  The bin size was 1~m for all cases except for $w=4$~m since the bin was 0.5~m.}
 \end{figure}
 
-{\color{red} In summary, the scaled velocity profile (see Fig.~\ref{speed-profile-width-normaliz}) does not report any relevant difference as the corridor widens (withing the high density regime). This suggests that the pedestrian dynamics remain essentially the same. The maximum attainable velocity ($v_{max}$), however, seems to be a sensible parameter with respect to the flux.  The narrow corridors attain lower values of $v_{max}$ and thus lower flux. We may expect the flow not to increase if $v_{max}$ remains low enough along the explored density range.\\
+In summary, the scaled velocity profile (see Fig.~\ref{speed-profile-width-normaliz}) does not report any relevant difference as the corridor widens (withing the high density regime). This suggests that the pedestrian dynamics remain essentially the same. The maximum attainable velocity ($v_{max}$), however, seems to be a sensible parameter with respect to the flux.  The narrow corridors attain lower values of $v_{max}$ and thus lower flux. We may expect the flow not to increase if $v_{max}$ remains low enough along the explored density range.\\
 
 
 We may hypothesize that the friction force is somehow the key factor in the
-flow reduction, as reported in the experimental fundamental diagram. This hypothesis further inspired us to analyze the role of the friction coefficient in a simple model for the corridor (see Appendix \ref{appendix_2}). }
+flow reduction, as reported in the experimental fundamental diagram. This hypothesis further inspired us to analyze the role of the friction coefficient in a simple model for the corridor (see Appendix \ref{appendix_2}). 
 
 \subsection{Work done by friction force}
 
 In the previous Section we studied the velocity profiles for different corridors as a function of density. Here we present the spacial distribution of the work done by the friction force. Only the pedestrian-pedestrian friction was computed.
-{ \color{red} The work on each pedestrian $i$ was numerically obtained through the integration Trapezoidal rule (according to Ec.~\ref{ec-trapezoidal}). The integration time step was $\Delta t = 0.05$~s}. 
+The work on each pedestrian $i$ was numerically obtained through the integration Trapezoidal rule (according to Ec.~\ref{ec-trapezoidal}). The integration time step was $\Delta t = 0.05$~s. 
 
 \begin{equation}
 W_i(t) \simeq \left [ \vec{f}_i(t+\Delta t) + \vec{f}_i(t)  \right ]\cdot \frac{\Delta \vec{x}}{2} \label{ec-trapezoidal}
@@ -116,7 +116,7 @@ The above observations drive the following conclusion. The maximum attainable ve
 
 As already mentioned, the results shown so far indicate that friction may be the key magnitude for fitting the fundamental diagram into the experimental data. We want to make clear that fitting the experimental data means mimicking (qualitatively) the congested regime reported by different authors (including the Jamaraat study in Ref.~\cite{helbing3}) for corridors as width as 22~m. The seminal version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The proposed value was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies despite it lacks empirical foundation. \\
 
-{\color{red} We tested the friction coefficient modification in Appendix \ref{appendix_2} and we found that the fundamental diagram experiences a qualitatively change when the friction coefficient $\kappa$ is varied. We further performed numerical simulations in the context of the SFM. We call $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.}\\
+We tested the friction coefficient modification in Appendix \ref{appendix_2} and we found that the fundamental diagram experiences a qualitatively change when the friction coefficient $\kappa$ is varied. We further performed numerical simulations in the context of the SFM. We call $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.\\
 
 The triangular symbols in Fig.~\ref{fgmodified-w22} correspond to the increase in one order of magnitude of the wall friction (now $\kappa_w = 2.4\times10^{6}$), leaving the pedestrian-pedestrian friction unchanged (\textit{i.e.}, $\kappa_i = 2.4\times10^{5}$). We can see that the flow reduces a little bit, but this is not enough to change significantly the congested regime. \\
 
@@ -146,19 +146,19 @@ In this subsection we have shown that an adequate modification of the friction c
 
 \subsection{\label{clusters}Clusters}
 
-Cluster formation is a very important process in pedestrian dynamics. Moreover, is the key process that explains the clogging phenomena in bottleneck evacuations. We analyzed the clustering formation according to the granular cluster definition given in~\ref{granular-cluster}. Fig.~\ref{cluster_distribution} shows the histograms of the cluster size distribution for three different densities, from top to bottom: $\rho=4.5$, $\rho=5$ and $\rho=5.5$. {\color{red} These three
+Cluster formation is a very important process in pedestrian dynamics. Moreover, is the key process that explains the clogging phenomena in bottleneck evacuations. We analyzed the clustering formation according to the granular cluster definition given in~\ref{granular-cluster}. Fig.~\ref{cluster_distribution} shows the histograms of the cluster size distribution for three different densities, from top to bottom: $\rho=4.5$, $\rho=5$ and $\rho=5.5$. These three
 densities are representative for the crossover between
 a non-clusterized regime and a unique “giant” cluster
 regime. We studied two situations for each density: the
 seminal SFM on left hand side plots, and the enhanced
 friction situation on the right hand side plots (see
-caption for details).}\\
+caption for details).\\
 
-We found two unexpected results. Increasing the density produces bigger size clusters until the size distribution suddenly switches to a bimodal distribution (compare \ref{size_distribution_w22_density5} with \ref{size_distribution_w22_density5_5} and \ref{size_distribution_w22_density4.5_kx10} with \ref{size_distribution_w22_density5_kx10}). {\color{red} Once
+We found two unexpected results. Increasing the density produces bigger size clusters until the size distribution suddenly switches to a bimodal distribution (compare \ref{size_distribution_w22_density5} with \ref{size_distribution_w22_density5_5} and \ref{size_distribution_w22_density4.5_kx10} with \ref{size_distribution_w22_density5_kx10}). Once
 this phenomenon occurs, any of two possibilities may
 appear: the pedestrian belongs to a small cluster (out
 of many caged in the crowd) or he (she) belongs to the
-giant cluster (with a size comparable to the entire crowd).}\\
+giant cluster (with a size comparable to the entire crowd).\\
 
 We also observed that this phenomenon is controlled by the friction. For higher frictions, the crossover to the bimodal distribution occurs at lower densities (see Fig.~\ref{size_distribution_w22_density5} and Fig.~\ref{size_distribution_w22_density5_kx10}). Despite the fact that both correspond to the same density, Fig.~\ref{size_distribution_w22_density5_kx10} already attained the bimodal distribution since the friction force is ten times greater than in Fig.~\ref{size_distribution_w22_density5}. This peculiar phenomenon
 occurs because in an enhanced friction scenario the
@@ -181,8 +181,8 @@ where large clusters are less probable.\\
 To get a better view of this phenomenon, we represent in Fig.~\ref{fic} the fraction of clustered individual as a function of the density for four different situations in which we only changed the friction coefficients. The fraction of clustered individuals is defined as the amount of pedestrians that belong to a cluster (of two or more individuals) over the total number pedestrians in the corridor. 
 We can see that there is a transition from a non-clustered crowd to a full-clustered crowd. This transition occurs in a very narrow range of densities, causing the cluster formation process to occur between $4.4<\rho<5.3$. When the friction coefficient is enhanced, the transition takes place at a lower density threshold. This result is in complete agreement with the histograms shown in Fig.~\ref{cluster_distribution}, confirming the fact that friction promotes the formation of clusters.\\
 
-As expected, the transition sharpens when both $\kappa_i$ and $\kappa_w$ are increased (squared symbol in Fig.~\ref{fic}). {\color{red} However, the fraction of clustered individuals is always greater than in the original SFM when just one of the
-two coefficients is increased}. Notice that there is not a big difference between the modification of $\kappa_i$ and the modification of $\kappa_w$. This suggests that it does not really matter if the clusterization starts at the areas close to the walls or in the middle of the crowd.\\
+As expected, the transition sharpens when both $\kappa_i$ and $\kappa_w$ are increased (squared symbol in Fig.~\ref{fic}). However, the fraction of clustered individuals is always greater than in the original SFM when just one of the
+two coefficients is increased. Notice that there is not a big difference between the modification of $\kappa_i$ and the modification of $\kappa_w$. This suggests that it does not really matter if the clusterization starts at the areas close to the walls or in the middle of the crowd.\\
 
 
 \begin{figure}[htbp!]
@@ -191,7 +191,7 @@ two coefficients is increased}. Notice that there is not a big difference betwee
 \caption{\label{fic} Fraction of clustered individuals as a function of the density. Squared symbols correspond to $\kappa_w=\kappa_i=2.4\times 10^6$, circles to $\kappa_i=2.4\times 10^6$ and $\kappa_w=2.4\times 10^5$, triangles to to $\kappa_i=2.4\times 10^5$ and $\kappa_w=2.4\times 10^6$ and crosses to the coefficients of the original Social Force model ($\kappa_i=2.4\times 10^5$ and $\kappa_w=2.4\times 10^5$). The pedestrians walk across a corridor with $v_d=1$m/s. The measurements were recorded every 0.5~s once the system reached the stationary state. The values corresponding to the fraction of clustered individuals were averaged over 170~s. The cluster cutoff distance was 0.46~m (equivalent to the shoulder width of the pedestrians).}
 \end{figure}
 
-{\color{red} Two main conclusions can be outlined from the above
+Two main conclusions can be outlined from the above
 results. The friction coefficients between the pedestrians
 (and with the walls) appear as decisive parameters
 with respect to the crossover between the freely moving
@@ -200,5 +200,5 @@ the friction coefficients, since these control the efforts
 required by the pedestrians to detach from each other.
 Above this threshold (say, at high densities) the whole
 crowd slows down, since the pedestrians appear mostly
-clustered or ``caged" in a clustered environment.}\\
+clustered or ``caged" in a clustered environment.\\
 
