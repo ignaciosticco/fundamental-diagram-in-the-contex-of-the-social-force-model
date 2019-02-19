@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  27 DEC 2018 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  19 FEB 2019 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1758,7 +1758,7 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 Here is how much of TeX's memory you used:
  16328 strings out of 493029
  303653 string characters out of 6136233
- 460619 words of memory out of 5000000
+ 459619 words of memory out of 5000000
  19498 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1789,7 +1789,7 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (15 pages, 628318 bytes).
+Output written on paper.pdf (15 pages, 628874 bytes).
 PDF statistics:
  464 PDF objects out of 1000 (max. 8388607)
  391 compressed objects within 4 object streams
