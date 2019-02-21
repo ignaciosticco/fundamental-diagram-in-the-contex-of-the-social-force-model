@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  28 DEC 2018 07:10
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.31)  19 FEB 2019 17:32
->>>>>>> 3ee96a208f4945ed10e98a198ac0333ebc88fcc7
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.14)  21 FEB 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -774,12 +770,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--84
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--92
+)
+Underfull \hbox (badness 10000) in paragraph at lines 85--69
 
  []
 
-) (./background.tex
+(./background.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--11
 
  []
@@ -878,6 +874,41 @@ File: ./plots/corridor-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./plots/corridor-eps-converted-to.pdf used on input li
 ne 21.
 (pdftex.def)             Requested size: 246.0pt x 184.33783pt.
+) (./previous_hypothesis.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--22
+
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 23--35
+\OT1/cmr/m/n/10 (roughly, the re-lax-ation time) for the high den-sity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--35
+
+ []
+
+[4 <./plots/corridor-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
+
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 49--60
+\OT1/cmr/m/n/10 the crowd socio-psychological re-sponse, but on the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--60
+
+ []
+
 ) (./results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -888,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[4 <./plots/corridor-eps-converted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
@@ -898,7 +929,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
@@ -926,7 +957,7 @@ pdfTeX warning: pdflatex (file ./plots/flow-density_vd1_multiple_widths-eps-con
 verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf, id=38, 208.78pt x
+<plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf, id=41, 208.78pt x
  147.55125pt>
 File: plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -964,7 +995,7 @@ pdfTeX warning: pdflatex (file ./plots/speed-density_vd1_multiple_widths-eps-co
 nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<plots/speed-density_vd1_multiple_widths-eps-converted-to.pdf, id=39, 215.80624
+<plots/speed-density_vd1_multiple_widths-eps-converted-to.pdf, id=42, 215.80624
 pt x 151.56625pt>
 File: plots/speed-density_vd1_multiple_widths-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -988,11 +1019,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-[5 <./plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 59.
-
+[6 <./plots/flow-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/spe
+ed-density_vd1_multiple_widths-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <plots/v_y_width22_k24.eps>
 (epstopdf)                    date: 2018-12-28 07:10:16
 (epstopdf)                    size: 238572 bytes
@@ -1009,7 +1037,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./plots/v_y_width22_k24-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<plots/v_y_width22_k24-eps-converted-to.pdf, id=70, 215.80624pt x 147.55125pt>
+<plots/v_y_width22_k24-eps-converted-to.pdf, id=89, 215.80624pt x 147.55125pt>
 File: plots/v_y_width22_k24-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v_y_width22_k24-eps-converted-to.pdf>
@@ -1036,7 +1064,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/v_y_multi_width-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/v_y_multi_width-eps-converted-to.pdf, id=71, 216.81pt x 147.55125pt>
+<plots/v_y_multi_width-eps-converted-to.pdf, id=90, 216.81pt x 147.55125pt>
 File: plots/v_y_multi_width-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/v_y_multi_width-eps-converted-to.pdf>
@@ -1065,7 +1093,7 @@ pdfTeX warning: pdflatex (file ./plots/v_y_multi_width_normaliz-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
 
-<plots/v_y_multi_width_normaliz-eps-converted-to.pdf, id=72, 217.81375pt x 147.
+<plots/v_y_multi_width_normaliz-eps-converted-to.pdf, id=91, 217.81375pt x 147.
 55125pt>
 File: plots/v_y_multi_width_normaliz-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1078,14 +1106,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[6 <./plots/speed-density_vd1_multiple_widths-eps-converted-to.pdf> <./plots/v_
-y_width22_k24-eps-converted-to.pdf> <./plots/v_y_multi_width-eps-converted-to.p
-df>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 85.
-
-
+[7 <./plots/v_y_width22_k24-eps-converted-to.pdf> <./plots/v_y_multi_width-eps-
+converted-to.pdf> <./plots/v_y_multi_width_normaliz-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1114,7 +1136,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/abswg_width10-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/abswg_width10-eps-converted-to.pdf, id=120, 220.825pt x 161.60374pt>
+<plots/abswg_width10-eps-converted-to.pdf, id=136, 220.825pt x 161.60374pt>
 File: plots/abswg_width10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width10-eps-converted-to.pdf>
@@ -1135,7 +1157,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/abswg_width15-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/abswg_width15-eps-converted-to.pdf, id=121, 220.825pt x 161.60374pt>
+<plots/abswg_width15-eps-converted-to.pdf, id=137, 220.825pt x 161.60374pt>
 File: plots/abswg_width15-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width15-eps-converted-to.pdf>
@@ -1156,22 +1178,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/abswg_width22-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<plots/abswg_width22-eps-converted-to.pdf, id=122, 220.825pt x 159.59625pt>
+<plots/abswg_width22-eps-converted-to.pdf, id=138, 220.825pt x 159.59625pt>
 File: plots/abswg_width22-eps-converted-to.pdf Graphic file (type pdf)
 
 <use plots/abswg_width22-eps-converted-to.pdf>
 Package pdftex.def Info: plots/abswg_width22-eps-converted-to.pdf used on input
  line 108.
 (pdftex.def)             Requested size: 164.81955pt x 119.12459pt.
-
+ [8 <./plots/abswg_width10-eps-converted-to.pdf> <./plots/abswg_width15-eps-con
+verted-to.pdf> <./plots/abswg_width22-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
-
-[7 <./plots/v_y_multi_width_normaliz-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 118.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
@@ -1223,8 +1241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
-[8 <./plots/abswg_width10-eps-converted-to.pdf> <./plots/abswg_width15-eps-conv
-erted-to.pdf> <./plots/abswg_width22-eps-converted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -1234,6 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
+[9]
 Package epstopdf Info: Source file: <plots/flow-density_pasillo22m_fgmodified_m
 ulti.eps>
 (epstopdf)                    date: 2018-12-07 17:55:14
@@ -1253,7 +1271,7 @@ pdfTeX warning: pdflatex (file ./plots/flow-density_pasillo22m_fgmodified_multi
 -eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
 
-<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=188, 2
+<plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf, id=191, 2
 04.765pt x 151.56625pt>
 File: plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1316,7 +1334,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density4_5-eps-con
 verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<plots/size_distribution_w22_density4_5-eps-converted-to.pdf, id=189, 241.90375
+<plots/size_distribution_w22_density4_5-eps-converted-to.pdf, id=192, 241.90375
 pt x 176.66pt>
 File: plots/size_distribution_w22_density4_5-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1344,7 +1362,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density4_5_kx10-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<plots/size_distribution_w22_density4_5_kx10-eps-converted-to.pdf, id=190, 241.
+<plots/size_distribution_w22_density4_5_kx10-eps-converted-to.pdf, id=193, 241.
 90375pt x 176.66pt>
 File: plots/size_distribution_w22_density4_5_kx10-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1370,7 +1388,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density5-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
 
-<plots/size_distribution_w22_density5-eps-converted-to.pdf, id=191, 248.93pt x 
+<plots/size_distribution_w22_density5-eps-converted-to.pdf, id=194, 248.93pt x 
 176.66pt>
 File: plots/size_distribution_w22_density5-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1397,7 +1415,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density5_kx10-eps-
 converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<plots/size_distribution_w22_density5_kx10-eps-converted-to.pdf, id=192, 248.93
+<plots/size_distribution_w22_density5_kx10-eps-converted-to.pdf, id=195, 248.93
 pt x 176.66pt>
 File: plots/size_distribution_w22_density5_kx10-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -1424,7 +1442,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density5_5-eps-con
 verted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<plots/size_distribution_w22_density5_5-eps-converted-to.pdf, id=193, 233.87375
+<plots/size_distribution_w22_density5_5-eps-converted-to.pdf, id=196, 233.87375
 pt x 176.66pt>
 File: plots/size_distribution_w22_density5_5-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1452,7 +1470,7 @@ pdfTeX warning: pdflatex (file ./plots/size_distribution_w22_density5_5_kx10-ep
 s-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pdf, id=194, 233.
+<plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pdf, id=197, 233.
 87375pt x 176.66pt>
 File: plots/size_distribution_w22_density5_5_kx10-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1465,11 +1483,6 @@ ted-to.pdf used on input line 176.
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
-
-[9 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 183.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 184--186
@@ -1493,7 +1506,7 @@ pdfTeX warning: pdflatex (file ./plots/fracc_clusteriz_vs_density-eps-converted
 -to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<plots/fracc_clusteriz_vs_density-eps-converted-to.pdf, id=216, 210.7875pt x 14
+<plots/fracc_clusteriz_vs_density-eps-converted-to.pdf, id=198, 210.7875pt x 14
 9.55875pt>
 File: plots/fracc_clusteriz_vs_density-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1506,6 +1519,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--204
 
  []
 
+[10 <./plots/flow-density_pasillo22m_fgmodified_multi-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 204.
+
 ) (./conclusions.tex
 Underfull \hbox (badness 2961) in paragraph at lines 3--18
 \OT1/cmr/m/n/10 were stud-ied through nu-mer-i-cal com-pu-ta-tions and
@@ -1516,12 +1534,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--18
 
  []
 
-[10 <./plots/size_distribution_w22_density4_5-eps-converted-to.pdf> <./plots/si
-ze_distribution_w22_density4_5_kx10-eps-converted-to.pdf> <./plots/size_distrib
-ution_w22_density5-eps-converted-to.pdf> <./plots/size_distribution_w22_density
-5_kx10-eps-converted-to.pdf> <./plots/size_distribution_w22_density5_5-eps-conv
-erted-to.pdf> <./plots/size_distribution_w22_density5_5_kx10-eps-converted-to.p
-df> <./plots/fracc_clusteriz_vs_density-eps-converted-to.pdf>]
+
 Underfull \hbox (badness 1762) in paragraph at lines 19--27
 \OT1/cmr/m/n/10 em-pir-i-cal fun-da-men-tal di-a-gram for suf-fi-ciently high
  []
@@ -1551,7 +1564,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
 
-
+[11 <./plots/size_distribution_w22_density4_5-eps-converted-to.pdf> <./plots/si
+ze_distribution_w22_density4_5_kx10-eps-converted-to.pdf> <./plots/size_distrib
+ution_w22_density5-eps-converted-to.pdf> <./plots/size_distribution_w22_density
+5_kx10-eps-converted-to.pdf> <./plots/size_distribution_w22_density5_5-eps-conv
+erted-to.pdf> <./plots/size_distribution_w22_density5_5_kx10-eps-converted-to.p
+df> <./plots/fracc_clusteriz_vs_density-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--51
 
  []
@@ -1601,7 +1619,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--67
 
  []
 
-[11]
 Package epstopdf Info: Source file: <./plots/pasillo.eps>
 (epstopdf)                    date: 2018-12-14 16:14:32
 (epstopdf)                    size: 15746 bytes
@@ -1627,6 +1644,11 @@ e 83.
 Underfull \hbox (badness 10000) in paragraph at lines 96--105
 
  []
+
+[12]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 105.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--140
@@ -1654,7 +1676,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./plots/fig_velocity_model-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./plots/fig_velocity_model-eps-converted-to.pdf, id=319, 217.81375pt x 146.547
+<./plots/fig_velocity_model-eps-converted-to.pdf, id=322, 217.81375pt x 146.547
 5pt>
 File: ./plots/fig_velocity_model-eps-converted-to.pdf Graphic file (type pdf)
  <use ./plots/fig_velocity_model-eps-converted-to.pdf>
@@ -1666,8 +1688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
-[12 <./plots/pasillo-eps-converted-to.pdf> <./plots/fig_velocity_model-eps-conv
-erted-to.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 175--181
 
  []
@@ -1688,7 +1709,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex (file ./plots/fig_flux_model-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<./plots/fig_flux_model-eps-converted-to.pdf, id=344, 207.77625pt x 150.5625pt>
+<./plots/fig_flux_model-eps-converted-to.pdf, id=323, 207.77625pt x 150.5625pt>
 File: ./plots/fig_flux_model-eps-converted-to.pdf Graphic file (type pdf)
 <use ./plots/fig_flux_model-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/fig_flux_model-eps-converted-to.pdf used on in
@@ -1698,6 +1719,12 @@ put line 185.
 Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
+
+[13 <./plots/pasillo-eps-converted-to.pdf> <./plots/fig_velocity_model-eps-conv
+erted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 208.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
@@ -1723,7 +1750,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/fis_kx10-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<./plots/fis_kx10-eps-converted-to.pdf, id=345, 214.8025pt x 150.5625pt>
+<./plots/fis_kx10-eps-converted-to.pdf, id=349, 214.8025pt x 150.5625pt>
 File: ./plots/fis_kx10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./plots/fis_kx10-eps-converted-to.pdf>
@@ -1736,8 +1763,6 @@ Missing character: There is no ™ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [13 <./plots/fig_flux_model-eps-converted-to.pdf> <./plots/fis_kx10-eps-conver
-ted-to.pdf>]
 Package epstopdf Info: Source file: <./plots/fis_cociente.eps>
 (epstopdf)                    date: 2018-12-12 09:49:56
 (epstopdf)                    size: 206631 bytes
@@ -1753,37 +1778,33 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex (file ./plots/fis_cociente-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./plots/fis_cociente-eps-converted-to.pdf, id=378, 211.79124pt x 150.5625pt>
+<./plots/fis_cociente-eps-converted-to.pdf, id=350, 211.79124pt x 150.5625pt>
 File: ./plots/fis_cociente-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./plots/fis_cociente-eps-converted-to.pdf>
 Package pdftex.def Info: ./plots/fis_cociente-eps-converted-to.pdf used on inpu
 t line 223.
 (pdftex.def)             Requested size: 246.0pt x 174.88924pt.
-) (./paper.bbl
-Underfull \hbox (badness 1648) in paragraph at lines 120--126
+) (./paper.bbl [14 <./plots/fig_flux_model-eps-converted-to.pdf> <./plots/fis_k
+x10-eps-converted-to.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 9.
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 101--107
  []\OT1/cmr/m/n/9 M. Chraibi, U. Kem-loh, A. Schad-schnei-der,  and
  []
 
-[14 <./plots/fis_cociente-eps-converted-to.pdf>]) [15] (./paper.aux) ) 
+[15 <./plots/fis_cociente-eps-converted-to.pdf>]) [16] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 16328 strings out of 494910
- 303653 string characters out of 6179835
- 455932 words of memory out of 5000000
- 19254 multiletter control sequences out of 15000+600000
+ 16364 strings out of 494910
+ 304175 string characters out of 6179835
+ 456462 words of memory out of 5000000
+ 19287 multiletter control sequences out of 15000+600000
  14639 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 55i,10n,54p,1661b,381s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 16341 strings out of 493029
- 303848 string characters out of 6136233
- 459850 words of memory out of 5000000
- 19511 multiletter control sequences out of 15000+600000
- 14639 words of font info for 54 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,10n,54p,1661b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> 3ee96a208f4945ed10e98a198ac0333ebc88fcc7
+ 55i,10n,54p,1661b,382s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/t
@@ -1810,10 +1831,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on paper.pdf (15 pages, 629964 bytes).
+Output written on paper.pdf (16 pages, 634391 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 391 compressed objects within 4 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
