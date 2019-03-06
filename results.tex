@@ -1,5 +1,75 @@
 \section{\label{results}Results}
 
+
+{\color{red}
+\subsection{\label{Hypotheses} Hypotheses}
+
+We stress the fact that our investigation focuses on moving
+pedestrians in a highly dense situation (say, the one experienced at
+the Jamaraat bridge). As mentioned in Section \ref{introduction} , a deep
+examination of the (basic) SFM parameters is required before
+proceeding to any extension of the model.\\
+
+Recall from the video analysis of the Muslim pilgrimage in Mina/Makkah
+(see Section \ref{introduction}) that high-density flows can turn to a
+temporarily interrupted flux, as people
+start pushing to gain space \cite{helbing3}. This unexpected behavior can not be
+reproduced by the (basic) SFM, seemingly because of ``an
+underestimation of the local interactions triggered by high densities"
+\cite{yu1}, or, the absence of a ``delayed reaction in cases of unexpected
+behaviors" \cite{johansson}. Both statements are currently working hypotheses since
+experimental data (specifically, measurements of pedestrian flux and
+densities) does not ``provide any insight into the mechanisms and
+dynamics behind the pedestrians interactions and behaviors" \cite{johansson}.\\
+
+Researchers propose a ``re-calibration" of the (basic) SFM, in order to
+attain ``stop-and-go" flows for highly dense crowds
+\cite{yu1,johansson}. Presumably, this kind of instabilities within the crowd prevent
+people from stopping at extremely high densities. The intended
+``re-calibration" consist on either enhancing the (local) social
+interactions or increasing the net-time headway (roughly, the
+relaxation time) for the high density regime. Both extensions,
+however, may not exclude other possibilities involving not only
+individual motion, but collective (mass) motion \cite{helbing3}. Researchers
+further point out that the relevance of physical contact in extremely
+dense crowds may suppose a somewhat commonality with granular
+media exists \cite{helbing3}.\\
+
+We show that the
+experimental data (say, the flux-density diagram) can be modeled under
+quasi-stationary conditions in the high density regime. Our starting
+point is the re-examination of the (basic) SFM. We hypothesize that two
+control parameters, $\mathcal{A}$ and $\mathcal{K}$ (see appendix \ref{appendix_1}) may handle
+the collective motion in dense crowds. We presume that physical contact is
+a key feature in dense crowds, despite the fact that other issues may
+also contribute to the flow reduction \cite{johansson1}. However, the latter could
+be satisfactorily omitted in past research \cite{johansson}, and thus, we will not
+attempt to introduce further extensions to the (basic) SFM for the
+sake of simplicity.\\
+
+The former ``re-calibrations" accomplish the socio-psychological
+response of the crowd to ``gain more space" (by either enhancing local
+interactions or performing a delayed reaction). We are aware that
+crowds may respond differently in many situations (see Ref.~\cite{drury1}). Our working
+hypothesis, however, does not focus on the crowd socio-psychological
+response, but on the physical contact among pedestrians (and the
+walls). The socio-psychological attitude of the pedestrians will be
+assumed to remain fixed along the simulations (with the anxiety level
+limited to $v_d=1\,$m/s). \\
+
+
+Our investigation appears somewhat restricted to the (almost)
+uni-direction flow inspired in the Muslim pilgrimage in Mina/Makkah.
+This means that the following ``re-calibration" results hold for
+corridor-like situations, and are not intended to be (automatically)
+translated to bottleneck situations. Neither can be extended to other
+boundary conditions (say, no limiting walls) since the boundary is a
+key feature of collective motion. Nevertheless, our results accomplish
+the available data on the Hajj pilgrimages \cite{helbing3,lohner1}.
+
+}
+
+
 \subsection{\label{fundamental_diagram} Fundamental diagram in the original model}
 
 In this Section we present the results relating the local flow, velocity and density (\textit{i.e.} the fundamental diagram). The measurements were taken in the middle of the corridor using the definitions given in Eq.~(\ref{ec-v}), Eq.~(\ref{ec-flow}), and as shown in Fig.~\ref{corridor}. All the results shown here correspond to $R=1$~m (see Eq.~(\ref{ec-flow}) and Fig.~\ref{corridor}). We further varied $R$ until $R=3$, but no significant changes were observed. \\
@@ -55,7 +125,7 @@ We may summarize our first results as follows. We were able to validate the semi
 
 As we mentioned in Section \ref{fundamental_diagram}, when the density is low, pedestrians achieve the desired velocity ($v=v_d=1$~m/s). Since the results of the previous Section only hold for the area located in the middle of the corridor (see Fig.\ref{corridor}), we want to shed some light and understand what is happening across the entire corridor.\\
 
-Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}-location) of the pedestrians across the corridor (see caption for details). We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously noticed in Section \ref{fundamental_diagram}). For higher densities, the velocity profile turns into a parabola-like function. This shape resembles the usual velocity profile for laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near the walls are the ones with the lower velocity. The velocity increases when departing from the wall until it reaches the maximum at the center of the corridor. This behavior suggests that the wall friction on the pedestrians, is playing a relevant role on the velocity distribution. We did some tests removing the walls, while setting periodic boundary conditions in the $y$-coordinate. This yield to constant-cruising velocity profiles for all the densities, confirming that the walls are a necessary condition for attaining a parabola-shaped speed profile.\\
+Fig.~\ref{speed-profile-w22} shows the velocity profile (velocity vs. \textit{y}-location) of the pedestrians across the corridor (see caption for details). We can see that low-density situations lead to a cruising velocity profile $v=v_d$. This is valid for every location in the corridor (not only the center as was previously noticed in Section \ref{fundamental_diagram}). For higher densities, the velocity profile turns into a parabola-like function. This shape resembles the usual velocity profile for laminar flow in a viscous fluid, where the velocity increases toward the center of a tube. In our case, pedestrians near the walls are the ones with the lower velocity. The velocity increases when departing from the wall until it reaches the maximum at the center of the corridor. This behavior suggests that the wall friction on the pedestrians, is playing a relevant role on the velocity distribution.\\
 
 \begin{figure}[htbp!]
 \includegraphics[width=\columnwidth]
@@ -114,7 +184,7 @@ The above observations drive the following conclusion. The maximum attainable ve
 
 \subsection{Friction modification}
 
-As already mentioned, the results shown so far indicate that friction may be the key magnitude for fitting the fundamental diagram into the experimental data. We want to make clear that fitting the experimental data means mimicking (qualitatively) the congested regime reported by different authors (including the Jamaraat study in Ref.~\cite{helbing3}) for corridors as width as 22~m. The seminal version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The proposed value was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies despite it lacks empirical foundation. \\
+As already mentioned, the results shown so far indicate that friction may be the key magnitude for fitting the fundamental diagram into the experimental data. We want to make clear that fitting the experimental data means mimicking (qualitatively) the congested regime reported by different authors (including the Jamaraat study in Ref.~\cite{helbing3}) for corridors as width as 22~m. The seminal version of the Social Force Model proposes the same friction coefficient for the pedestrian-pedestrian interaction and the pedestrian-wall interaction. The proposed value was $\kappa = 2.4\times10^{5}$. This value is widely used in many studies.  \\
 
 We tested the friction coefficient modification in Appendix \ref{appendix_2} and we found that the fundamental diagram experiences a qualitatively change when the friction coefficient $\kappa$ is varied. We further performed numerical simulations in the context of the SFM. We call $\kappa_i$ as the friction coefficient of the pedestrian-pedestrian interaction and $\kappa_w$ as the friction coefficient of the pedestrian-wall interaction. Fig.~\ref{fgmodified-w22} shows the flow vs density for different values of $\kappa_i$ and $\kappa_w$.\\
 
@@ -122,15 +192,15 @@ The triangular symbols in Fig.~\ref{fgmodified-w22} correspond to the increase i
 
 The circles in Fig.~\ref{fgmodified-w22} correspond to a modification of the friction between pedestrians without changing the value of the wall friction. We increased the pedestrian-pedestrian friction by a factor of ten ($\kappa_i = 2.4\times10^{6}$). Here we see a significant reduction of the flow. The qualitative behavior resembles the fundamental diagram reported by Helbing \textit{et al}. with a well defined congested regime for the greatest densities.\\
 
-We also tested the case were both friction coefficients surpass ten times the value of the original model (now $\kappa_w = \kappa_i = 2.4\times10^{6}$). The squared symbols represent this scenario. As expected, the flow reduces significantly respect the original case (cross symbol). Interestingly, the reduction of the flow is more than the reduction due to the increment of $\kappa_i$ plus the reduction of the flow due to $\kappa_w$. This behavior is indicative that the superposition principle does not hold in this system because of the non-linearity of the equation of motion.   \\
+We also tested the case were both friction coefficients surpass ten times the value of the original model (now $\kappa_w = \kappa_i = 2.4\times10^{6}$). The squared symbols represent this scenario. As expected, the flow reduces significantly respect the original case (cross symbol). Interestingly, the reduction of the flow is more than the reduction due to the increment of $\kappa_i$ plus the reduction of the flow due to $\kappa_w$. This behavior is indicative that the superposition principle does not hold in this system because of the non-linearity of the equation of motion.     \\
 
 This finding allows us to affirm that the friction plays a crucial role in the functional behavior of the fundamental diagram. The increment of both individual-individual friction and wall friction are determinant in order to achieve a congested regime. More specifically, the empirical behavior for the fundamental diagram can be achieved by properly increasing the friction coefficients. In Appendix \ref{appendix_3} we show that the friction modification does not alter already studied behaviors of pedestrian dynamics.\\
 
-Recall that other authors address the ``congested regime problem" by modifying different aspects of the model. Ref.~\cite{parisi2} imposes zero desired velocity once pedestrians are close enough, Ref.~\cite{johansson} increases the relaxation time in order to slow down the net-time headway, and more recently,  Ref.~\cite{kwak} induce the jamming transition by an attraction. Many of these approaches seem to be equivalent. In Appendix \ref{appendix_1} we discuss about how the modification of the relaxation time and the increment of the friction coefficient yield a similar effect, since both affect the same term in the reduced-in-units equation of motion. \\
+Recall that other authors address the ``congested regime problem" by modifying different aspects of the model. Ref.~\cite{parisi2} imposes zero desired velocity once pedestrians are close enough, Ref.~\cite{johansson} increases the relaxation time in order to slow down the net-time headway, and more recently,  Ref.~\cite{kwak} induce the jamming transition by an attraction. Many of these approaches seem to be equivalent. In Appendix \ref{appendix_1} we discuss about how the modification of the relaxation time and the increment of the friction coefficient yield a similar effect, since both affect the same term in the reduced-in-units equation of motion. {\color{red} The relaxation time, however, also affects the social interactions (see Section \ref{Hypotheses} and Appendix \ref{appendix_1}).  } \\
 
 We claim that in real scenarios, a combination of all these factors may be the cause of the marked flow reduction that portray the fundamental diagram. The pedestrians path can be very complex even if it is a simple enclosure (straight corridor) and the target is well defined (unidirectional flow). Beyond the complexities given by the internal motivations of pedestrians, we strongly suggest studying and modeling coefficients of friction between individuals and the friction with the walls. These two parameters have shown to be very important in the pedestrian dynamics and deserve a closer inspection in future research.\\
 
-We want to emphasize that the proposals stated in Refs.~\cite{parisi2,johansson,kwak}  only apply under normal conditions. If a crowd is under high levels of anxiety (\textit{i.e.} panic), pedestrians will neither keep distance between each other, nor will feel the urge to see an ``attraction". The only goal in an evacuation under panic is to leave the room. Thus, studying the friction coefficients may be a critical factor to properly reproduce the dynamics of a massive evacuation under stress.\\
+We want to emphasize that the proposals stated in Refs.~\cite{parisi2,johansson,kwak}  only apply under normal conditions. If a crowd is under high levels of anxiety, pedestrians will neither keep distance between each other, nor will feel the urge to see an ``attraction". Thus, studying the friction coefficients may be a critical factor to properly reproduce the dynamics of a massive evacuation under stress.\\
 
 With all these insights, we can say that the narrow corridors have no drawback in the fitting of the flow vs. density relation because very high velocities are not attainable. This happens because in narrow corridors, the friction of the walls has a lot of ``relative weight" in the overall friction of the system. 
 The friction exerted by the walls is fundamental in order to produce the parabolic shape of the velocity profile. The walls provide friction force in the opposite direction to the speed of the individual (drag backwards), since they act like a fixed pedestrian. In other ways, friction between pedestrians can produce either drag forward or drag backwards depending on the the contacting pedestrians velocities (see Eq.~\ref{granular}).\\
